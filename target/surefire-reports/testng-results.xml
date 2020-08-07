@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-08-07T21:03:51 IST" name="Suite" finished-at="2020-08-07T21:03:54 IST" duration-ms="2272">
+    <groups>
+    </groups>
+    <test started-at="2020-08-07T21:03:51 IST" name="Product" finished-at="2020-08-07T21:03:54 IST" duration-ms="2272">
+      <class name="com.BestBUY_BDD.test.Products">
+        <test-method signature="getProducts()[pri:0, instance:com.BestBUY_BDD.test.Products@240237d2]" started-at="2020-08-07T21:03:52 IST" name="getProducts" finished-at="2020-08-07T21:03:54 IST" duration-ms="2241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProducts -->
+      </class> <!-- com.BestBUY_BDD.test.Products -->
+    </test> <!-- Product -->
+  </suite> <!-- Suite -->
+</testng-results>
