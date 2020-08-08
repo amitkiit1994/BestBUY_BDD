@@ -50,7 +50,7 @@ public class TestUtil extends TestBase{
 	         // Fill the message
 	         messageBodyPart.setText("TEST RESULTS by Amit");
 
-	         // Create a multipar message
+	         // Create a multipart message
 	         Multipart multipart = new MimeMultipart();
 
 	         // Set text message part
