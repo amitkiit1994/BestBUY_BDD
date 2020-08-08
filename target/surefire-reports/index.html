@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,7 +104,17 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.BestBUY_BDD.test.Products" class="method navigator-link" hash-for-method="getProducts">getProducts</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.BestBUY_BDD.test.Products" class="method navigator-link" hash-for-method="ProductsCount">ProductsCount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.BestBUY_BDD.test.Products" class="method navigator-link" hash-for-method="SortProductByPrice(1, 0.01)">SortProductByPrice(1, 0.01)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.BestBUY_BDD.test.Products" class="method navigator-link" hash-for-method="SortProductByPrice(-1, 27999.98)">SortProductByPrice(-1, 27999.98)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -127,9 +137,25 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="getProducts">
-                  </a> <!-- getProducts -->
-                  <span class="method-name">getProducts</span>
+                  <a name="ProductsCount">
+                  </a> <!-- ProductsCount -->
+                  <span class="method-name">ProductsCount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SortProductByPrice(1, 0.01)">
+                  </a> <!-- SortProductByPrice(1, 0.01) -->
+                  <span class="method-name">SortProductByPrice</span>
+                  <span class="parameters">(1, 0.01)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SortProductByPrice(-1, 27999.98)">
+                  </a> <!-- SortProductByPrice(-1, 27999.98) -->
+                  <span class="method-name">SortProductByPrice</span>
+                  <span class="parameters">(-1, 27999.98)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -186,11 +212,19 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'getProducts')
+data.setCell(0, 1, 'ProductsCount')
 data.setCell(0, 2, 'com.BestBUY_BDD.test.Products')
-data.setCell(0, 3, 2241);
+data.setCell(0, 3, 1812);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'SortProductByPrice')
+data.setCell(1, 2, 'com.BestBUY_BDD.test.Products')
+data.setCell(1, 3, 256);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'SortProductByPrice')
+data.setCell(2, 2, 'com.BestBUY_BDD.test.Products')
+data.setCell(2, 3, 203);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -222,10 +256,34 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">com.BestBUY_BDD.test.Products</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">getProducts</span>
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ProductsCount</span>
+                <span class="method-start">4 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1820 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SortProductByPrice(-1, 27999.98)</span>
+                <span class="method-start">1820 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2076 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SortProductByPrice(1, 0.01)</span>
+                <span class="method-start">2077 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">sendMail</span>
+                <span class="method-start">2282 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

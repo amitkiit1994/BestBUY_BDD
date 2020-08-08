@@ -5,7 +5,9 @@
     <classes>
       <class name="com.BestBUY_BDD.test.Products">
         <methods>
-          <include name="getProducts"/>
+          <include name="setUp"/>
+          <include name="SortProductByPrice" invocation-numbers="0"/>
+          <include name="sendMail"/>
         </methods>
       </class> <!-- com.BestBUY_BDD.test.Products -->
     </classes>
