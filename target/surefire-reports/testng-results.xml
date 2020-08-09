@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+<testng-results ignored="0" total="37" passed="37" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-08-09T04:56:52 IST" name="Suite" finished-at="2020-08-09T04:57:10 IST" duration-ms="17985">
+  <suite started-at="2020-08-09T05:40:46 IST" name="Suite" finished-at="2020-08-09T05:41:08 IST" duration-ms="22778">
     <groups>
     </groups>
-    <test started-at="2020-08-09T04:56:52 IST" name="Product" finished-at="2020-08-09T04:57:10 IST" duration-ms="17985">
+    <test started-at="2020-08-09T05:40:46 IST" name="Product" finished-at="2020-08-09T05:41:08 IST" duration-ms="22778">
       <class name="com.BestBUY_BDD.test.Products">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@10db82ae]" started-at="2020-08-09T04:56:52 IST" name="setUp" finished-at="2020-08-09T04:56:52 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:46 IST" name="setUp" finished-at="2020-08-09T05:40:46 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="ProductCategory(java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@10db82ae]" started-at="2020-08-09T04:56:52 IST" name="ProductCategory" data-provider="category" finished-at="2020-08-09T04:56:54 IST" duration-ms="1851" status="PASS">
+        <test-method signature="ProductCategory(java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:46 IST" name="ProductCategory" data-provider="category" finished-at="2020-08-09T05:40:47 IST" duration-ms="1828" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,11 +27,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductCategory -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@10db82ae]" started-at="2020-08-09T04:56:54 IST" name="setUp" finished-at="2020-08-09T04:56:54 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:47 IST" name="setUp" finished-at="2020-08-09T05:40:47 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="ProductCategory(java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@10db82ae]" started-at="2020-08-09T04:56:54 IST" name="ProductCategory" data-provider="category" finished-at="2020-08-09T04:56:55 IST" duration-ms="234" status="PASS">
+        <test-method signature="ProductCategory(java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:47 IST" name="ProductCategory" data-provider="category" finished-at="2020-08-09T05:40:48 IST" duration-ms="246" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -47,7 +47,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductCategory -->
-        <test-method signature="ProductCategory(java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@10db82ae]" started-at="2020-08-09T04:56:55 IST" name="ProductCategory" data-provider="category" finished-at="2020-08-09T04:56:55 IST" duration-ms="251" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:48 IST" name="setUp" finished-at="2020-08-09T05:40:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ProductCategory(java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:48 IST" name="ProductCategory" data-provider="category" finished-at="2020-08-09T05:40:48 IST" duration-ms="258" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,15 +67,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductCategory -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@10db82ae]" started-at="2020-08-09T04:56:55 IST" name="setUp" finished-at="2020-08-09T04:56:55 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:48 IST" name="setUp" finished-at="2020-08-09T05:40:48 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@10db82ae]" started-at="2020-08-09T04:56:55 IST" name="setUp" finished-at="2020-08-09T04:56:55 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="ProductCategory(java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@10db82ae]" started-at="2020-08-09T04:56:55 IST" name="ProductCategory" data-provider="category" finished-at="2020-08-09T04:56:55 IST" duration-ms="237" status="PASS">
+        <test-method signature="ProductCategory(java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:48 IST" name="ProductCategory" data-provider="category" finished-at="2020-08-09T05:40:48 IST" duration-ms="229" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -87,7 +87,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductCategory -->
-        <test-method signature="ProductCategory(java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@10db82ae]" started-at="2020-08-09T04:56:55 IST" name="ProductCategory" data-provider="category" finished-at="2020-08-09T04:56:55 IST" duration-ms="238" status="PASS">
+        <test-method signature="ProductCategory(java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:48 IST" name="ProductCategory" data-provider="category" finished-at="2020-08-09T05:40:48 IST" duration-ms="252" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -103,15 +103,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductCategory -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@10db82ae]" started-at="2020-08-09T04:56:55 IST" name="setUp" finished-at="2020-08-09T04:56:55 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:48 IST" name="setUp" finished-at="2020-08-09T05:40:48 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@10db82ae]" started-at="2020-08-09T04:56:55 IST" name="setUp" finished-at="2020-08-09T04:56:55 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:48 IST" name="setUp" finished-at="2020-08-09T05:40:48 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="ProductCategory(java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@10db82ae]" started-at="2020-08-09T04:56:55 IST" name="ProductCategory" data-provider="category" finished-at="2020-08-09T04:56:56 IST" duration-ms="244" status="PASS">
+        <test-method signature="ProductCategory(java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:48 IST" name="ProductCategory" data-provider="category" finished-at="2020-08-09T05:40:49 IST" duration-ms="239" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -127,11 +127,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductCategory -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@10db82ae]" started-at="2020-08-09T04:56:56 IST" name="setUp" finished-at="2020-08-09T04:56:56 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="ProductCategory(java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@10db82ae]" started-at="2020-08-09T04:56:56 IST" name="ProductCategory" data-provider="category" finished-at="2020-08-09T04:56:56 IST" duration-ms="218" status="PASS">
+        <test-method signature="ProductCategory(java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:49 IST" name="ProductCategory" data-provider="category" finished-at="2020-08-09T05:40:49 IST" duration-ms="218" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -147,11 +143,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductCategory -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@10db82ae]" started-at="2020-08-09T04:56:56 IST" name="setUp" finished-at="2020-08-09T04:56:56 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:49 IST" name="setUp" finished-at="2020-08-09T05:40:49 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="ProductCategory(java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@10db82ae]" started-at="2020-08-09T04:56:56 IST" name="ProductCategory" data-provider="category" finished-at="2020-08-09T04:56:56 IST" duration-ms="244" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:49 IST" name="setUp" finished-at="2020-08-09T05:40:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ProductCategory(java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:49 IST" name="ProductCategory" data-provider="category" finished-at="2020-08-09T05:40:49 IST" duration-ms="240" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -167,7 +167,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductCategory -->
-        <test-method signature="ProductCategory(java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@10db82ae]" started-at="2020-08-09T04:56:56 IST" name="ProductCategory" data-provider="category" finished-at="2020-08-09T04:56:56 IST" duration-ms="223" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:49 IST" name="setUp" finished-at="2020-08-09T05:40:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ProductCategory(java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:49 IST" name="ProductCategory" data-provider="category" finished-at="2020-08-09T05:40:49 IST" duration-ms="218" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -183,15 +187,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductCategory -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@10db82ae]" started-at="2020-08-09T04:56:56 IST" name="setUp" finished-at="2020-08-09T04:56:56 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@10db82ae]" started-at="2020-08-09T04:56:56 IST" name="setUp" finished-at="2020-08-09T04:56:56 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="ProductCategory(java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@10db82ae]" started-at="2020-08-09T04:56:56 IST" name="ProductCategory" data-provider="category" finished-at="2020-08-09T04:56:56 IST" duration-ms="214" status="PASS">
+        <test-method signature="ProductCategory(java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:49 IST" name="ProductCategory" data-provider="category" finished-at="2020-08-09T05:40:50 IST" duration-ms="214" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -207,7 +203,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductCategory -->
-        <test-method signature="ProductCategory(java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@10db82ae]" started-at="2020-08-09T04:56:56 IST" name="ProductCategory" data-provider="category" finished-at="2020-08-09T04:56:57 IST" duration-ms="218" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:49 IST" name="setUp" finished-at="2020-08-09T05:40:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:50 IST" name="setUp" finished-at="2020-08-09T05:40:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ProductCategory(java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:50 IST" name="ProductCategory" data-provider="category" finished-at="2020-08-09T05:40:50 IST" duration-ms="214" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -223,31 +227,687 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductCategory -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@10db82ae]" started-at="2020-08-09T04:56:56 IST" name="setUp" finished-at="2020-08-09T04:56:56 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:50 IST" name="setUp" finished-at="2020-08-09T05:40:50 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="ProductNameAndDescription()[pri:0, instance:com.BestBUY_BDD.test.Products@10db82ae]" started-at="2020-08-09T04:56:57 IST" name="ProductNameAndDescription" finished-at="2020-08-09T04:56:57 IST" duration-ms="434" status="PASS">
+        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:50 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-09T05:40:50 IST" duration-ms="233" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Housewares]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[800]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[500]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[79]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductCategoryFilter -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:50 IST" name="setUp" finished-at="2020-08-09T05:40:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:50 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-09T05:40:50 IST" duration-ms="218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Household Batteries]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[800]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductCategoryFilter -->
+        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:50 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-09T05:40:50 IST" duration-ms="234" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Connected Home & Housewares]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[800]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[500]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[163]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductCategoryFilter -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:50 IST" name="setUp" finished-at="2020-08-09T05:40:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:50 IST" name="setUp" finished-at="2020-08-09T05:40:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:50 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-09T05:40:51 IST" duration-ms="227" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4K Ultra HD TVs]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[800]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[500]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductCategoryFilter -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:51 IST" name="setUp" finished-at="2020-08-09T05:40:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:51 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-09T05:40:51 IST" duration-ms="229" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TVs]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[800]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[500]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[29]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductCategoryFilter -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:51 IST" name="setUp" finished-at="2020-08-09T05:40:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:51 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-09T05:40:51 IST" duration-ms="223" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TV & Home Theater]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[800]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[500]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[157]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductCategoryFilter -->
+        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:51 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-09T05:40:51 IST" duration-ms="214" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alkaline Batteries]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductCategoryFilter -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:51 IST" name="setUp" finished-at="2020-08-09T05:40:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:51 IST" name="setUp" finished-at="2020-08-09T05:40:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:51 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-09T05:40:52 IST" duration-ms="226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Car Electronics & GPS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[800]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[500]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[55]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductCategoryFilter -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:52 IST" name="setUp" finished-at="2020-08-09T05:40:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:52 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-09T05:40:52 IST" duration-ms="230" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Car Audio]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[800]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[500]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductCategoryFilter -->
+        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:52 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-09T05:40:52 IST" duration-ms="214" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Car Speakers]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[800]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[500]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductCategoryFilter -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:52 IST" name="setUp" finished-at="2020-08-09T05:40:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:52 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-09T05:40:52 IST" duration-ms="215" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Specialty Batteries]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductCategoryFilter -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:52 IST" name="setUp" finished-at="2020-08-09T05:40:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:52 IST" name="setUp" finished-at="2020-08-09T05:40:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:52 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-09T05:40:52 IST" duration-ms="218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Housewares]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[700]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[600]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[27]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductCategoryFilter -->
+        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:52 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-09T05:40:53 IST" duration-ms="235" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Household Batteries]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[66]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductCategoryFilter -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:52 IST" name="setUp" finished-at="2020-08-09T05:40:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:53 IST" name="setUp" finished-at="2020-08-09T05:40:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:53 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-09T05:40:53 IST" duration-ms="245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Connected Home & Housewares]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[700]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[600]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[52]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductCategoryFilter -->
+        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:53 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-09T05:40:53 IST" duration-ms="218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4K Ultra HD TVs]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[700]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[600]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductCategoryFilter -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:53 IST" name="setUp" finished-at="2020-08-09T05:40:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:53 IST" name="setUp" finished-at="2020-08-09T05:40:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:53 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-09T05:40:53 IST" duration-ms="216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TVs]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[700]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[600]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductCategoryFilter -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:53 IST" name="setUp" finished-at="2020-08-09T05:40:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:53 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-09T05:40:54 IST" duration-ms="224" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TV & Home Theater]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[700]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[600]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[48]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductCategoryFilter -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:54 IST" name="setUp" finished-at="2020-08-09T05:40:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:54 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-09T05:40:54 IST" duration-ms="213" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alkaline Batteries]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductCategoryFilter -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:54 IST" name="setUp" finished-at="2020-08-09T05:40:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:54 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-09T05:40:54 IST" duration-ms="222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Car Electronics & GPS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[700]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[600]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductCategoryFilter -->
+        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:54 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-09T05:40:54 IST" duration-ms="216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Car Audio]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[700]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[600]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductCategoryFilter -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:54 IST" name="setUp" finished-at="2020-08-09T05:40:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:54 IST" name="setUp" finished-at="2020-08-09T05:40:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:54 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-09T05:40:54 IST" duration-ms="212" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Car Speakers]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[700]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[600]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductCategoryFilter -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:54 IST" name="setUp" finished-at="2020-08-09T05:40:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:54 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-09T05:40:55 IST" duration-ms="223" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Specialty Batteries]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductCategoryFilter -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:55 IST" name="setUp" finished-at="2020-08-09T05:40:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ProductNameAndDescription()[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:55 IST" name="ProductNameAndDescription" finished-at="2020-08-09T05:40:55 IST" duration-ms="379" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductNameAndDescription -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@10db82ae]" started-at="2020-08-09T04:56:57 IST" name="setUp" finished-at="2020-08-09T04:56:57 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:55 IST" name="setUp" finished-at="2020-08-09T05:40:55 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@10db82ae]" started-at="2020-08-09T04:56:57 IST" name="setUp" finished-at="2020-08-09T04:56:57 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="ProductsCount()[pri:0, instance:com.BestBUY_BDD.test.Products@10db82ae]" started-at="2020-08-09T04:56:57 IST" name="ProductsCount" finished-at="2020-08-09T04:56:57 IST" duration-ms="170" status="PASS">
+        <test-method signature="ProductsCount()[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:55 IST" name="ProductsCount" finished-at="2020-08-09T05:40:55 IST" duration-ms="183" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductsCount -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@10db82ae]" started-at="2020-08-09T04:56:57 IST" name="setUp" finished-at="2020-08-09T04:56:57 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:55 IST" name="setUp" finished-at="2020-08-09T05:40:55 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="SortProductByPrice(java.lang.String, java.lang.Float)[pri:0, instance:com.BestBUY_BDD.test.Products@10db82ae]" started-at="2020-08-09T04:56:57 IST" name="SortProductByPrice" data-provider="sort" finished-at="2020-08-09T04:56:57 IST" duration-ms="201" status="PASS">
+        <test-method signature="SortProductByPrice(java.lang.String, java.lang.Float)[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:55 IST" name="SortProductByPrice" data-provider="sort" finished-at="2020-08-09T05:40:55 IST" duration-ms="190" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -263,11 +923,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SortProductByPrice -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@10db82ae]" started-at="2020-08-09T04:56:57 IST" name="setUp" finished-at="2020-08-09T04:56:57 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:55 IST" name="setUp" finished-at="2020-08-09T05:40:55 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="SortProductByPrice(java.lang.String, java.lang.Float)[pri:0, instance:com.BestBUY_BDD.test.Products@10db82ae]" started-at="2020-08-09T04:56:57 IST" name="SortProductByPrice" data-provider="sort" finished-at="2020-08-09T04:56:58 IST" duration-ms="227" status="PASS">
+        <test-method signature="SortProductByPrice(java.lang.String, java.lang.Float)[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:55 IST" name="SortProductByPrice" data-provider="sort" finished-at="2020-08-09T05:40:56 IST" duration-ms="190" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -283,7 +943,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SortProductByPrice -->
-        <test-method is-config="true" signature="sendMail()[pri:0, instance:com.BestBUY_BDD.test.Products@10db82ae]" started-at="2020-08-09T04:56:58 IST" name="sendMail" finished-at="2020-08-09T04:57:10 IST" duration-ms="12740" status="PASS">
+        <test-method is-config="true" signature="sendMail()[pri:0, instance:com.BestBUY_BDD.test.Products@78b729e6]" started-at="2020-08-09T05:40:56 IST" name="sendMail" finished-at="2020-08-09T05:41:08 IST" duration-ms="12711" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendMail -->

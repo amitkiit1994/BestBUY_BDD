@@ -82,6 +82,14 @@ public class Products extends TestBase {
 		body("data.categories.name[0]", hasItem(category)).and().body("total", equalTo(Integer.parseInt(qty)));
 	}
 
+	@Test(dataProvider = "filter")
+	public void ProductCategoryFilter(String category, String lt, String gt, String qty) {
+		given().param("category.name", category).param("price[$lt]", lt).param("price[$gt]", gt).param("shipping[$eq]","0").
+		when().get(url).then().assertThat().statusCode(200).and().body("data.price[0]", lessThan(Float.parseFloat(lt))).
+		and().body("data.price[0]", greaterThan(Float.parseFloat(gt))).and().body("total", equalTo(Integer.parseInt(qty)));
+	}
+	
+	
 	@DataProvider(name = "sort")
 	public Object[][] createTestDataRecords_sort() {
 		return new Object[][] { { "-1", 27999.98f }, { "1", 0.01f } };
@@ -94,6 +102,37 @@ public class Products extends TestBase {
 			{"Car Electronics & GPS","2646"},{"Car Audio","623"},{"Car Speakers","144"},{"Specialty Batteries","55"}	
 		
 		};
+	}
+	
+	
+	@DataProvider(name = "filter")
+	public Object[][] createTestDataRecords_filter() {
+		return new Object[][] {
+			{"Housewares","800","500","79"},
+			{"Household Batteries","800","200","1"},
+			{"Connected Home & Housewares","800","500","163"},
+			{"4K Ultra HD TVs","800","500","20"},
+			{"TVs","800","500","29"},
+			{"TV & Home Theater","800","500","157"},
+			{"Alkaline Batteries","10","5","30"},
+			{"Car Electronics & GPS","800","500","55"},
+			{"Car Audio","800","500","21"},
+			{"Car Speakers","800","500","1"},
+			{"Specialty Batteries","10","5","17"},
+			{"Housewares","700","600","27"},
+			{"Household Batteries","10","5","66"},
+			{"Connected Home & Housewares","700","600","52"},
+			{"4K Ultra HD TVs","700","600","4"},
+			{"TVs","700","600","6"},
+			{"TV & Home Theater","700","600","48"},
+			{"Alkaline Batteries","10","5","30"},
+			{"Car Electronics & GPS","700","600","19"},
+			{"Car Audio","700","600","9"},
+			{"Car Speakers","700","600","1"},
+			{"Specialty Batteries","20","10","8"}
+		
+		};
+		
 	}
 
 	@AfterTest
