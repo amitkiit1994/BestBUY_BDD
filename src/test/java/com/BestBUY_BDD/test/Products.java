@@ -1,37 +1,38 @@
 package com.BestBUY_BDD.test;
 
 import org.apache.commons.io.FileUtils;
-import org.apache.http.util.EntityUtils;
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
+
 import org.json.simple.parser.ParseException;
-import org.mozilla.javascript.json.JsonParser;
-import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
 
 import com.BestBUY_BDD.base.TestBase;
 import com.BestBUY_BDD.util.TestUtil;
 import com.github.fge.jsonschema.SchemaVersion;
 import com.github.fge.jsonschema.cfg.ValidationConfiguration;
 import com.github.fge.jsonschema.main.JsonSchemaFactory;
-import org.apache.commons.io.FileUtils;
+
+
+
 import static io.restassured.module.jsv.JsonSchemaValidator.*;
-import io.restassured.internal.http.Status;
+
 import io.restassured.path.json.JsonPath;
-import io.restassured.response.ValidatableResponse;
+import io.restassured.response.Response;
 
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
-import static org.junit.Assert.assertThat;
+import static org.junit.Assert.assertEquals;
+
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileReader;
+
 import java.io.IOException;
 import java.net.URISyntaxException;
+
 
 public class Products extends TestBase {
 
@@ -39,6 +40,15 @@ public class Products extends TestBase {
 	String url;
 	String serviceUrl;
 	TestUtil testutl;
+	int productCount=52026;
+	String productName;
+	String productType;
+	String productUpc;
+	Float productPrice;
+	String productModel;
+	String productDesc;
+	int productId;
+
 
 	@BeforeMethod
 	public void setUp() throws URISyntaxException {
@@ -49,9 +59,9 @@ public class Products extends TestBase {
 //		System.out.println(url);
 	}
 
-	@Test
+	@Test(dependsOnGroups = {"single product","multiple product"})
 	public void ProductsCount() {
-		given().when().get(url).then().assertThat().statusCode(200).and().body("total", equalTo(51957));
+		given().when().get(url).then().assertThat().statusCode(200).and().body("total", equalTo(productCount));
 	}
 
 	@Test(dataProvider = "sort")
@@ -134,7 +144,98 @@ public class Products extends TestBase {
 		};
 		
 	}
+	
+	@Test(groups = {"single product"})
+	public void createProduct() throws IOException {
+		String benchMark=FileUtils.readFileToString(new File(System.getProperty("user.dir")+"\\src\\test\\java\\com\\BestBUY_BDD\\inputFiles\\createProduct_POST.json"), "UTF-8");
+		JsonPath jsonPath= new JsonPath(benchMark);
+		productName=jsonPath.getString("name");
+		productType=jsonPath.getString("type");
+		productUpc=jsonPath.getString("upc");
+		productPrice=jsonPath.getFloat("price");
+		productModel=jsonPath.getString("model");
+		productDesc=jsonPath.getString("description");
+		
+		Response response=given().contentType("application/json").body(benchMark).when().post(url);
+		assertEquals(response.statusCode(),201);
 
+		assertEquals(productName,response.jsonPath().get("name"));
+		assertEquals(productType,response.jsonPath().get("type"));
+		assertEquals(productUpc,response.jsonPath().get("upc"));
+		assertEquals(productPrice,response.jsonPath().get("price"));
+		assertEquals(productModel,response.jsonPath().get("model"));
+		assertEquals(productDesc,response.jsonPath().get("description"));
+		productId=response.jsonPath().get("id");
+		
+	}
+	
+	@Test(dependsOnMethods = {"createProduct"},groups = {"single product"})
+	public void getProductById() {
+		given().pathParam("productId", productId).when().get(url+"/{productId}").then().assertThat().
+		statusCode(200).and().body("name", equalTo(productName)).and().body("type", equalTo(productType)).
+		and().body("upc", equalTo(productUpc)).and().body("price", equalTo(productPrice)).
+		and().body("model", equalTo(productModel)).and().body("description", equalTo(productDesc));
+	}
+	@Test(dependsOnMethods = {"getProductById"},groups = {"single product"})
+	public void deleteProductById() {
+		given().pathParam("productId", productId).when().delete(url+"/{productId}").then().assertThat().
+		statusCode(200);
+	}
+	
+	@Test(dependsOnGroups = {"single product"}, dataProvider = "product",groups = {"multiple product"})
+	public void createMultipleProducts(String name, String type, Float price, String model, String upc, String desc) {
+		Response response=given().body("{"
+		        + "\"name\": \""+name+"\","
+		        + "\"type\": \""+type+"\","
+		        + "\"upc\": \""+upc+"\","
+		        + "\"price\": "+price+","
+		        + "\"description\": \""+desc+"\","
+		        + "\"model\": \""+model+"\""
+		        + "}"
+		    ).contentType("application/json").
+		when().post(url);
+		assertEquals(201,response.statusCode());
+		
+		productName=name;
+		productType=type;
+		productUpc=upc;
+		productPrice=price;
+		productModel=model;
+		productDesc=desc;
+		assertEquals(productName,response.jsonPath().get("name"));
+		assertEquals(productType,response.jsonPath().get("type"));
+		assertEquals(productUpc,response.jsonPath().get("upc"));
+		assertEquals(productPrice,response.jsonPath().get("price"));
+		assertEquals(productModel,response.jsonPath().get("model"));
+		assertEquals(productDesc,response.jsonPath().get("description"));
+		productId=response.jsonPath().get("id");
+		
+		given().pathParam("productId", productId).when().get(url+"/{productId}").then().assertThat().
+		statusCode(200).and().body("name", equalTo(productName)).and().body("type", equalTo(productType)).
+		and().body("upc", equalTo(productUpc)).and().body("price", equalTo(productPrice)).
+		and().body("model", equalTo(productModel)).and().body("description", equalTo(productDesc));
+		
+		given().pathParam("productId", productId).when().delete(url+"/{productId}").then().assertThat().
+		statusCode(200);
+		
+	}
+
+	@DataProvider(name = "product")
+	public Object[][] createTestDataRecords_product() {
+		return new Object[][] {
+			{"Prod1","type1",123.12f,"model1","upc1","desc1"},
+			{"Prod2","type2",12.12f,"model2","upc2","desc2"},
+			{"Prod3","type3",125.12f,"model3","upc3","desc3"},
+			{"Prod4","type4",126.12f,"model4","upc4","desc4"},
+			{"Prod5","type5",127.12f,"model5","upc5","desc5"},
+			{"Prod6","type6",128.12f,"model6","upc6","desc6"},
+			{"Prod7","type7",129.12f,"model7","upc7","desc7"},
+			{"Prod8","type8",121.12f,"model8","upc8","desc8"},
+			{"Prod9","type9",121.12f,"model9","upc9","desc9"},
+			{"Prod10","type10",12.12f,"model10","upc10","desc10"},
+			{"Prod11","type11",121.12f,"model11","upc11","desc11"}
+		};
+		}
 	@AfterTest
 	public void sendMail() throws IOException {
 		testutl = new TestUtil();

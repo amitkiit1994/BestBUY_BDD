@@ -1,0 +1,194 @@
+# Created at 2020-08-11T10:53:20.870
+Exiting self fork JVM. Received SHUTDOWN command from Maven shutdown hook.
+Thread dump before exiting the process (23332@MSI):
+"main" 
+   java.lang.Thread.State: RUNNABLE
+        at java.base@12.0.2/java.net.SocketInputStream.socketRead0(Native Method)
+        at java.base@12.0.2/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+        at java.base@12.0.2/java.net.SocketInputStream.read(SocketInputStream.java:168)
+        at java.base@12.0.2/java.net.SocketInputStream.read(SocketInputStream.java:140)
+        at java.base@12.0.2/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:448)
+        at java.base@12.0.2/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:68)
+        at java.base@12.0.2/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1132)
+        at java.base@12.0.2/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:828)
+        at app//com.sun.mail.util.TraceInputStream.read(TraceInputStream.java:124)
+        at java.base@12.0.2/java.io.BufferedInputStream.fill(BufferedInputStream.java:252)
+        at java.base@12.0.2/java.io.BufferedInputStream.read(BufferedInputStream.java:271)
+        at app//com.sun.mail.util.LineInputStream.readLine(LineInputStream.java:89)
+        at app//com.sun.mail.smtp.SMTPTransport.readServerResponse(SMTPTransport.java:2182)
+        at app//com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2087)
+        at app//com.sun.mail.smtp.SMTPTransport.data(SMTPTransport.java:1876)
+        at app//com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1119)
+        at app//javax.mail.Transport.send0(Transport.java:195)
+        at app//javax.mail.Transport.send(Transport.java:124)
+        at app//com.BestBUY_BDD.util.TestUtil.sendMail(TestUtil.java:78)
+        at app//com.BestBUY_BDD.test.Products.sendMail(Products.java:242)
+        at java.base@12.0.2/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at java.base@12.0.2/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at java.base@12.0.2/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.base@12.0.2/java.lang.reflect.Method.invoke(Method.java:567)
+        at app//org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+        at app//org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+        at app//org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+        at app//org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+        at app//org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+        at app//org.testng.TestRunner.afterRun(TestRunner.java:847)
+        at app//org.testng.TestRunner.run(TestRunner.java:588)
+        at app//org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+        at app//org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+        at app//org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+        at app//org.testng.SuiteRunner.run(SuiteRunner.java:286)
+        at app//org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+        at app//org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+        at app//org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+        at app//org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+        at app//org.testng.TestNG.runSuites(TestNG.java:1069)
+        at app//org.testng.TestNG.run(TestNG.java:1037)
+        at app//org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+        at app//org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+        at app//org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+        at app//org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+        at app//org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+        at app//org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+        at app//org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+
+"Reference Handler" 
+   java.lang.Thread.State: RUNNABLE
+        at java.base@12.0.2/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+        at java.base@12.0.2/java.lang.ref.Reference.processPendingReferences(Reference.java:241)
+        at java.base@12.0.2/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:213)
+
+"Finalizer" 
+   java.lang.Thread.State: WAITING
+        at java.base@12.0.2/java.lang.Object.wait(Native Method)
+        at java.base@12.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+        at java.base@12.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+        at java.base@12.0.2/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:170)
+
+"Signal Dispatcher" 
+   java.lang.Thread.State: RUNNABLE
+
+"Attach Listener" 
+   java.lang.Thread.State: RUNNABLE
+
+"Common-Cleaner" 
+   java.lang.Thread.State: TIMED_WAITING
+        at java.base@12.0.2/java.lang.Object.wait(Native Method)
+        at java.base@12.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+        at java.base@12.0.2/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:148)
+        at java.base@12.0.2/java.lang.Thread.run(Thread.java:835)
+        at java.base@12.0.2/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:134)
+
+"surefire-forkedjvm-command-thread" 
+   java.lang.Thread.State: RUNNABLE
+        at java.management@12.0.2/sun.management.ThreadImpl.getThreadInfo1(Native Method)
+        at java.management@12.0.2/sun.management.ThreadImpl.getThreadInfo(ThreadImpl.java:190)
+        at app//org.apache.maven.surefire.booter.ForkedBooter.generateThreadDump(ForkedBooter.java:649)
+        at app//org.apache.maven.surefire.booter.ForkedBooter.access$400(ForkedBooter.java:82)
+        at app//org.apache.maven.surefire.booter.ForkedBooter$4.update(ForkedBooter.java:340)
+        at app//org.apache.maven.surefire.booter.CommandReader$CommandRunnable.callListeners(CommandReader.java:423)
+        at app//org.apache.maven.surefire.booter.CommandReader$CommandRunnable.exitByConfiguration(CommandReader.java:435)
+        at app//org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:388)
+        at java.base@12.0.2/java.lang.Thread.run(Thread.java:835)
+
+"pool-2-thread-1" 
+   java.lang.Thread.State: WAITING
+        at java.base@12.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+        at java.base@12.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+        at java.base@12.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+        at java.base@12.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433)
+        at java.base@12.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+        at java.base@12.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+        at java.base@12.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at java.base@12.0.2/java.lang.Thread.run(Thread.java:835)
+
+"pool-2-thread-2" 
+   java.lang.Thread.State: WAITING
+        at java.base@12.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+        at java.base@12.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+        at java.base@12.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+        at java.base@12.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433)
+        at java.base@12.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+        at java.base@12.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+        at java.base@12.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at java.base@12.0.2/java.lang.Thread.run(Thread.java:835)
+
+"pool-2-thread-3" 
+   java.lang.Thread.State: WAITING
+        at java.base@12.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+        at java.base@12.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+        at java.base@12.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+        at java.base@12.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433)
+        at java.base@12.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+        at java.base@12.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+        at java.base@12.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at java.base@12.0.2/java.lang.Thread.run(Thread.java:835)
+
+"pool-2-thread-4" 
+   java.lang.Thread.State: WAITING
+        at java.base@12.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+        at java.base@12.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+        at java.base@12.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+        at java.base@12.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433)
+        at java.base@12.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+        at java.base@12.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+        at java.base@12.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at java.base@12.0.2/java.lang.Thread.run(Thread.java:835)
+
+"pool-2-thread-5" 
+   java.lang.Thread.State: WAITING
+        at java.base@12.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+        at java.base@12.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+        at java.base@12.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+        at java.base@12.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433)
+        at java.base@12.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+        at java.base@12.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+        at java.base@12.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at java.base@12.0.2/java.lang.Thread.run(Thread.java:835)
+
+"pool-2-thread-6" 
+   java.lang.Thread.State: WAITING
+        at java.base@12.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+        at java.base@12.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+        at java.base@12.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+        at java.base@12.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433)
+        at java.base@12.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+        at java.base@12.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+        at java.base@12.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at java.base@12.0.2/java.lang.Thread.run(Thread.java:835)
+
+"pool-2-thread-7" 
+   java.lang.Thread.State: WAITING
+        at java.base@12.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+        at java.base@12.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+        at java.base@12.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+        at java.base@12.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433)
+        at java.base@12.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+        at java.base@12.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+        at java.base@12.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at java.base@12.0.2/java.lang.Thread.run(Thread.java:835)
+
+"pool-2-thread-8" 
+   java.lang.Thread.State: WAITING
+        at java.base@12.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+        at java.base@12.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+        at java.base@12.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+        at java.base@12.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433)
+        at java.base@12.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+        at java.base@12.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+        at java.base@12.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at java.base@12.0.2/java.lang.Thread.run(Thread.java:835)
+
+"pool-2-thread-9" 
+   java.lang.Thread.State: WAITING
+        at java.base@12.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+        at java.base@12.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+        at java.base@12.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+        at java.base@12.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433)
+        at java.base@12.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+        at java.base@12.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+        at java.base@12.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at java.base@12.0.2/java.lang.Thread.run(Thread.java:835)
+
+
+

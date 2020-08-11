@@ -76,10 +76,14 @@ public class TestUtil extends TestBase{
 
 	         // Send message
 	         Transport.send(message);
-	         System.out.println("Sent message successfully....");
+	         System.out.println("MESSAGE SENT SUCCESSFULLY");
 	      } catch (MessagingException mex) {
 	         mex.printStackTrace();
 	      }
+		catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
 		
 	}
 	
