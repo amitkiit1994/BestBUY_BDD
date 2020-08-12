@@ -31,7 +31,9 @@ import java.io.File;
 import java.io.FileNotFoundException;
 
 import java.io.IOException;
+import java.lang.reflect.Array;
 import java.net.URISyntaxException;
+import java.util.ArrayList;
 
 
 public class Products extends TestBase {
@@ -40,16 +42,23 @@ public class Products extends TestBase {
 	String url;
 	String serviceUrl;
 	TestUtil testutl;
-	int productCount=52026;
+	int productCount=52070;
+	int productId;
 	String productName;
 	String productType;
 	String productUpc;
 	Float productPrice;
 	String productModel;
 	String productDesc;
-	int productId;
-
-
+	
+	ArrayList<Integer> productIds= new ArrayList<Integer>();
+	ArrayList<String> productNames= new ArrayList<String>();
+	ArrayList<String> productUpcs= new ArrayList<String>();
+	ArrayList<String> productModels= new ArrayList<String>();
+	ArrayList<String> productDescs= new ArrayList<String>();
+	ArrayList<String> productTypes= new ArrayList<String>();
+	ArrayList<Float> productPrices= new ArrayList<Float>();
+	
 	@BeforeMethod
 	public void setUp() throws URISyntaxException {
 		testbase = new TestBase();
@@ -62,12 +71,14 @@ public class Products extends TestBase {
 	@Test(dependsOnGroups = {"single product","multiple product"})
 	public void ProductsCount() {
 		given().when().get(url).then().assertThat().statusCode(200).and().body("total", equalTo(productCount));
+		System.out.println("Products Count");
 	}
 
 	@Test(dataProvider = "sort")
 	public void SortProductByPrice(String sort, Float price) {
 		given().queryParam("$sort[price]", sort).when().get(url).then().assertThat().statusCode(200).and()
 				.body("data[0].price", is(price));
+		System.out.println("Sort By Price");
 	}
 
 	@Test
@@ -81,7 +92,7 @@ public class Products extends TestBase {
 				.body("data[0]", hasKey("description")).and().assertThat()
 				.body(matchesJsonSchemaInClasspath("ProductNameAndDescription.json").using(jsonSchemaFactory)).and()
 				.body("data.name", hasSize(10)).and().body("data.description", hasSize(10));
-
+		System.out.println("Product Name and desc");
 //		given().param("$select[]", "name").param("$select[]", "description").param("$limit", 10).when().get(url).then().
 //		assertThat().statusCode(200).and().body(matchesJsonSchemaInClasspath("ProductNameAndDescription.json").using(jsonSchemaFactory));
 
@@ -97,6 +108,7 @@ public class Products extends TestBase {
 		given().param("category.name", category).param("price[$lt]", lt).param("price[$gt]", gt).param("shipping[$eq]","0").
 		when().get(url).then().assertThat().statusCode(200).and().body("data.price[0]", lessThan(Float.parseFloat(lt))).
 		and().body("data.price[0]", greaterThan(Float.parseFloat(gt))).and().body("total", equalTo(Integer.parseInt(qty)));
+		System.out.println("Category filter");
 	}
 	
 	
@@ -166,6 +178,7 @@ public class Products extends TestBase {
 		assertEquals(productModel,response.jsonPath().get("model"));
 		assertEquals(productDesc,response.jsonPath().get("description"));
 		productId=response.jsonPath().get("id");
+		System.out.println("Create Single Product");
 		
 	}
 	
@@ -175,11 +188,38 @@ public class Products extends TestBase {
 		statusCode(200).and().body("name", equalTo(productName)).and().body("type", equalTo(productType)).
 		and().body("upc", equalTo(productUpc)).and().body("price", equalTo(productPrice)).
 		and().body("model", equalTo(productModel)).and().body("description", equalTo(productDesc));
+		System.out.println("Get single product");
 	}
+	
 	@Test(dependsOnMethods = {"getProductById"},groups = {"single product"})
+	public void updateProduct() throws IOException
+	{
+		String benchMark=FileUtils.readFileToString(new File(System.getProperty("user.dir")+"\\src\\test\\java\\com\\BestBUY_BDD\\inputFiles\\patchProduct_POST.json"), "UTF-8");
+		JsonPath jsonPath= new JsonPath(benchMark);
+		productName=jsonPath.getString("name");
+		productType=jsonPath.getString("type");
+		productUpc=jsonPath.getString("upc");
+		productPrice=jsonPath.getFloat("price");
+		productModel=jsonPath.getString("model");
+		productDesc=jsonPath.getString("description");
+		
+		Response response=given().pathParam("productId", productId).contentType("application/json").body(benchMark).when().patch(url+"/{productId}");
+		assertEquals(response.statusCode(),200);
+
+		assertEquals(productName,response.jsonPath().get("name"));
+		assertEquals(productType,response.jsonPath().get("type"));
+		assertEquals(productUpc,response.jsonPath().get("upc"));
+		assertEquals(productPrice,response.jsonPath().get("price"));
+		assertEquals(productModel,response.jsonPath().get("model"));
+		assertEquals(productDesc,response.jsonPath().get("description"));
+		System.out.println("Update single product");
+	}
+	
+	@Test(dependsOnMethods = {"updateProduct"},groups = {"single product"})
 	public void deleteProductById() {
 		given().pathParam("productId", productId).when().delete(url+"/{productId}").then().assertThat().
 		statusCode(200);
+		System.out.println("Delete single product");
 	}
 	
 	@Test(dependsOnGroups = {"single product"}, dataProvider = "product",groups = {"multiple product"})
@@ -209,16 +249,109 @@ public class Products extends TestBase {
 		assertEquals(productModel,response.jsonPath().get("model"));
 		assertEquals(productDesc,response.jsonPath().get("description"));
 		productId=response.jsonPath().get("id");
+		System.out.println("Product Id: "+productId);
+		System.out.println("Creating multiple product id: "+productId);
 		
-		given().pathParam("productId", productId).when().get(url+"/{productId}").then().assertThat().
-		statusCode(200).and().body("name", equalTo(productName)).and().body("type", equalTo(productType)).
-		and().body("upc", equalTo(productUpc)).and().body("price", equalTo(productPrice)).
-		and().body("model", equalTo(productModel)).and().body("description", equalTo(productDesc));
+		productIds.add(productId);
+		productNames.add(productName);
+		productTypes.add(productType);
+		productUpcs.add(productUpc);
+		productPrices.add(productPrice);
+		productModels.add(productModel);
+		productDescs.add(productDesc);
+//		given().pathParam("productId", productId).when().get(url+"/{productId}").then().assertThat().
+//		statusCode(200).and().body("name", equalTo(productName)).and().body("type", equalTo(productType)).
+//		and().body("upc", equalTo(productUpc)).and().body("price", equalTo(productPrice)).
+//		and().body("model", equalTo(productModel)).and().body("description", equalTo(productDesc));
 		
-		given().pathParam("productId", productId).when().delete(url+"/{productId}").then().assertThat().
-		statusCode(200);
+//		given().pathParam("productId", productId).when().delete(url+"/{productId}").then().assertThat().
+//		statusCode(200);
+		
 		
 	}
+	
+	@Test (dependsOnMethods = {"createMultipleProducts"},dataProvider = "productInfo",groups = {"multiple product"})
+	public void getMultipleProductsById(int productIds, String productNames, String productTypes, Float productPrices, String productModels, String productUpcs, String productDescs) {
+			given().pathParam("productId", productIds).when().get(url+"/{productId}").then().assertThat().
+			statusCode(200).and().body("name", equalTo(productNames)).and().body("type", equalTo(productTypes)).
+			and().body("upc", equalTo(productUpcs)).and().body("price", equalTo(productPrices)).
+			and().body("model", equalTo(productModels)).and().body("description", equalTo(productDescs));
+			
+			System.out.println("Get Multiple Products ID: "+productIds);
+			
+		
+	}
+	
+	@Test (dependsOnMethods = {"getMultipleProductsById"},dataProvider = "productInfo",groups = {"multiple product"})
+	public void updateMultipleProducts(int productIds, String productNames, String productTypes, Float productPrices, String productModels, String productUpcs, String productDescs) {
+		Response response=given().pathParam("productId", productIds).body("{"
+		        + "\"name\": \""+productNames+"\","
+		        + "\"type\": \""+productTypes+"\","
+		        + "\"upc\": \""+productUpcs+"\","
+		        + "\"price\": "+productPrices+","
+		        + "\"description\": \""+productDescs+"\","
+		        + "\"model\": \""+productModels+"\""
+		        + "}"
+		    ).contentType("application/json").
+		when().patch(url+"/{productId}");
+		assertEquals(200,response.statusCode());
+		
+		assertEquals(productNames,response.jsonPath().get("name"));
+		assertEquals(productTypes,response.jsonPath().get("type"));
+		assertEquals(productUpcs,response.jsonPath().get("upc"));
+		assertEquals(productPrices,response.jsonPath().get("price"));
+		assertEquals(productModels,response.jsonPath().get("model"));
+		assertEquals(productDescs,response.jsonPath().get("description"));
+		
+		System.out.println("Patch product id: "+productIds);
+	}
+	
+	@Test (dependsOnMethods = {"updateMultipleProducts"},dataProvider = "productIds",groups = {"multiple product"})
+	public void deleteMultipleProducts(int prodId) {
+			given().pathParam("productId", prodId).when().delete(url+"/{productId}").then().assertThat().
+			statusCode(200);
+			System.out.println("Deleting ProdID: "+prodId);
+		
+	}
+	
+	@DataProvider(name="productIds")
+	public Object[][] getAllProdIds()
+	{
+		return new Object[][] {
+			{productIds.get(0)},
+			{productIds.get(1)},
+			{productIds.get(2)},
+			{productIds.get(3)},
+			{productIds.get(4)},
+			{productIds.get(5)},
+			{productIds.get(6)},
+			{productIds.get(7)},
+			{productIds.get(8)},
+			{productIds.get(9)},
+			{productIds.get(10)}
+		};
+	}
+	
+	
+	@DataProvider(name="productInfo")
+	public Object[][] getAllProdInfo(){
+		return new Object[][] {
+			{productIds.get(0),productNames.get(0),productTypes.get(0),productPrices.get(0),productModels.get(0),productUpcs.get(0),productDescs.get(0)},
+			{productIds.get(1),productNames.get(1),productTypes.get(1),productPrices.get(1),productModels.get(1),productUpcs.get(1),productDescs.get(1)},
+			{productIds.get(2),productNames.get(2),productTypes.get(2),productPrices.get(2),productModels.get(2),productUpcs.get(2),productDescs.get(2)},
+			{productIds.get(3),productNames.get(3),productTypes.get(3),productPrices.get(3),productModels.get(3),productUpcs.get(3),productDescs.get(3)},
+			{productIds.get(4),productNames.get(4),productTypes.get(4),productPrices.get(4),productModels.get(4),productUpcs.get(4),productDescs.get(4)},
+			{productIds.get(5),productNames.get(5),productTypes.get(5),productPrices.get(5),productModels.get(5),productUpcs.get(5),productDescs.get(5)},
+			{productIds.get(6),productNames.get(6),productTypes.get(6),productPrices.get(6),productModels.get(6),productUpcs.get(6),productDescs.get(6)},
+			{productIds.get(7),productNames.get(7),productTypes.get(7),productPrices.get(7),productModels.get(7),productUpcs.get(7),productDescs.get(7)},
+			{productIds.get(8),productNames.get(8),productTypes.get(8),productPrices.get(8),productModels.get(8),productUpcs.get(8),productDescs.get(8)},
+			{productIds.get(9),productNames.get(9),productTypes.get(9),productPrices.get(9),productModels.get(9),productUpcs.get(9),productDescs.get(9)},
+			{productIds.get(10),productNames.get(10),productTypes.get(10),productPrices.get(10),productModels.get(10),productUpcs.get(10),productDescs.get(10)},
+		};
+		}
+	
+	
+	
 
 	@DataProvider(name = "product")
 	public Object[][] createTestDataRecords_product() {
@@ -238,8 +371,10 @@ public class Products extends TestBase {
 		}
 	@AfterTest
 	public void sendMail() throws IOException {
-		testutl = new TestUtil();
-		TestUtil.sendMail();
+		System.out.println("Total Number of products Created: "+productIds.size());
+		System.out.println("Created: "+productIds);
+//		testutl = new TestUtil();
+//		TestUtil.sendMail();
 	}
 
 }

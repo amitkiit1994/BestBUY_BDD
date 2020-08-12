@@ -1,0 +1,8 @@
+{
+	"name": "New Product1",
+	"type": "Hard Good1",
+	"upc": "12345674",
+	"price": 99.99,
+	"description": "This is a placeholder request for creating a new product.",
+	"model": "NP123451"
+}
