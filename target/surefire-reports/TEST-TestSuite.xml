@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="12.966" tests="85" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="23.526" tests="85" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.specification.version" value="12"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\Amit Kumar Das\gitFinal\BestBuy_BDD\BestBUY_BDD\target\test-classes;C:\Users\Amit Kumar Das\gitFinal\BestBuy_BDD\BestBUY_BDD\target\classes;C:\Users\Amit Kumar Das\.m2\repository\javax\mail\mail\1.4.7\mail-1.4.7.jar;C:\Users\Amit Kumar Das\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\Amit Kumar Das\.m2\repository\com\google\guava\guava\29.0-jre\guava-29.0-jre.jar;C:\Users\Amit Kumar Das\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Amit Kumar Das\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Amit Kumar Das\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Amit Kumar Das\.m2\repository\org\checkerframework\checker-qual\2.11.1\checker-qual-2.11.1.jar;C:\Users\Amit Kumar Das\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\Amit Kumar Das\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Amit Kumar Das\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\Amit Kumar Das\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\Amit Kumar Das\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\Amit Kumar Das\.m2\repository\io\rest-assured\json-schema-validator\4.3.1\json-schema-validator-4.3.1.jar;C:\Users\Amit Kumar Das\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Amit Kumar Das\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\Amit Kumar Das\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\Amit Kumar Das\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.0\jackson-databind-2.11.0.jar;C:\Users\Amit Kumar Das\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.0\jackson-annotations-2.11.0.jar;C:\Users\Amit Kumar Das\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.0\jackson-core-2.11.0.jar;C:\Users\Amit Kumar Das\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\Amit Kumar Das\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\Amit Kumar Das\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\Amit Kumar Das\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\Amit Kumar Das\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\Amit Kumar Das\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\Amit Kumar Das\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\Amit Kumar Das\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Amit Kumar Das\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\Amit Kumar Das\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Amit Kumar Das\.m2\repository\io\rest-assured\rest-assured\4.3.1\rest-assured-4.3.1.jar;C:\Users\Amit Kumar Das\.m2\repository\org\codehaus\groovy\groovy\3.0.3\groovy-3.0.3.jar;C:\Users\Amit Kumar Das\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.3\groovy-xml-3.0.3.jar;C:\Users\Amit Kumar Das\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\Amit Kumar Das\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\Amit Kumar Das\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Amit Kumar Das\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\Amit Kumar Das\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\Amit Kumar Das\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Amit Kumar Das\.m2\repository\io\rest-assured\json-path\4.3.1\json-path-4.3.1.jar;C:\Users\Amit Kumar Das\.m2\repository\org\codehaus\groovy\groovy-json\3.0.3\groovy-json-3.0.3.jar;C:\Users\Amit Kumar Das\.m2\repository\io\rest-assured\rest-assured-common\4.3.1\rest-assured-common-4.3.1.jar;C:\Users\Amit Kumar Das\.m2\repository\io\rest-assured\xml-path\4.3.1\xml-path-4.3.1.jar;C:\Users\Amit Kumar Das\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\Amit Kumar Das\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Amit Kumar Das\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\Amit Kumar Das\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\Amit Kumar Das\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\Amit Kumar Das\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Amit Kumar Das\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\Amit Kumar Das\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\Amit Kumar Das\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\Amit Kumar Das\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Amit Kumar Das\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Amit Kumar Das\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Amit Kumar Das\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Amit Kumar Das\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.class.path" value="C:\Users\Amit Kumar Das\gitFinal\BestBuy_BDD\BestBUY_BDD\target\test-classes;C:\Users\Amit Kumar Das\gitFinal\BestBuy_BDD\BestBUY_BDD\target\classes;C:\Users\Amit Kumar Das\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.3\log4j-api-2.13.3.jar;C:\Users\Amit Kumar Das\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.3\log4j-core-2.13.3.jar;C:\Users\Amit Kumar Das\.m2\repository\javax\mail\mail\1.4.7\mail-1.4.7.jar;C:\Users\Amit Kumar Das\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\Amit Kumar Das\.m2\repository\com\google\guava\guava\29.0-jre\guava-29.0-jre.jar;C:\Users\Amit Kumar Das\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Amit Kumar Das\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Amit Kumar Das\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Amit Kumar Das\.m2\repository\org\checkerframework\checker-qual\2.11.1\checker-qual-2.11.1.jar;C:\Users\Amit Kumar Das\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\Amit Kumar Das\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Amit Kumar Das\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\Amit Kumar Das\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\Amit Kumar Das\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\Amit Kumar Das\.m2\repository\io\rest-assured\json-schema-validator\4.3.1\json-schema-validator-4.3.1.jar;C:\Users\Amit Kumar Das\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Amit Kumar Das\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\Amit Kumar Das\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\Amit Kumar Das\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.0\jackson-databind-2.11.0.jar;C:\Users\Amit Kumar Das\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.0\jackson-annotations-2.11.0.jar;C:\Users\Amit Kumar Das\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.0\jackson-core-2.11.0.jar;C:\Users\Amit Kumar Das\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\Amit Kumar Das\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\Amit Kumar Das\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\Amit Kumar Das\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\Amit Kumar Das\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\Amit Kumar Das\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\Amit Kumar Das\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\Amit Kumar Das\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Amit Kumar Das\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\Amit Kumar Das\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Amit Kumar Das\.m2\repository\io\rest-assured\rest-assured\4.3.1\rest-assured-4.3.1.jar;C:\Users\Amit Kumar Das\.m2\repository\org\codehaus\groovy\groovy\3.0.3\groovy-3.0.3.jar;C:\Users\Amit Kumar Das\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.3\groovy-xml-3.0.3.jar;C:\Users\Amit Kumar Das\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\Amit Kumar Das\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\Amit Kumar Das\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Amit Kumar Das\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\Amit Kumar Das\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\Amit Kumar Das\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Amit Kumar Das\.m2\repository\io\rest-assured\json-path\4.3.1\json-path-4.3.1.jar;C:\Users\Amit Kumar Das\.m2\repository\org\codehaus\groovy\groovy-json\3.0.3\groovy-json-3.0.3.jar;C:\Users\Amit Kumar Das\.m2\repository\io\rest-assured\rest-assured-common\4.3.1\rest-assured-common-4.3.1.jar;C:\Users\Amit Kumar Das\.m2\repository\io\rest-assured\xml-path\4.3.1\xml-path-4.3.1.jar;C:\Users\Amit Kumar Das\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\Amit Kumar Das\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Amit Kumar Das\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\Amit Kumar Das\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\Amit Kumar Das\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\Amit Kumar Das\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Amit Kumar Das\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\Amit Kumar Das\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\Amit Kumar Das\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\Amit Kumar Das\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Amit Kumar Das\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Amit Kumar Das\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Amit Kumar Das\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Amit Kumar Das\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -17,9 +17,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-12.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\Amit Kumar Das\AppData\Local\Temp\surefire17832623463492886891\surefirebooter15953359062721305352.jar C:\Users\Amit Kumar Das\AppData\Local\Temp\surefire17832623463492886891 2020-08-12T10-21-35_814-jvmRun1 surefire2839740551951031566tmp surefire_04237896303694380512tmp"/>
+    <property name="sun.java.command" value="C:\Users\Amit Kumar Das\AppData\Local\Temp\surefire16231205377303047772\surefirebooter6366748089370660158.jar C:\Users\Amit Kumar Das\AppData\Local\Temp\surefire16231205377303047772 2020-08-14T21-14-53_954-jvmRun1 surefire11223264648305438438tmp surefire_04750461019772780435tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\Amit Kumar Das\gitFinal\BestBuy_BDD\BestBUY_BDD\target\test-classes;C:\Users\Amit Kumar Das\gitFinal\BestBuy_BDD\BestBUY_BDD\target\classes;C:\Users\Amit Kumar Das\.m2\repository\javax\mail\mail\1.4.7\mail-1.4.7.jar;C:\Users\Amit Kumar Das\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\Amit Kumar Das\.m2\repository\com\google\guava\guava\29.0-jre\guava-29.0-jre.jar;C:\Users\Amit Kumar Das\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Amit Kumar Das\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Amit Kumar Das\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Amit Kumar Das\.m2\repository\org\checkerframework\checker-qual\2.11.1\checker-qual-2.11.1.jar;C:\Users\Amit Kumar Das\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\Amit Kumar Das\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Amit Kumar Das\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\Amit Kumar Das\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\Amit Kumar Das\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\Amit Kumar Das\.m2\repository\io\rest-assured\json-schema-validator\4.3.1\json-schema-validator-4.3.1.jar;C:\Users\Amit Kumar Das\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Amit Kumar Das\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\Amit Kumar Das\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\Amit Kumar Das\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.0\jackson-databind-2.11.0.jar;C:\Users\Amit Kumar Das\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.0\jackson-annotations-2.11.0.jar;C:\Users\Amit Kumar Das\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.0\jackson-core-2.11.0.jar;C:\Users\Amit Kumar Das\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\Amit Kumar Das\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\Amit Kumar Das\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\Amit Kumar Das\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\Amit Kumar Das\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\Amit Kumar Das\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\Amit Kumar Das\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\Amit Kumar Das\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Amit Kumar Das\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\Amit Kumar Das\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Amit Kumar Das\.m2\repository\io\rest-assured\rest-assured\4.3.1\rest-assured-4.3.1.jar;C:\Users\Amit Kumar Das\.m2\repository\org\codehaus\groovy\groovy\3.0.3\groovy-3.0.3.jar;C:\Users\Amit Kumar Das\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.3\groovy-xml-3.0.3.jar;C:\Users\Amit Kumar Das\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\Amit Kumar Das\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\Amit Kumar Das\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Amit Kumar Das\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\Amit Kumar Das\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\Amit Kumar Das\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Amit Kumar Das\.m2\repository\io\rest-assured\json-path\4.3.1\json-path-4.3.1.jar;C:\Users\Amit Kumar Das\.m2\repository\org\codehaus\groovy\groovy-json\3.0.3\groovy-json-3.0.3.jar;C:\Users\Amit Kumar Das\.m2\repository\io\rest-assured\rest-assured-common\4.3.1\rest-assured-common-4.3.1.jar;C:\Users\Amit Kumar Das\.m2\repository\io\rest-assured\xml-path\4.3.1\xml-path-4.3.1.jar;C:\Users\Amit Kumar Das\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\Amit Kumar Das\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Amit Kumar Das\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\Amit Kumar Das\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\Amit Kumar Das\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\Amit Kumar Das\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Amit Kumar Das\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\Amit Kumar Das\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\Amit Kumar Das\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\Amit Kumar Das\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Amit Kumar Das\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Amit Kumar Das\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Amit Kumar Das\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Amit Kumar Das\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\Amit Kumar Das\gitFinal\BestBuy_BDD\BestBUY_BDD\target\test-classes;C:\Users\Amit Kumar Das\gitFinal\BestBuy_BDD\BestBUY_BDD\target\classes;C:\Users\Amit Kumar Das\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.3\log4j-api-2.13.3.jar;C:\Users\Amit Kumar Das\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.3\log4j-core-2.13.3.jar;C:\Users\Amit Kumar Das\.m2\repository\javax\mail\mail\1.4.7\mail-1.4.7.jar;C:\Users\Amit Kumar Das\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\Amit Kumar Das\.m2\repository\com\google\guava\guava\29.0-jre\guava-29.0-jre.jar;C:\Users\Amit Kumar Das\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Amit Kumar Das\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Amit Kumar Das\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Amit Kumar Das\.m2\repository\org\checkerframework\checker-qual\2.11.1\checker-qual-2.11.1.jar;C:\Users\Amit Kumar Das\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\Amit Kumar Das\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Amit Kumar Das\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\Amit Kumar Das\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\Amit Kumar Das\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\Amit Kumar Das\.m2\repository\io\rest-assured\json-schema-validator\4.3.1\json-schema-validator-4.3.1.jar;C:\Users\Amit Kumar Das\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Amit Kumar Das\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\Amit Kumar Das\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\Amit Kumar Das\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.0\jackson-databind-2.11.0.jar;C:\Users\Amit Kumar Das\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.0\jackson-annotations-2.11.0.jar;C:\Users\Amit Kumar Das\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.0\jackson-core-2.11.0.jar;C:\Users\Amit Kumar Das\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\Amit Kumar Das\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\Amit Kumar Das\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\Amit Kumar Das\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\Amit Kumar Das\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\Amit Kumar Das\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\Amit Kumar Das\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\Amit Kumar Das\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Amit Kumar Das\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\Amit Kumar Das\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Amit Kumar Das\.m2\repository\io\rest-assured\rest-assured\4.3.1\rest-assured-4.3.1.jar;C:\Users\Amit Kumar Das\.m2\repository\org\codehaus\groovy\groovy\3.0.3\groovy-3.0.3.jar;C:\Users\Amit Kumar Das\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.3\groovy-xml-3.0.3.jar;C:\Users\Amit Kumar Das\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\Amit Kumar Das\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\Amit Kumar Das\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Amit Kumar Das\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\Amit Kumar Das\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\Amit Kumar Das\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Amit Kumar Das\.m2\repository\io\rest-assured\json-path\4.3.1\json-path-4.3.1.jar;C:\Users\Amit Kumar Das\.m2\repository\org\codehaus\groovy\groovy-json\3.0.3\groovy-json-3.0.3.jar;C:\Users\Amit Kumar Das\.m2\repository\io\rest-assured\rest-assured-common\4.3.1\rest-assured-common-4.3.1.jar;C:\Users\Amit Kumar Das\.m2\repository\io\rest-assured\xml-path\4.3.1\xml-path-4.3.1.jar;C:\Users\Amit Kumar Das\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\Amit Kumar Das\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Amit Kumar Das\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\Amit Kumar Das\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\Amit Kumar Das\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\Amit Kumar Das\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Amit Kumar Das\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\Amit Kumar Das\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\Amit Kumar Das\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\Amit Kumar Das\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Amit Kumar Das\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Amit Kumar Das\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Amit Kumar Das\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Amit Kumar Das\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Amit Kumar Das"/>
     <property name="user.language" value="en"/>
@@ -33,7 +33,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Amit Kumar Das\AppData\Local\Temp\surefire17832623463492886891\surefirebooter15953359062721305352.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Amit Kumar Das\AppData\Local\Temp\surefire16231205377303047772\surefirebooter6366748089370660158.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="12.0.2+10"/>
@@ -58,322 +58,773 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="56.0"/>
   </properties>
-  <testcase name="ProductCategory[Housewares, 903](1)" classname="com.BestBUY_BDD.test.Products" time="1.822"/>
-  <testcase name="ProductCategory[Household Batteries, 206](2)" classname="com.BestBUY_BDD.test.Products" time="0.252"/>
-  <testcase name="ProductCategory[Connected Home &amp; Housewares, 4978](3)" classname="com.BestBUY_BDD.test.Products" time="0.265"/>
-  <testcase name="ProductCategory[4K Ultra HD TVs, 119](4)" classname="com.BestBUY_BDD.test.Products" time="0.234"/>
-  <testcase name="ProductCategory[TVs, 229](5)" classname="com.BestBUY_BDD.test.Products" time="0.24"/>
-  <testcase name="ProductCategory[TV &amp; Home Theater, 2076](6)" classname="com.BestBUY_BDD.test.Products" time="0.235"/>
-  <testcase name="ProductCategory[Alkaline Batteries, 81](7)" classname="com.BestBUY_BDD.test.Products" time="0.226"/>
-  <testcase name="ProductCategory[Car Electronics &amp; GPS, 2646](8)" classname="com.BestBUY_BDD.test.Products" time="0.242"/>
-  <testcase name="ProductCategory[Car Audio, 623](9)" classname="com.BestBUY_BDD.test.Products" time="0.219"/>
-  <testcase name="ProductCategory[Car Speakers, 144](10)" classname="com.BestBUY_BDD.test.Products" time="0.219"/>
-  <testcase name="ProductCategory[Specialty Batteries, 55](11)" classname="com.BestBUY_BDD.test.Products" time="0.22"/>
-  <testcase name="ProductCategoryFilter[Housewares, 800, 500, 79](1)" classname="com.BestBUY_BDD.test.Products" time="0.228">
-    <system-out><![CDATA[Category filter
+  <testcase name="ProductCategory[Housewares, 903](1)" classname="com.BestBUY_BDD.test.Products" time="2.14">
+    <system-out><![CDATA[21:14:55.984 [main] INFO  com.BestBUY_BDD.test.Products - -------------------PRODUCTS TEST STARTED EXECUTION------------------
+21:14:55.991 [main] INFO  com.BestBUY_BDD.test.Products - Test Configuration Started
+21:14:55.991 [main] INFO  com.BestBUY_BDD.test.Products - URL Configured: http://localhost:3030/
+21:14:55.991 [main] INFO  com.BestBUY_BDD.test.Products - Service URL configured: products
+21:14:55.991 [main] INFO  com.BestBUY_BDD.test.Products - System has configured the following application endpoint: http://localhost:3030/products
+21:14:55.992 [main] INFO  com.BestBUY_BDD.test.Products - Test Configuration Completed Successfully
+21:14:56.013 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Tescase started
+21:14:56.013 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get Product Category and Quantity
+21:14:58.149 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Housewares Verified with Quantity: 903
+21:14:58.150 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Completed
 ]]></system-out>
   </testcase>
-  <testcase name="ProductCategoryFilter[Household Batteries, 800, 200, 1](2)" classname="com.BestBUY_BDD.test.Products" time="0.22">
-    <system-out><![CDATA[Category filter
+  <testcase name="ProductCategory[Household Batteries, 206](2)" classname="com.BestBUY_BDD.test.Products" time="0.442">
+    <system-out><![CDATA[21:14:58.152 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Tescase started
+21:14:58.155 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get Product Category and Quantity
+21:14:58.592 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Household Batteries Verified with Quantity: 206
+21:14:58.592 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Completed
 ]]></system-out>
   </testcase>
-  <testcase name="ProductCategoryFilter[Connected Home &amp; Housewares, 800, 500, 163](3)" classname="com.BestBUY_BDD.test.Products" time="0.249">
-    <system-out><![CDATA[Category filter
+  <testcase name="ProductCategory[Connected Home &amp; Housewares, 4978](3)" classname="com.BestBUY_BDD.test.Products" time="0.497">
+    <system-out><![CDATA[21:14:58.594 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Tescase started
+21:14:58.594 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get Product Category and Quantity
+21:14:59.091 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Connected Home & Housewares Verified with Quantity: 4978
+21:14:59.091 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Completed
 ]]></system-out>
   </testcase>
-  <testcase name="ProductCategoryFilter[4K Ultra HD TVs, 800, 500, 20](4)" classname="com.BestBUY_BDD.test.Products" time="0.22">
-    <system-out><![CDATA[Category filter
+  <testcase name="ProductCategory[4K Ultra HD TVs, 119](4)" classname="com.BestBUY_BDD.test.Products" time="0.352">
+    <system-out><![CDATA[21:14:59.092 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Tescase started
+21:14:59.093 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get Product Category and Quantity
+21:14:59.441 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: 4K Ultra HD TVs Verified with Quantity: 119
+21:14:59.444 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Completed
 ]]></system-out>
   </testcase>
-  <testcase name="ProductCategoryFilter[TVs, 800, 500, 29](5)" classname="com.BestBUY_BDD.test.Products" time="0.228">
-    <system-out><![CDATA[Category filter
+  <testcase name="ProductCategory[TVs, 229](5)" classname="com.BestBUY_BDD.test.Products" time="0.265">
+    <system-out><![CDATA[21:14:59.445 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Tescase started
+21:14:59.445 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get Product Category and Quantity
+21:14:59.708 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: TVs Verified with Quantity: 229
+21:14:59.709 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Completed
 ]]></system-out>
   </testcase>
-  <testcase name="ProductCategoryFilter[TV &amp; Home Theater, 800, 500, 157](6)" classname="com.BestBUY_BDD.test.Products" time="0.234">
-    <system-out><![CDATA[Category filter
+  <testcase name="ProductCategory[TV &amp; Home Theater, 2076](6)" classname="com.BestBUY_BDD.test.Products" time="0.545">
+    <system-out><![CDATA[21:14:59.710 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Tescase started
+21:14:59.710 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get Product Category and Quantity
+21:15:00.256 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: TV & Home Theater Verified with Quantity: 2076
+21:15:00.256 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Completed
 ]]></system-out>
   </testcase>
-  <testcase name="ProductCategoryFilter[Alkaline Batteries, 10, 5, 30](7)" classname="com.BestBUY_BDD.test.Products" time="0.221">
-    <system-out><![CDATA[Category filter
+  <testcase name="ProductCategory[Alkaline Batteries, 81](7)" classname="com.BestBUY_BDD.test.Products" time="0.482">
+    <system-out><![CDATA[21:15:00.256 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Tescase started
+21:15:00.257 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get Product Category and Quantity
+21:15:00.733 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Alkaline Batteries Verified with Quantity: 81
+21:15:00.733 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Completed
 ]]></system-out>
   </testcase>
-  <testcase name="ProductCategoryFilter[Car Electronics &amp; GPS, 800, 500, 55](8)" classname="com.BestBUY_BDD.test.Products" time="0.224">
-    <system-out><![CDATA[Category filter
+  <testcase name="ProductCategory[Car Electronics &amp; GPS, 2646](8)" classname="com.BestBUY_BDD.test.Products" time="0.399">
+    <system-out><![CDATA[21:15:00.735 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Tescase started
+21:15:00.735 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get Product Category and Quantity
+21:15:01.134 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Car Electronics & GPS Verified with Quantity: 2646
+21:15:01.135 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Completed
 ]]></system-out>
   </testcase>
-  <testcase name="ProductCategoryFilter[Car Audio, 800, 500, 21](9)" classname="com.BestBUY_BDD.test.Products" time="0.217">
-    <system-out><![CDATA[Category filter
+  <testcase name="ProductCategory[Car Audio, 623](9)" classname="com.BestBUY_BDD.test.Products" time="0.478">
+    <system-out><![CDATA[21:15:01.138 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Tescase started
+21:15:01.139 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get Product Category and Quantity
+21:15:01.613 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Car Audio Verified with Quantity: 623
+21:15:01.614 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Completed
 ]]></system-out>
   </testcase>
-  <testcase name="ProductCategoryFilter[Car Speakers, 800, 500, 1](10)" classname="com.BestBUY_BDD.test.Products" time="0.212">
-    <system-out><![CDATA[Category filter
+  <testcase name="ProductCategory[Car Speakers, 144](10)" classname="com.BestBUY_BDD.test.Products" time="0.581">
+    <system-out><![CDATA[21:15:01.615 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Tescase started
+21:15:01.615 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get Product Category and Quantity
+21:15:02.194 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Car Speakers Verified with Quantity: 144
+21:15:02.194 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Completed
 ]]></system-out>
   </testcase>
-  <testcase name="ProductCategoryFilter[Specialty Batteries, 10, 5, 17](11)" classname="com.BestBUY_BDD.test.Products" time="0.215">
-    <system-out><![CDATA[Category filter
+  <testcase name="ProductCategory[Specialty Batteries, 55](11)" classname="com.BestBUY_BDD.test.Products" time="0.51">
+    <system-out><![CDATA[21:15:02.196 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Tescase started
+21:15:02.196 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get Product Category and Quantity
+21:15:02.705 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Specialty Batteries Verified with Quantity: 55
+21:15:02.705 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Completed
 ]]></system-out>
   </testcase>
-  <testcase name="ProductCategoryFilter[Housewares, 700, 600, 27](12)" classname="com.BestBUY_BDD.test.Products" time="0.234">
-    <system-out><![CDATA[Category filter
+  <testcase name="ProductCategoryFilter[Housewares, 800, 500, 79](1)" classname="com.BestBUY_BDD.test.Products" time="0.482">
+    <system-out><![CDATA[21:15:02.706 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+21:15:02.708 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+21:15:03.184 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Housewares Fitered with less than: 800 and greater than: 500 has Quantity: 79
+21:15:03.184 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
 ]]></system-out>
   </testcase>
-  <testcase name="ProductCategoryFilter[Household Batteries, 10, 5, 66](13)" classname="com.BestBUY_BDD.test.Products" time="0.218">
-    <system-out><![CDATA[Category filter
+  <testcase name="ProductCategoryFilter[Household Batteries, 800, 200, 1](2)" classname="com.BestBUY_BDD.test.Products" time="0.54">
+    <system-out><![CDATA[21:15:03.186 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+21:15:03.186 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+21:15:03.727 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Household Batteries Fitered with less than: 800 and greater than: 200 has Quantity: 1
+21:15:03.727 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
 ]]></system-out>
   </testcase>
-  <testcase name="ProductCategoryFilter[Connected Home &amp; Housewares, 700, 600, 52](14)" classname="com.BestBUY_BDD.test.Products" time="0.249">
-    <system-out><![CDATA[Category filter
+  <testcase name="ProductCategoryFilter[Connected Home &amp; Housewares, 800, 500, 163](3)" classname="com.BestBUY_BDD.test.Products" time="0.552">
+    <system-out><![CDATA[21:15:03.727 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+21:15:03.727 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+21:15:04.278 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Connected Home & Housewares Fitered with less than: 800 and greater than: 500 has Quantity: 163
+21:15:04.278 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
 ]]></system-out>
   </testcase>
-  <testcase name="ProductCategoryFilter[4K Ultra HD TVs, 700, 600, 4](15)" classname="com.BestBUY_BDD.test.Products" time="0.215">
-    <system-out><![CDATA[Category filter
+  <testcase name="ProductCategoryFilter[4K Ultra HD TVs, 800, 500, 20](4)" classname="com.BestBUY_BDD.test.Products" time="0.516">
+    <system-out><![CDATA[21:15:04.279 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+21:15:04.280 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+21:15:04.794 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: 4K Ultra HD TVs Fitered with less than: 800 and greater than: 500 has Quantity: 20
+21:15:04.794 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
 ]]></system-out>
   </testcase>
-  <testcase name="ProductCategoryFilter[TVs, 700, 600, 6](16)" classname="com.BestBUY_BDD.test.Products" time="0.217">
-    <system-out><![CDATA[Category filter
+  <testcase name="ProductCategoryFilter[TVs, 800, 500, 29](5)" classname="com.BestBUY_BDD.test.Products" time="0.471">
+    <system-out><![CDATA[21:15:04.795 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+21:15:04.795 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+21:15:05.265 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: TVs Fitered with less than: 800 and greater than: 500 has Quantity: 29
+21:15:05.265 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
 ]]></system-out>
   </testcase>
-  <testcase name="ProductCategoryFilter[TV &amp; Home Theater, 700, 600, 48](17)" classname="com.BestBUY_BDD.test.Products" time="0.231">
-    <system-out><![CDATA[Category filter
+  <testcase name="ProductCategoryFilter[TV &amp; Home Theater, 800, 500, 157](6)" classname="com.BestBUY_BDD.test.Products" time="0.541">
+    <system-out><![CDATA[21:15:05.266 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+21:15:05.266 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+21:15:05.806 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: TV & Home Theater Fitered with less than: 800 and greater than: 500 has Quantity: 157
+21:15:05.808 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
 ]]></system-out>
   </testcase>
-  <testcase name="ProductCategoryFilter[Alkaline Batteries, 10, 5, 30](18)" classname="com.BestBUY_BDD.test.Products" time="0.214">
-    <system-out><![CDATA[Category filter
+  <testcase name="ProductCategoryFilter[Alkaline Batteries, 10, 5, 30](7)" classname="com.BestBUY_BDD.test.Products" time="0.56">
+    <system-out><![CDATA[21:15:05.808 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+21:15:05.808 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+21:15:06.363 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Alkaline Batteries Fitered with less than: 10 and greater than: 5 has Quantity: 30
+21:15:06.366 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
 ]]></system-out>
   </testcase>
-  <testcase name="ProductCategoryFilter[Car Electronics &amp; GPS, 700, 600, 19](19)" classname="com.BestBUY_BDD.test.Products" time="0.227">
-    <system-out><![CDATA[Category filter
+  <testcase name="ProductCategoryFilter[Car Electronics &amp; GPS, 800, 500, 55](8)" classname="com.BestBUY_BDD.test.Products" time="0.558">
+    <system-out><![CDATA[21:15:06.366 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+21:15:06.367 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+21:15:06.924 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Car Electronics & GPS Fitered with less than: 800 and greater than: 500 has Quantity: 55
+21:15:06.926 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
 ]]></system-out>
   </testcase>
-  <testcase name="ProductCategoryFilter[Car Audio, 700, 600, 9](20)" classname="com.BestBUY_BDD.test.Products" time="0.22">
-    <system-out><![CDATA[Category filter
+  <testcase name="ProductCategoryFilter[Car Audio, 800, 500, 21](9)" classname="com.BestBUY_BDD.test.Products" time="0.504">
+    <system-out><![CDATA[21:15:06.926 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+21:15:06.926 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+21:15:07.421 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Car Audio Fitered with less than: 800 and greater than: 500 has Quantity: 21
+21:15:07.427 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
 ]]></system-out>
   </testcase>
-  <testcase name="ProductCategoryFilter[Car Speakers, 700, 600, 1](21)" classname="com.BestBUY_BDD.test.Products" time="0.219">
-    <system-out><![CDATA[Category filter
+  <testcase name="ProductCategoryFilter[Car Speakers, 800, 500, 1](10)" classname="com.BestBUY_BDD.test.Products" time="0.556">
+    <system-out><![CDATA[21:15:07.427 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+21:15:07.428 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+21:15:07.975 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Car Speakers Fitered with less than: 800 and greater than: 500 has Quantity: 1
+21:15:07.976 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
 ]]></system-out>
   </testcase>
-  <testcase name="ProductCategoryFilter[Specialty Batteries, 20, 10, 8](22)" classname="com.BestBUY_BDD.test.Products" time="0.212">
-    <system-out><![CDATA[Category filter
+  <testcase name="ProductCategoryFilter[Specialty Batteries, 10, 5, 17](11)" classname="com.BestBUY_BDD.test.Products" time="0.549">
+    <system-out><![CDATA[21:15:07.984 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+21:15:07.985 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+21:15:08.533 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Specialty Batteries Fitered with less than: 10 and greater than: 5 has Quantity: 17
+21:15:08.533 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
 ]]></system-out>
   </testcase>
-  <testcase name="ProductNameAndDescription" classname="com.BestBUY_BDD.test.Products" time="0.389">
-    <system-out><![CDATA[Product Name and desc
+  <testcase name="ProductCategoryFilter[Housewares, 700, 600, 27](12)" classname="com.BestBUY_BDD.test.Products" time="0.376">
+    <system-out><![CDATA[21:15:08.534 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+21:15:08.534 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+21:15:08.906 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Housewares Fitered with less than: 700 and greater than: 600 has Quantity: 27
+21:15:08.906 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
 ]]></system-out>
   </testcase>
-  <testcase name="SortProductByPrice[-1, 27999.98](1)" classname="com.BestBUY_BDD.test.Products" time="0.202">
-    <system-out><![CDATA[Sort By Price
+  <testcase name="ProductCategoryFilter[Household Batteries, 10, 5, 66](13)" classname="com.BestBUY_BDD.test.Products" time="0.376">
+    <system-out><![CDATA[21:15:08.908 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+21:15:08.915 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+21:15:09.287 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Household Batteries Fitered with less than: 10 and greater than: 5 has Quantity: 66
+21:15:09.287 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
 ]]></system-out>
   </testcase>
-  <testcase name="SortProductByPrice[1, 0.01](2)" classname="com.BestBUY_BDD.test.Products" time="0.186">
-    <system-out><![CDATA[Sort By Price
+  <testcase name="ProductCategoryFilter[Connected Home &amp; Housewares, 700, 600, 52](14)" classname="com.BestBUY_BDD.test.Products" time="0.567">
+    <system-out><![CDATA[21:15:09.287 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+21:15:09.289 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+21:15:09.853 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Connected Home & Housewares Fitered with less than: 700 and greater than: 600 has Quantity: 52
+21:15:09.853 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
 ]]></system-out>
   </testcase>
-  <testcase name="createProduct" classname="com.BestBUY_BDD.test.Products" time="0.13">
-    <system-out><![CDATA[Create Single Product
+  <testcase name="ProductCategoryFilter[4K Ultra HD TVs, 700, 600, 4](15)" classname="com.BestBUY_BDD.test.Products" time="0.529">
+    <system-out><![CDATA[21:15:09.854 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+21:15:09.856 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+21:15:10.382 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: 4K Ultra HD TVs Fitered with less than: 700 and greater than: 600 has Quantity: 4
+21:15:10.382 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
 ]]></system-out>
   </testcase>
-  <testcase name="getProductById" classname="com.BestBUY_BDD.test.Products" time="0.046">
-    <system-out><![CDATA[Get single product
+  <testcase name="ProductCategoryFilter[TVs, 700, 600, 6](16)" classname="com.BestBUY_BDD.test.Products" time="0.456">
+    <system-out><![CDATA[21:15:10.382 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+21:15:10.384 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+21:15:10.837 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: TVs Fitered with less than: 700 and greater than: 600 has Quantity: 6
+21:15:10.838 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
 ]]></system-out>
   </testcase>
-  <testcase name="updateProduct" classname="com.BestBUY_BDD.test.Products" time="0.081">
-    <system-out><![CDATA[Update single product
+  <testcase name="ProductCategoryFilter[TV &amp; Home Theater, 700, 600, 48](17)" classname="com.BestBUY_BDD.test.Products" time="0.275">
+    <system-out><![CDATA[21:15:10.838 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+21:15:10.838 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+21:15:11.113 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: TV & Home Theater Fitered with less than: 700 and greater than: 600 has Quantity: 48
+21:15:11.113 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
 ]]></system-out>
   </testcase>
-  <testcase name="deleteProductById" classname="com.BestBUY_BDD.test.Products" time="0.018">
-    <system-out><![CDATA[Delete single product
+  <testcase name="ProductCategoryFilter[Alkaline Batteries, 10, 5, 30](18)" classname="com.BestBUY_BDD.test.Products" time="0.42">
+    <system-out><![CDATA[21:15:11.114 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+21:15:11.114 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+21:15:11.533 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Alkaline Batteries Fitered with less than: 10 and greater than: 5 has Quantity: 30
+21:15:11.533 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
 ]]></system-out>
   </testcase>
-  <testcase name="createMultipleProducts[Prod1, type1, 123.12, model1, upc1, desc1](1)" classname="com.BestBUY_BDD.test.Products" time="0.082">
-    <system-out><![CDATA[Product Id: 10000105
-Creating multiple product id: 10000105
+  <testcase name="ProductCategoryFilter[Car Electronics &amp; GPS, 700, 600, 19](19)" classname="com.BestBUY_BDD.test.Products" time="0.56">
+    <system-out><![CDATA[21:15:11.534 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+21:15:11.534 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+21:15:12.091 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Car Electronics & GPS Fitered with less than: 700 and greater than: 600 has Quantity: 19
+21:15:12.091 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
 ]]></system-out>
   </testcase>
-  <testcase name="createMultipleProducts[Prod2, type2, 12.12, model2, upc2, desc2](2)" classname="com.BestBUY_BDD.test.Products" time="0.058">
-    <system-out><![CDATA[Product Id: 10000106
-Creating multiple product id: 10000106
+  <testcase name="ProductCategoryFilter[Car Audio, 700, 600, 9](20)" classname="com.BestBUY_BDD.test.Products" time="0.514">
+    <system-out><![CDATA[21:15:12.092 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+21:15:12.092 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+21:15:12.606 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Car Audio Fitered with less than: 700 and greater than: 600 has Quantity: 9
+21:15:12.606 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
 ]]></system-out>
   </testcase>
-  <testcase name="createMultipleProducts[Prod3, type3, 125.12, model3, upc3, desc3](3)" classname="com.BestBUY_BDD.test.Products" time="0.057">
-    <system-out><![CDATA[Product Id: 10000107
-Creating multiple product id: 10000107
+  <testcase name="ProductCategoryFilter[Car Speakers, 700, 600, 1](21)" classname="com.BestBUY_BDD.test.Products" time="0.513">
+    <system-out><![CDATA[21:15:12.606 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+21:15:12.607 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+21:15:13.114 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Car Speakers Fitered with less than: 700 and greater than: 600 has Quantity: 1
+21:15:13.119 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
 ]]></system-out>
   </testcase>
-  <testcase name="createMultipleProducts[Prod4, type4, 126.12, model4, upc4, desc4](4)" classname="com.BestBUY_BDD.test.Products" time="0.054">
-    <system-out><![CDATA[Product Id: 10000108
-Creating multiple product id: 10000108
-]]></system-out>
-  </testcase>
-  <testcase name="createMultipleProducts[Prod5, type5, 127.12, model5, upc5, desc5](5)" classname="com.BestBUY_BDD.test.Products" time="0.062">
-    <system-out><![CDATA[Product Id: 10000109
-Creating multiple product id: 10000109
-]]></system-out>
-  </testcase>
-  <testcase name="createMultipleProducts[Prod6, type6, 128.12, model6, upc6, desc6](6)" classname="com.BestBUY_BDD.test.Products" time="0.055">
-    <system-out><![CDATA[Product Id: 10000110
-Creating multiple product id: 10000110
-]]></system-out>
-  </testcase>
-  <testcase name="createMultipleProducts[Prod7, type7, 129.12, model7, upc7, desc7](7)" classname="com.BestBUY_BDD.test.Products" time="0.059">
-    <system-out><![CDATA[Product Id: 10000111
-Creating multiple product id: 10000111
-]]></system-out>
-  </testcase>
-  <testcase name="createMultipleProducts[Prod8, type8, 121.12, model8, upc8, desc8](8)" classname="com.BestBUY_BDD.test.Products" time="0.065">
-    <system-out><![CDATA[Product Id: 10000112
-Creating multiple product id: 10000112
-]]></system-out>
-  </testcase>
-  <testcase name="createMultipleProducts[Prod9, type9, 121.12, model9, upc9, desc9](9)" classname="com.BestBUY_BDD.test.Products" time="0.061">
-    <system-out><![CDATA[Product Id: 10000113
-Creating multiple product id: 10000113
-]]></system-out>
-  </testcase>
-  <testcase name="createMultipleProducts[Prod10, type10, 12.12, model10, upc10, desc10](10)" classname="com.BestBUY_BDD.test.Products" time="0.067">
-    <system-out><![CDATA[Product Id: 10000114
-Creating multiple product id: 10000114
-]]></system-out>
-  </testcase>
-  <testcase name="createMultipleProducts[Prod11, type11, 121.12, model11, upc11, desc11](11)" classname="com.BestBUY_BDD.test.Products" time="0.058">
-    <system-out><![CDATA[Product Id: 10000115
-Creating multiple product id: 10000115
-]]></system-out>
-  </testcase>
-  <testcase name="getMultipleProductsById[10000105, Prod1, type1, 123.12, model1, upc1, desc1](1)" classname="com.BestBUY_BDD.test.Products" time="0.044">
-    <system-out><![CDATA[Get Multiple Products ID: 10000105
-]]></system-out>
-  </testcase>
-  <testcase name="getMultipleProductsById[10000106, Prod2, type2, 12.12, model2, upc2, desc2](2)" classname="com.BestBUY_BDD.test.Products" time="0.047">
-    <system-out><![CDATA[Get Multiple Products ID: 10000106
-]]></system-out>
-  </testcase>
-  <testcase name="getMultipleProductsById[10000107, Prod3, type3, 125.12, model3, upc3, desc3](3)" classname="com.BestBUY_BDD.test.Products" time="0.043">
-    <system-out><![CDATA[Get Multiple Products ID: 10000107
-]]></system-out>
-  </testcase>
-  <testcase name="getMultipleProductsById[10000108, Prod4, type4, 126.12, model4, upc4, desc4](4)" classname="com.BestBUY_BDD.test.Products" time="0.052">
-    <system-out><![CDATA[Get Multiple Products ID: 10000108
-]]></system-out>
-  </testcase>
-  <testcase name="getMultipleProductsById[10000109, Prod5, type5, 127.12, model5, upc5, desc5](5)" classname="com.BestBUY_BDD.test.Products" time="0.044">
-    <system-out><![CDATA[Get Multiple Products ID: 10000109
-]]></system-out>
-  </testcase>
-  <testcase name="getMultipleProductsById[10000110, Prod6, type6, 128.12, model6, upc6, desc6](6)" classname="com.BestBUY_BDD.test.Products" time="0.049">
-    <system-out><![CDATA[Get Multiple Products ID: 10000110
-]]></system-out>
-  </testcase>
-  <testcase name="getMultipleProductsById[10000111, Prod7, type7, 129.12, model7, upc7, desc7](7)" classname="com.BestBUY_BDD.test.Products" time="0.045">
-    <system-out><![CDATA[Get Multiple Products ID: 10000111
-]]></system-out>
-  </testcase>
-  <testcase name="getMultipleProductsById[10000112, Prod8, type8, 121.12, model8, upc8, desc8](8)" classname="com.BestBUY_BDD.test.Products" time="0.043">
-    <system-out><![CDATA[Get Multiple Products ID: 10000112
-]]></system-out>
-  </testcase>
-  <testcase name="getMultipleProductsById[10000113, Prod9, type9, 121.12, model9, upc9, desc9](9)" classname="com.BestBUY_BDD.test.Products" time="0.056">
-    <system-out><![CDATA[Get Multiple Products ID: 10000113
-]]></system-out>
-  </testcase>
-  <testcase name="getMultipleProductsById[10000114, Prod10, type10, 12.12, model10, upc10, desc10](10)" classname="com.BestBUY_BDD.test.Products" time="0.042">
-    <system-out><![CDATA[Get Multiple Products ID: 10000114
-]]></system-out>
-  </testcase>
-  <testcase name="getMultipleProductsById[10000115, Prod11, type11, 121.12, model11, upc11, desc11](11)" classname="com.BestBUY_BDD.test.Products" time="0.046">
-    <system-out><![CDATA[Get Multiple Products ID: 10000115
-]]></system-out>
-  </testcase>
-  <testcase name="updateMultipleProducts[10000105, Prod1, type1, 123.12, model1, upc1, desc1](1)" classname="com.BestBUY_BDD.test.Products" time="0.077">
-    <system-out><![CDATA[Patch product id: 10000105
-]]></system-out>
-  </testcase>
-  <testcase name="updateMultipleProducts[10000106, Prod2, type2, 12.12, model2, upc2, desc2](2)" classname="com.BestBUY_BDD.test.Products" time="0.051">
-    <system-out><![CDATA[Patch product id: 10000106
-]]></system-out>
-  </testcase>
-  <testcase name="updateMultipleProducts[10000107, Prod3, type3, 125.12, model3, upc3, desc3](3)" classname="com.BestBUY_BDD.test.Products" time="0.047">
-    <system-out><![CDATA[Patch product id: 10000107
-]]></system-out>
-  </testcase>
-  <testcase name="updateMultipleProducts[10000108, Prod4, type4, 126.12, model4, upc4, desc4](4)" classname="com.BestBUY_BDD.test.Products" time="0.044">
-    <system-out><![CDATA[Patch product id: 10000108
-]]></system-out>
-  </testcase>
-  <testcase name="updateMultipleProducts[10000109, Prod5, type5, 127.12, model5, upc5, desc5](5)" classname="com.BestBUY_BDD.test.Products" time="0.062">
-    <system-out><![CDATA[Patch product id: 10000109
-]]></system-out>
-  </testcase>
-  <testcase name="updateMultipleProducts[10000110, Prod6, type6, 128.12, model6, upc6, desc6](6)" classname="com.BestBUY_BDD.test.Products" time="0.053">
-    <system-out><![CDATA[Patch product id: 10000110
-]]></system-out>
-  </testcase>
-  <testcase name="updateMultipleProducts[10000111, Prod7, type7, 129.12, model7, upc7, desc7](7)" classname="com.BestBUY_BDD.test.Products" time="0.043">
-    <system-out><![CDATA[Patch product id: 10000111
-]]></system-out>
-  </testcase>
-  <testcase name="updateMultipleProducts[10000112, Prod8, type8, 121.12, model8, upc8, desc8](8)" classname="com.BestBUY_BDD.test.Products" time="0.043">
-    <system-out><![CDATA[Patch product id: 10000112
-]]></system-out>
-  </testcase>
-  <testcase name="updateMultipleProducts[10000113, Prod9, type9, 121.12, model9, upc9, desc9](9)" classname="com.BestBUY_BDD.test.Products" time="0.06">
-    <system-out><![CDATA[Patch product id: 10000113
-]]></system-out>
-  </testcase>
-  <testcase name="updateMultipleProducts[10000114, Prod10, type10, 12.12, model10, upc10, desc10](10)" classname="com.BestBUY_BDD.test.Products" time="0.044">
-    <system-out><![CDATA[Patch product id: 10000114
-]]></system-out>
-  </testcase>
-  <testcase name="updateMultipleProducts[10000115, Prod11, type11, 121.12, model11, upc11, desc11](11)" classname="com.BestBUY_BDD.test.Products" time="0.045">
-    <system-out><![CDATA[Patch product id: 10000115
-]]></system-out>
-  </testcase>
-  <testcase name="deleteMultipleProducts[10000105](1)" classname="com.BestBUY_BDD.test.Products" time="0.013">
-    <system-out><![CDATA[Deleting ProdID: 10000105
-]]></system-out>
-  </testcase>
-  <testcase name="deleteMultipleProducts[10000106](2)" classname="com.BestBUY_BDD.test.Products" time="0.012">
-    <system-out><![CDATA[Deleting ProdID: 10000106
-]]></system-out>
-  </testcase>
-  <testcase name="deleteMultipleProducts[10000107](3)" classname="com.BestBUY_BDD.test.Products" time="0.012">
-    <system-out><![CDATA[Deleting ProdID: 10000107
-]]></system-out>
-  </testcase>
-  <testcase name="deleteMultipleProducts[10000108](4)" classname="com.BestBUY_BDD.test.Products" time="0.013">
-    <system-out><![CDATA[Deleting ProdID: 10000108
-]]></system-out>
-  </testcase>
-  <testcase name="deleteMultipleProducts[10000109](5)" classname="com.BestBUY_BDD.test.Products" time="0.01">
-    <system-out><![CDATA[Deleting ProdID: 10000109
-]]></system-out>
-  </testcase>
-  <testcase name="deleteMultipleProducts[10000110](6)" classname="com.BestBUY_BDD.test.Products" time="0.013">
-    <system-out><![CDATA[Deleting ProdID: 10000110
-]]></system-out>
-  </testcase>
-  <testcase name="deleteMultipleProducts[10000111](7)" classname="com.BestBUY_BDD.test.Products" time="0.013">
-    <system-out><![CDATA[Deleting ProdID: 10000111
-]]></system-out>
-  </testcase>
-  <testcase name="deleteMultipleProducts[10000112](8)" classname="com.BestBUY_BDD.test.Products" time="0.014">
-    <system-out><![CDATA[Deleting ProdID: 10000112
-]]></system-out>
-  </testcase>
-  <testcase name="deleteMultipleProducts[10000113](9)" classname="com.BestBUY_BDD.test.Products" time="0.015">
-    <system-out><![CDATA[Deleting ProdID: 10000113
-]]></system-out>
-  </testcase>
-  <testcase name="deleteMultipleProducts[10000114](10)" classname="com.BestBUY_BDD.test.Products" time="0.012">
-    <system-out><![CDATA[Deleting ProdID: 10000114
-]]></system-out>
-  </testcase>
-  <testcase name="deleteMultipleProducts[10000115](11)" classname="com.BestBUY_BDD.test.Products" time="0.012">
-    <system-out><![CDATA[Deleting ProdID: 10000115
-]]></system-out>
-  </testcase>
-  <testcase name="ProductsCount" classname="com.BestBUY_BDD.test.Products" time="0.171">
-    <system-out><![CDATA[Products Count
+  <testcase name="ProductCategoryFilter[Specialty Batteries, 20, 10, 8](22)" classname="com.BestBUY_BDD.test.Products" time="0.531">
+    <system-out><![CDATA[21:15:13.120 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+21:15:13.120 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+21:15:13.649 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Specialty Batteries Fitered with less than: 20 and greater than: 10 has Quantity: 8
+21:15:13.651 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
+]]></system-out>
+  </testcase>
+  <testcase name="ProductNameAndDescription" classname="com.BestBUY_BDD.test.Products" time="0.548">
+    <system-out><![CDATA[21:15:13.651 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Name and Description Tescase started
+21:15:13.651 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get Product Name and Description
+21:15:14.195 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Name and Description Verified Successfully
+21:15:14.195 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Name and Description Completed
+]]></system-out>
+  </testcase>
+  <testcase name="SortProductByPrice[-1, 27999.98](1)" classname="com.BestBUY_BDD.test.Products" time="0.331">
+    <system-out><![CDATA[21:15:14.201 [main] INFO  com.BestBUY_BDD.test.Products - Sort Product by Price Tescase started
+21:15:14.201 [main] INFO  com.BestBUY_BDD.test.Products - Test case to sort the products by price
+21:15:14.530 [main] INFO  com.BestBUY_BDD.test.Products - Sort Product by Price Verified Successfully
+21:15:14.530 [main] INFO  com.BestBUY_BDD.test.Products - Sort Product by Price Tescase Completed
+]]></system-out>
+  </testcase>
+  <testcase name="SortProductByPrice[1, 0.01](2)" classname="com.BestBUY_BDD.test.Products" time="0.533">
+    <system-out><![CDATA[21:15:14.531 [main] INFO  com.BestBUY_BDD.test.Products - Sort Product by Price Tescase started
+21:15:14.531 [main] INFO  com.BestBUY_BDD.test.Products - Test case to sort the products by price
+21:15:15.063 [main] INFO  com.BestBUY_BDD.test.Products - Sort Product by Price Verified Successfully
+21:15:15.063 [main] INFO  com.BestBUY_BDD.test.Products - Sort Product by Price Tescase Completed
+]]></system-out>
+  </testcase>
+  <testcase name="createProduct" classname="com.BestBUY_BDD.test.Products" time="0.158">
+    <system-out><![CDATA[21:15:15.064 [main] INFO  com.BestBUY_BDD.test.Products - Creating product with request json Tescase started
+21:15:15.065 [main] INFO  com.BestBUY_BDD.test.Products - Test case to create product with json request
+21:15:15.215 [main] INFO  com.BestBUY_BDD.test.Products - Product created with ID: 10000224
+21:15:15.217 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Name: New Product
+21:15:15.217 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Type: Hard Good
+21:15:15.217 [main] INFO  com.BestBUY_BDD.test.Products - Product created with UPC: 12345676
+21:15:15.217 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Price: 99.99
+21:15:15.217 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Model: NP12345
+21:15:15.217 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Desc: This is a placeholder request for creating a new product.
+21:15:15.219 [main] INFO  com.BestBUY_BDD.test.Products - Creating product with request json Tescase verified successfully
+21:15:15.219 [main] INFO  com.BestBUY_BDD.test.Products - Creating product with request json Completed
+]]></system-out>
+  </testcase>
+  <testcase name="getProductById" classname="com.BestBUY_BDD.test.Products" time="0.059">
+    <system-out><![CDATA[21:15:15.221 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase started
+21:15:15.222 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get product by id
+21:15:15.278 [main] INFO  com.BestBUY_BDD.test.Products - Get Product By Id verified successfully with id: 10000224
+21:15:15.280 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase Completed
+]]></system-out>
+  </testcase>
+  <testcase name="updateProduct" classname="com.BestBUY_BDD.test.Products" time="0.118">
+    <system-out><![CDATA[21:15:15.281 [main] INFO  com.BestBUY_BDD.test.Products - Updating product with request json Tescase started
+21:15:15.281 [main] INFO  com.BestBUY_BDD.test.Products - Test case to update product with json request
+21:15:15.391 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with ID: 10000224
+21:15:15.391 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Name: New Product1
+21:15:15.393 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Type: Hard Good1
+21:15:15.393 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with UPC: 12345674
+21:15:15.393 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Price: 99.99
+21:15:15.393 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Model: NP123451
+21:15:15.393 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Desc: This is a placeholder request for creating a new product.
+21:15:15.393 [main] INFO  com.BestBUY_BDD.test.Products - Updating product with request json Tescase verified successfully
+21:15:15.395 [main] INFO  com.BestBUY_BDD.test.Products - Updating product with request json Completed
+]]></system-out>
+  </testcase>
+  <testcase name="deleteProductById" classname="com.BestBUY_BDD.test.Products" time="0.017">
+    <system-out><![CDATA[21:15:15.396 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase started
+21:15:15.396 [main] INFO  com.BestBUY_BDD.test.Products - Test case to Deleting product by id
+21:15:15.414 [main] INFO  com.BestBUY_BDD.test.Products - Deleting Product By Id verified successfully with id: 10000224
+21:15:15.414 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase Completed
+]]></system-out>
+  </testcase>
+  <testcase name="createMultipleProducts[Prod1, type1, 123.12, model1, upc1, desc1](1)" classname="com.BestBUY_BDD.test.Products" time="0.088">
+    <system-out><![CDATA[21:15:15.417 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase started
+21:15:15.417 [main] INFO  com.BestBUY_BDD.test.Products - Test case to create multiple products with request params
+21:15:15.496 [main] INFO  com.BestBUY_BDD.test.Products - Product created with ID: 10000225
+21:15:15.496 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Name: Prod1
+21:15:15.496 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Type: type1
+21:15:15.499 [main] INFO  com.BestBUY_BDD.test.Products - Product created with UPC: upc1
+21:15:15.499 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Price: 123.12
+21:15:15.499 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Model: model1
+21:15:15.499 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Desc: desc1
+21:15:15.499 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase verified successfully
+21:15:15.499 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Completed
+]]></system-out>
+  </testcase>
+  <testcase name="createMultipleProducts[Prod2, type2, 12.12, model2, upc2, desc2](2)" classname="com.BestBUY_BDD.test.Products" time="0.076">
+    <system-out><![CDATA[21:15:15.501 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase started
+21:15:15.501 [main] INFO  com.BestBUY_BDD.test.Products - Test case to create multiple products with request params
+21:15:15.572 [main] INFO  com.BestBUY_BDD.test.Products - Product created with ID: 10000226
+21:15:15.572 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Name: Prod2
+21:15:15.572 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Type: type2
+21:15:15.574 [main] INFO  com.BestBUY_BDD.test.Products - Product created with UPC: upc2
+21:15:15.575 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Price: 12.12
+21:15:15.575 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Model: model2
+21:15:15.575 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Desc: desc2
+21:15:15.575 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase verified successfully
+21:15:15.575 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Completed
+]]></system-out>
+  </testcase>
+  <testcase name="createMultipleProducts[Prod3, type3, 125.12, model3, upc3, desc3](3)" classname="com.BestBUY_BDD.test.Products" time="0.075">
+    <system-out><![CDATA[21:15:15.577 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase started
+21:15:15.578 [main] INFO  com.BestBUY_BDD.test.Products - Test case to create multiple products with request params
+21:15:15.647 [main] INFO  com.BestBUY_BDD.test.Products - Product created with ID: 10000227
+21:15:15.648 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Name: Prod3
+21:15:15.648 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Type: type3
+21:15:15.650 [main] INFO  com.BestBUY_BDD.test.Products - Product created with UPC: upc3
+21:15:15.650 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Price: 125.12
+21:15:15.650 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Model: model3
+21:15:15.650 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Desc: desc3
+21:15:15.650 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase verified successfully
+21:15:15.650 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Completed
+]]></system-out>
+  </testcase>
+  <testcase name="createMultipleProducts[Prod4, type4, 126.12, model4, upc4, desc4](4)" classname="com.BestBUY_BDD.test.Products" time="0.078">
+    <system-out><![CDATA[21:15:15.652 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase started
+21:15:15.653 [main] INFO  com.BestBUY_BDD.test.Products - Test case to create multiple products with request params
+21:15:15.725 [main] INFO  com.BestBUY_BDD.test.Products - Product created with ID: 10000228
+21:15:15.725 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Name: Prod4
+21:15:15.726 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Type: type4
+21:15:15.727 [main] INFO  com.BestBUY_BDD.test.Products - Product created with UPC: upc4
+21:15:15.727 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Price: 126.12
+21:15:15.727 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Model: model4
+21:15:15.728 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Desc: desc4
+21:15:15.729 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase verified successfully
+21:15:15.729 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Completed
+]]></system-out>
+  </testcase>
+  <testcase name="createMultipleProducts[Prod5, type5, 127.12, model5, upc5, desc5](5)" classname="com.BestBUY_BDD.test.Products" time="0.081">
+    <system-out><![CDATA[21:15:15.730 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase started
+21:15:15.730 [main] INFO  com.BestBUY_BDD.test.Products - Test case to create multiple products with request params
+21:15:15.806 [main] INFO  com.BestBUY_BDD.test.Products - Product created with ID: 10000229
+21:15:15.806 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Name: Prod5
+21:15:15.806 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Type: type5
+21:15:15.808 [main] INFO  com.BestBUY_BDD.test.Products - Product created with UPC: upc5
+21:15:15.808 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Price: 127.12
+21:15:15.808 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Model: model5
+21:15:15.808 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Desc: desc5
+21:15:15.809 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase verified successfully
+21:15:15.809 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Completed
+]]></system-out>
+  </testcase>
+  <testcase name="createMultipleProducts[Prod6, type6, 128.12, model6, upc6, desc6](6)" classname="com.BestBUY_BDD.test.Products" time="0.081">
+    <system-out><![CDATA[21:15:15.811 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase started
+21:15:15.811 [main] INFO  com.BestBUY_BDD.test.Products - Test case to create multiple products with request params
+21:15:15.889 [main] INFO  com.BestBUY_BDD.test.Products - Product created with ID: 10000230
+21:15:15.889 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Name: Prod6
+21:15:15.889 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Type: type6
+21:15:15.891 [main] INFO  com.BestBUY_BDD.test.Products - Product created with UPC: upc6
+21:15:15.891 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Price: 128.12
+21:15:15.891 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Model: model6
+21:15:15.892 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Desc: desc6
+21:15:15.892 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase verified successfully
+21:15:15.892 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Completed
+]]></system-out>
+  </testcase>
+  <testcase name="createMultipleProducts[Prod7, type7, 129.12, model7, upc7, desc7](7)" classname="com.BestBUY_BDD.test.Products" time="0.071">
+    <system-out><![CDATA[21:15:15.893 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase started
+21:15:15.893 [main] INFO  com.BestBUY_BDD.test.Products - Test case to create multiple products with request params
+21:15:15.959 [main] INFO  com.BestBUY_BDD.test.Products - Product created with ID: 10000231
+21:15:15.959 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Name: Prod7
+21:15:15.959 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Type: type7
+21:15:15.961 [main] INFO  com.BestBUY_BDD.test.Products - Product created with UPC: upc7
+21:15:15.961 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Price: 129.12
+21:15:15.961 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Model: model7
+21:15:15.961 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Desc: desc7
+21:15:15.961 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase verified successfully
+21:15:15.962 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Completed
+]]></system-out>
+  </testcase>
+  <testcase name="createMultipleProducts[Prod8, type8, 121.12, model8, upc8, desc8](8)" classname="com.BestBUY_BDD.test.Products" time="0.08">
+    <system-out><![CDATA[21:15:15.964 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase started
+21:15:15.964 [main] INFO  com.BestBUY_BDD.test.Products - Test case to create multiple products with request params
+21:15:16.040 [main] INFO  com.BestBUY_BDD.test.Products - Product created with ID: 10000232
+21:15:16.040 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Name: Prod8
+21:15:16.040 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Type: type8
+21:15:16.042 [main] INFO  com.BestBUY_BDD.test.Products - Product created with UPC: upc8
+21:15:16.042 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Price: 121.12
+21:15:16.042 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Model: model8
+21:15:16.042 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Desc: desc8
+21:15:16.042 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase verified successfully
+21:15:16.042 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Completed
+]]></system-out>
+  </testcase>
+  <testcase name="createMultipleProducts[Prod9, type9, 121.12, model9, upc9, desc9](9)" classname="com.BestBUY_BDD.test.Products" time="0.072">
+    <system-out><![CDATA[21:15:16.044 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase started
+21:15:16.045 [main] INFO  com.BestBUY_BDD.test.Products - Test case to create multiple products with request params
+21:15:16.111 [main] INFO  com.BestBUY_BDD.test.Products - Product created with ID: 10000233
+21:15:16.111 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Name: Prod9
+21:15:16.111 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Type: type9
+21:15:16.115 [main] INFO  com.BestBUY_BDD.test.Products - Product created with UPC: upc9
+21:15:16.115 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Price: 121.12
+21:15:16.115 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Model: model9
+21:15:16.115 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Desc: desc9
+21:15:16.115 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase verified successfully
+21:15:16.115 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Completed
+]]></system-out>
+  </testcase>
+  <testcase name="createMultipleProducts[Prod10, type10, 12.12, model10, upc10, desc10](10)" classname="com.BestBUY_BDD.test.Products" time="0.088">
+    <system-out><![CDATA[21:15:16.117 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase started
+21:15:16.117 [main] INFO  com.BestBUY_BDD.test.Products - Test case to create multiple products with request params
+21:15:16.197 [main] INFO  com.BestBUY_BDD.test.Products - Product created with ID: 10000234
+21:15:16.197 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Name: Prod10
+21:15:16.198 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Type: type10
+21:15:16.200 [main] INFO  com.BestBUY_BDD.test.Products - Product created with UPC: upc10
+21:15:16.200 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Price: 12.12
+21:15:16.200 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Model: model10
+21:15:16.200 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Desc: desc10
+21:15:16.200 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase verified successfully
+21:15:16.200 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Completed
+]]></system-out>
+  </testcase>
+  <testcase name="createMultipleProducts[Prod11, type11, 121.12, model11, upc11, desc11](11)" classname="com.BestBUY_BDD.test.Products" time="0.086">
+    <system-out><![CDATA[21:15:16.203 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase started
+21:15:16.204 [main] INFO  com.BestBUY_BDD.test.Products - Test case to create multiple products with request params
+21:15:16.286 [main] INFO  com.BestBUY_BDD.test.Products - Product created with ID: 10000235
+21:15:16.286 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Name: Prod11
+21:15:16.286 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Type: type11
+21:15:16.288 [main] INFO  com.BestBUY_BDD.test.Products - Product created with UPC: upc11
+21:15:16.288 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Price: 121.12
+21:15:16.288 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Model: model11
+21:15:16.288 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Desc: desc11
+21:15:16.288 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase verified successfully
+21:15:16.288 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Completed
+]]></system-out>
+  </testcase>
+  <testcase name="getMultipleProductsById[10000225, Prod1, type1, 123.12, model1, upc1, desc1](1)" classname="com.BestBUY_BDD.test.Products" time="0.06">
+    <system-out><![CDATA[21:15:16.291 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase started
+21:15:16.291 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get product by id
+21:15:16.353 [main] INFO  com.BestBUY_BDD.test.Products - Get Product By Id verified successfully with id: 10000235
+21:15:16.353 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase Completed
+]]></system-out>
+  </testcase>
+  <testcase name="getMultipleProductsById[10000226, Prod2, type2, 12.12, model2, upc2, desc2](2)" classname="com.BestBUY_BDD.test.Products" time="0.056">
+    <system-out><![CDATA[21:15:16.353 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase started
+21:15:16.355 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get product by id
+21:15:16.409 [main] INFO  com.BestBUY_BDD.test.Products - Get Product By Id verified successfully with id: 10000235
+21:15:16.409 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase Completed
+]]></system-out>
+  </testcase>
+  <testcase name="getMultipleProductsById[10000227, Prod3, type3, 125.12, model3, upc3, desc3](3)" classname="com.BestBUY_BDD.test.Products" time="0.057">
+    <system-out><![CDATA[21:15:16.410 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase started
+21:15:16.411 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get product by id
+21:15:16.464 [main] INFO  com.BestBUY_BDD.test.Products - Get Product By Id verified successfully with id: 10000235
+21:15:16.466 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase Completed
+]]></system-out>
+  </testcase>
+  <testcase name="getMultipleProductsById[10000228, Prod4, type4, 126.12, model4, upc4, desc4](4)" classname="com.BestBUY_BDD.test.Products" time="0.058">
+    <system-out><![CDATA[21:15:16.466 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase started
+21:15:16.467 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get product by id
+21:15:16.521 [main] INFO  com.BestBUY_BDD.test.Products - Get Product By Id verified successfully with id: 10000235
+21:15:16.521 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase Completed
+]]></system-out>
+  </testcase>
+  <testcase name="getMultipleProductsById[10000229, Prod5, type5, 127.12, model5, upc5, desc5](5)" classname="com.BestBUY_BDD.test.Products" time="0.058">
+    <system-out><![CDATA[21:15:16.524 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase started
+21:15:16.524 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get product by id
+21:15:16.582 [main] INFO  com.BestBUY_BDD.test.Products - Get Product By Id verified successfully with id: 10000235
+21:15:16.582 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase Completed
+]]></system-out>
+  </testcase>
+  <testcase name="getMultipleProductsById[10000230, Prod6, type6, 128.12, model6, upc6, desc6](6)" classname="com.BestBUY_BDD.test.Products" time="0.054">
+    <system-out><![CDATA[21:15:16.583 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase started
+21:15:16.584 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get product by id
+21:15:16.636 [main] INFO  com.BestBUY_BDD.test.Products - Get Product By Id verified successfully with id: 10000235
+21:15:16.637 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase Completed
+]]></system-out>
+  </testcase>
+  <testcase name="getMultipleProductsById[10000231, Prod7, type7, 129.12, model7, upc7, desc7](7)" classname="com.BestBUY_BDD.test.Products" time="0.064">
+    <system-out><![CDATA[21:15:16.637 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase started
+21:15:16.637 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get product by id
+21:15:16.699 [main] INFO  com.BestBUY_BDD.test.Products - Get Product By Id verified successfully with id: 10000235
+21:15:16.701 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase Completed
+]]></system-out>
+  </testcase>
+  <testcase name="getMultipleProductsById[10000232, Prod8, type8, 121.12, model8, upc8, desc8](8)" classname="com.BestBUY_BDD.test.Products" time="0.057">
+    <system-out><![CDATA[21:15:16.702 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase started
+21:15:16.702 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get product by id
+21:15:16.755 [main] INFO  com.BestBUY_BDD.test.Products - Get Product By Id verified successfully with id: 10000235
+21:15:16.755 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase Completed
+]]></system-out>
+  </testcase>
+  <testcase name="getMultipleProductsById[10000233, Prod9, type9, 121.12, model9, upc9, desc9](9)" classname="com.BestBUY_BDD.test.Products" time="0.063">
+    <system-out><![CDATA[21:15:16.757 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase started
+21:15:16.758 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get product by id
+21:15:16.821 [main] INFO  com.BestBUY_BDD.test.Products - Get Product By Id verified successfully with id: 10000235
+21:15:16.821 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase Completed
+]]></system-out>
+  </testcase>
+  <testcase name="getMultipleProductsById[10000234, Prod10, type10, 12.12, model10, upc10, desc10](10)" classname="com.BestBUY_BDD.test.Products" time="0.056">
+    <system-out><![CDATA[21:15:16.821 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase started
+21:15:16.823 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get product by id
+21:15:16.876 [main] INFO  com.BestBUY_BDD.test.Products - Get Product By Id verified successfully with id: 10000235
+21:15:16.877 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase Completed
+]]></system-out>
+  </testcase>
+  <testcase name="getMultipleProductsById[10000235, Prod11, type11, 121.12, model11, upc11, desc11](11)" classname="com.BestBUY_BDD.test.Products" time="0.057">
+    <system-out><![CDATA[21:15:16.877 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase started
+21:15:16.877 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get product by id
+21:15:16.931 [main] INFO  com.BestBUY_BDD.test.Products - Get Product By Id verified successfully with id: 10000235
+21:15:16.933 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase Completed
+]]></system-out>
+  </testcase>
+  <testcase name="updateMultipleProducts[10000225, Prod1, type1, 123.12, model1, upc1, desc1](1)" classname="com.BestBUY_BDD.test.Products" time="0.069">
+    <system-out><![CDATA[21:15:16.935 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase started
+21:15:16.935 [main] INFO  com.BestBUY_BDD.test.Products - Test case to update multiple products with request params
+21:15:16.996 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with ID: 10000235
+21:15:16.996 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Name: Prod11
+21:15:16.998 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Type: type11
+21:15:16.998 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with UPC: upc11
+21:15:16.998 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Price: 121.12
+21:15:16.998 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Model: model11
+21:15:16.998 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Desc: desc11
+21:15:16.998 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase verified successfully
+21:15:17.001 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Completed
+]]></system-out>
+  </testcase>
+  <testcase name="updateMultipleProducts[10000226, Prod2, type2, 12.12, model2, upc2, desc2](2)" classname="com.BestBUY_BDD.test.Products" time="0.086">
+    <system-out><![CDATA[21:15:17.001 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase started
+21:15:17.001 [main] INFO  com.BestBUY_BDD.test.Products - Test case to update multiple products with request params
+21:15:17.082 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with ID: 10000235
+21:15:17.082 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Name: Prod11
+21:15:17.084 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Type: type11
+21:15:17.085 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with UPC: upc11
+21:15:17.085 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Price: 121.12
+21:15:17.085 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Model: model11
+21:15:17.085 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Desc: desc11
+21:15:17.085 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase verified successfully
+21:15:17.088 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Completed
+]]></system-out>
+  </testcase>
+  <testcase name="updateMultipleProducts[10000227, Prod3, type3, 125.12, model3, upc3, desc3](3)" classname="com.BestBUY_BDD.test.Products" time="0.064">
+    <system-out><![CDATA[21:15:17.088 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase started
+21:15:17.088 [main] INFO  com.BestBUY_BDD.test.Products - Test case to update multiple products with request params
+21:15:17.146 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with ID: 10000235
+21:15:17.146 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Name: Prod11
+21:15:17.148 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Type: type11
+21:15:17.148 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with UPC: upc11
+21:15:17.148 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Price: 121.12
+21:15:17.148 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Model: model11
+21:15:17.148 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Desc: desc11
+21:15:17.148 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase verified successfully
+21:15:17.149 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Completed
+]]></system-out>
+  </testcase>
+  <testcase name="updateMultipleProducts[10000228, Prod4, type4, 126.12, model4, upc4, desc4](4)" classname="com.BestBUY_BDD.test.Products" time="0.07">
+    <system-out><![CDATA[21:15:17.150 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase started
+21:15:17.150 [main] INFO  com.BestBUY_BDD.test.Products - Test case to update multiple products with request params
+21:15:17.216 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with ID: 10000235
+21:15:17.217 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Name: Prod11
+21:15:17.217 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Type: type11
+21:15:17.217 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with UPC: upc11
+21:15:17.218 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Price: 121.12
+21:15:17.218 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Model: model11
+21:15:17.218 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Desc: desc11
+21:15:17.218 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase verified successfully
+21:15:17.221 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Completed
+]]></system-out>
+  </testcase>
+  <testcase name="updateMultipleProducts[10000229, Prod5, type5, 127.12, model5, upc5, desc5](5)" classname="com.BestBUY_BDD.test.Products" time="0.069">
+    <system-out><![CDATA[21:15:17.221 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase started
+21:15:17.221 [main] INFO  com.BestBUY_BDD.test.Products - Test case to update multiple products with request params
+21:15:17.284 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with ID: 10000235
+21:15:17.284 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Name: Prod11
+21:15:17.287 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Type: type11
+21:15:17.287 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with UPC: upc11
+21:15:17.287 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Price: 121.12
+21:15:17.287 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Model: model11
+21:15:17.287 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Desc: desc11
+21:15:17.287 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase verified successfully
+21:15:17.289 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Completed
+]]></system-out>
+  </testcase>
+  <testcase name="updateMultipleProducts[10000230, Prod6, type6, 128.12, model6, upc6, desc6](6)" classname="com.BestBUY_BDD.test.Products" time="0.066">
+    <system-out><![CDATA[21:15:17.290 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase started
+21:15:17.290 [main] INFO  com.BestBUY_BDD.test.Products - Test case to update multiple products with request params
+21:15:17.350 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with ID: 10000235
+21:15:17.351 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Name: Prod11
+21:15:17.353 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Type: type11
+21:15:17.353 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with UPC: upc11
+21:15:17.353 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Price: 121.12
+21:15:17.353 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Model: model11
+21:15:17.353 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Desc: desc11
+21:15:17.353 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase verified successfully
+21:15:17.355 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Completed
+]]></system-out>
+  </testcase>
+  <testcase name="updateMultipleProducts[10000231, Prod7, type7, 129.12, model7, upc7, desc7](7)" classname="com.BestBUY_BDD.test.Products" time="0.061">
+    <system-out><![CDATA[21:15:17.355 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase started
+21:15:17.355 [main] INFO  com.BestBUY_BDD.test.Products - Test case to update multiple products with request params
+21:15:17.413 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with ID: 10000235
+21:15:17.413 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Name: Prod11
+21:15:17.415 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Type: type11
+21:15:17.415 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with UPC: upc11
+21:15:17.415 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Price: 121.12
+21:15:17.415 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Model: model11
+21:15:17.415 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Desc: desc11
+21:15:17.415 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase verified successfully
+21:15:17.417 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Completed
+]]></system-out>
+  </testcase>
+  <testcase name="updateMultipleProducts[10000232, Prod8, type8, 121.12, model8, upc8, desc8](8)" classname="com.BestBUY_BDD.test.Products" time="0.065">
+    <system-out><![CDATA[21:15:17.417 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase started
+21:15:17.417 [main] INFO  com.BestBUY_BDD.test.Products - Test case to update multiple products with request params
+21:15:17.477 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with ID: 10000235
+21:15:17.478 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Name: Prod11
+21:15:17.479 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Type: type11
+21:15:17.480 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with UPC: upc11
+21:15:17.480 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Price: 121.12
+21:15:17.480 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Model: model11
+21:15:17.480 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Desc: desc11
+21:15:17.480 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase verified successfully
+21:15:17.481 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Completed
+]]></system-out>
+  </testcase>
+  <testcase name="updateMultipleProducts[10000233, Prod9, type9, 121.12, model9, upc9, desc9](9)" classname="com.BestBUY_BDD.test.Products" time="0.079">
+    <system-out><![CDATA[21:15:17.482 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase started
+21:15:17.482 [main] INFO  com.BestBUY_BDD.test.Products - Test case to update multiple products with request params
+21:15:17.556 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with ID: 10000235
+21:15:17.556 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Name: Prod11
+21:15:17.558 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Type: type11
+21:15:17.558 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with UPC: upc11
+21:15:17.558 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Price: 121.12
+21:15:17.558 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Model: model11
+21:15:17.558 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Desc: desc11
+21:15:17.558 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase verified successfully
+21:15:17.560 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Completed
+]]></system-out>
+  </testcase>
+  <testcase name="updateMultipleProducts[10000234, Prod10, type10, 12.12, model10, upc10, desc10](10)" classname="com.BestBUY_BDD.test.Products" time="0.078">
+    <system-out><![CDATA[21:15:17.560 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase started
+21:15:17.560 [main] INFO  com.BestBUY_BDD.test.Products - Test case to update multiple products with request params
+21:15:17.636 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with ID: 10000235
+21:15:17.636 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Name: Prod11
+21:15:17.638 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Type: type11
+21:15:17.638 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with UPC: upc11
+21:15:17.638 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Price: 121.12
+21:15:17.638 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Model: model11
+21:15:17.638 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Desc: desc11
+21:15:17.638 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase verified successfully
+21:15:17.640 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Completed
+]]></system-out>
+  </testcase>
+  <testcase name="updateMultipleProducts[10000235, Prod11, type11, 121.12, model11, upc11, desc11](11)" classname="com.BestBUY_BDD.test.Products" time="0.059">
+    <system-out><![CDATA[21:15:17.640 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase started
+21:15:17.640 [main] INFO  com.BestBUY_BDD.test.Products - Test case to update multiple products with request params
+21:15:17.696 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with ID: 10000235
+21:15:17.696 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Name: Prod11
+21:15:17.697 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Type: type11
+21:15:17.697 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with UPC: upc11
+21:15:17.697 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Price: 121.12
+21:15:17.697 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Model: model11
+21:15:17.697 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Desc: desc11
+21:15:17.697 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase verified successfully
+21:15:17.698 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Completed
+]]></system-out>
+  </testcase>
+  <testcase name="deleteMultipleProducts[10000225](1)" classname="com.BestBUY_BDD.test.Products" time="0.019">
+    <system-out><![CDATA[21:15:17.699 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase started
+21:15:17.699 [main] INFO  com.BestBUY_BDD.test.Products - Test case to Deleting product by id
+21:15:17.717 [main] INFO  com.BestBUY_BDD.test.Products - Deleting Product By Id verified successfully with id: 10000235
+21:15:17.718 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase Completed
+]]></system-out>
+  </testcase>
+  <testcase name="deleteMultipleProducts[10000226](2)" classname="com.BestBUY_BDD.test.Products" time="0.016">
+    <system-out><![CDATA[21:15:17.720 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase started
+21:15:17.720 [main] INFO  com.BestBUY_BDD.test.Products - Test case to Deleting product by id
+21:15:17.735 [main] INFO  com.BestBUY_BDD.test.Products - Deleting Product By Id verified successfully with id: 10000235
+21:15:17.736 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase Completed
+]]></system-out>
+  </testcase>
+  <testcase name="deleteMultipleProducts[10000227](3)" classname="com.BestBUY_BDD.test.Products" time="0.016">
+    <system-out><![CDATA[21:15:17.736 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase started
+21:15:17.737 [main] INFO  com.BestBUY_BDD.test.Products - Test case to Deleting product by id
+21:15:17.751 [main] INFO  com.BestBUY_BDD.test.Products - Deleting Product By Id verified successfully with id: 10000235
+21:15:17.751 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase Completed
+]]></system-out>
+  </testcase>
+  <testcase name="deleteMultipleProducts[10000228](4)" classname="com.BestBUY_BDD.test.Products" time="0.016">
+    <system-out><![CDATA[21:15:17.752 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase started
+21:15:17.752 [main] INFO  com.BestBUY_BDD.test.Products - Test case to Deleting product by id
+21:15:17.768 [main] INFO  com.BestBUY_BDD.test.Products - Deleting Product By Id verified successfully with id: 10000235
+21:15:17.768 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase Completed
+]]></system-out>
+  </testcase>
+  <testcase name="deleteMultipleProducts[10000229](5)" classname="com.BestBUY_BDD.test.Products" time="0.016">
+    <system-out><![CDATA[21:15:17.768 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase started
+21:15:17.768 [main] INFO  com.BestBUY_BDD.test.Products - Test case to Deleting product by id
+21:15:17.781 [main] INFO  com.BestBUY_BDD.test.Products - Deleting Product By Id verified successfully with id: 10000235
+21:15:17.783 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase Completed
+]]></system-out>
+  </testcase>
+  <testcase name="deleteMultipleProducts[10000230](6)" classname="com.BestBUY_BDD.test.Products" time="0.017">
+    <system-out><![CDATA[21:15:17.783 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase started
+21:15:17.784 [main] INFO  com.BestBUY_BDD.test.Products - Test case to Deleting product by id
+21:15:17.799 [main] INFO  com.BestBUY_BDD.test.Products - Deleting Product By Id verified successfully with id: 10000235
+21:15:17.799 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase Completed
+]]></system-out>
+  </testcase>
+  <testcase name="deleteMultipleProducts[10000231](7)" classname="com.BestBUY_BDD.test.Products" time="0.015">
+    <system-out><![CDATA[21:15:17.801 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase started
+21:15:17.801 [main] INFO  com.BestBUY_BDD.test.Products - Test case to Deleting product by id
+21:15:17.816 [main] INFO  com.BestBUY_BDD.test.Products - Deleting Product By Id verified successfully with id: 10000235
+21:15:17.816 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase Completed
+]]></system-out>
+  </testcase>
+  <testcase name="deleteMultipleProducts[10000232](8)" classname="com.BestBUY_BDD.test.Products" time="0.017">
+    <system-out><![CDATA[21:15:17.816 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase started
+21:15:17.818 [main] INFO  com.BestBUY_BDD.test.Products - Test case to Deleting product by id
+21:15:17.832 [main] INFO  com.BestBUY_BDD.test.Products - Deleting Product By Id verified successfully with id: 10000235
+21:15:17.832 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase Completed
+]]></system-out>
+  </testcase>
+  <testcase name="deleteMultipleProducts[10000233](9)" classname="com.BestBUY_BDD.test.Products" time="0.017">
+    <system-out><![CDATA[21:15:17.832 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase started
+21:15:17.833 [main] INFO  com.BestBUY_BDD.test.Products - Test case to Deleting product by id
+21:15:17.849 [main] INFO  com.BestBUY_BDD.test.Products - Deleting Product By Id verified successfully with id: 10000235
+21:15:17.850 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase Completed
+]]></system-out>
+  </testcase>
+  <testcase name="deleteMultipleProducts[10000234](10)" classname="com.BestBUY_BDD.test.Products" time="0.015">
+    <system-out><![CDATA[21:15:17.850 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase started
+21:15:17.850 [main] INFO  com.BestBUY_BDD.test.Products - Test case to Deleting product by id
+21:15:17.863 [main] INFO  com.BestBUY_BDD.test.Products - Deleting Product By Id verified successfully with id: 10000235
+21:15:17.866 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase Completed
+]]></system-out>
+  </testcase>
+  <testcase name="deleteMultipleProducts[10000235](11)" classname="com.BestBUY_BDD.test.Products" time="0.016">
+    <system-out><![CDATA[21:15:17.866 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase started
+21:15:17.866 [main] INFO  com.BestBUY_BDD.test.Products - Test case to Deleting product by id
+21:15:17.879 [main] INFO  com.BestBUY_BDD.test.Products - Deleting Product By Id verified successfully with id: 10000235
+21:15:17.879 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase Completed
+]]></system-out>
+  </testcase>
+  <testcase name="ProductsCount" classname="com.BestBUY_BDD.test.Products" time="0.221">
+    <system-out><![CDATA[21:15:17.882 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Count Tescase started
+21:15:17.882 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get the count of Products
+21:15:18.102 [main] INFO  com.BestBUY_BDD.test.Products - Product Count Verified Successfully
+21:15:18.102 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Count Tescase Completed
 ]]></system-out>
   </testcase>
 </testsuite>
