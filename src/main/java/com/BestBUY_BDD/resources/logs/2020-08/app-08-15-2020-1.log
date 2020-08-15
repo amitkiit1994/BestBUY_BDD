@@ -1,0 +1,1032 @@
+20:51:14.723 [main] INFO  com.BestBUY_BDD.test.Products - -------------------PRODUCTS TEST STARTED EXECUTION------------------
+20:51:14.727 [main] INFO  com.BestBUY_BDD.test.Products - Test Configuration Started
+20:51:14.727 [main] INFO  com.BestBUY_BDD.test.Products - URL Configured: http://localhost:3030/
+20:51:14.727 [main] INFO  com.BestBUY_BDD.test.Products - Service URL configured: products
+20:51:14.727 [main] INFO  com.BestBUY_BDD.test.Products - System has configured the following application endpoint: http://localhost:3030/products
+20:51:14.728 [main] INFO  com.BestBUY_BDD.test.Products - Test Configuration Completed Successfully
+20:51:14.744 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Tescase started
+20:51:14.745 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get Product Category and Quantity
+20:51:16.526 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Housewares Verified with Quantity: 903
+20:51:16.526 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Completed
+20:51:16.528 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Tescase started
+20:51:16.529 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get Product Category and Quantity
+20:51:16.763 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Household Batteries Verified with Quantity: 206
+20:51:16.764 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Completed
+20:51:16.764 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Tescase started
+20:51:16.764 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get Product Category and Quantity
+20:51:17.018 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Connected Home & Housewares Verified with Quantity: 4978
+20:51:17.018 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Completed
+20:51:17.018 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Tescase started
+20:51:17.019 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get Product Category and Quantity
+20:51:17.266 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: 4K Ultra HD TVs Verified with Quantity: 119
+20:51:17.266 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Completed
+20:51:17.267 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Tescase started
+20:51:17.267 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get Product Category and Quantity
+20:51:17.499 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: TVs Verified with Quantity: 229
+20:51:17.499 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Completed
+20:51:17.500 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Tescase started
+20:51:17.500 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get Product Category and Quantity
+20:51:17.739 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: TV & Home Theater Verified with Quantity: 2076
+20:51:17.739 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Completed
+20:51:17.740 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Tescase started
+20:51:17.740 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get Product Category and Quantity
+20:51:17.956 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Alkaline Batteries Verified with Quantity: 81
+20:51:17.956 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Completed
+20:51:17.957 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Tescase started
+20:51:17.957 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get Product Category and Quantity
+20:51:18.198 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Car Electronics & GPS Verified with Quantity: 2646
+20:51:18.199 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Completed
+20:51:18.199 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Tescase started
+20:51:18.199 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get Product Category and Quantity
+20:51:18.418 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Car Audio Verified with Quantity: 623
+20:51:18.418 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Completed
+20:51:18.419 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Tescase started
+20:51:18.419 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get Product Category and Quantity
+20:51:18.635 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Car Speakers Verified with Quantity: 144
+20:51:18.635 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Completed
+20:51:18.635 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Tescase started
+20:51:18.635 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get Product Category and Quantity
+20:51:18.855 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Specialty Batteries Verified with Quantity: 55
+20:51:18.855 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Completed
+20:51:18.856 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+20:51:18.857 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+20:51:19.098 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Housewares Fitered with less than: 800 and greater than: 500 has Quantity: 79
+20:51:19.098 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
+20:51:19.098 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+20:51:19.098 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+20:51:19.320 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Household Batteries Fitered with less than: 800 and greater than: 200 has Quantity: 1
+20:51:19.320 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
+20:51:19.320 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+20:51:19.320 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+20:51:19.557 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Connected Home & Housewares Fitered with less than: 800 and greater than: 500 has Quantity: 163
+20:51:19.557 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
+20:51:19.558 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+20:51:19.558 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+20:51:19.781 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: 4K Ultra HD TVs Fitered with less than: 800 and greater than: 500 has Quantity: 20
+20:51:19.781 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
+20:51:19.781 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+20:51:19.782 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+20:51:20.015 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: TVs Fitered with less than: 800 and greater than: 500 has Quantity: 29
+20:51:20.015 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
+20:51:20.016 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+20:51:20.016 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+20:51:20.250 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: TV & Home Theater Fitered with less than: 800 and greater than: 500 has Quantity: 157
+20:51:20.250 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
+20:51:20.250 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+20:51:20.250 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+20:51:20.465 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Alkaline Batteries Fitered with less than: 10 and greater than: 5 has Quantity: 30
+20:51:20.465 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
+20:51:20.466 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+20:51:20.466 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+20:51:20.699 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Car Electronics & GPS Fitered with less than: 800 and greater than: 500 has Quantity: 55
+20:51:20.699 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
+20:51:20.700 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+20:51:20.700 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+20:51:20.919 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Car Audio Fitered with less than: 800 and greater than: 500 has Quantity: 21
+20:51:20.919 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
+20:51:20.920 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+20:51:20.920 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+20:51:21.138 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Car Speakers Fitered with less than: 800 and greater than: 500 has Quantity: 1
+20:51:21.138 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
+20:51:21.138 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+20:51:21.138 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+20:51:21.352 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Specialty Batteries Fitered with less than: 10 and greater than: 5 has Quantity: 17
+20:51:21.352 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
+20:51:21.353 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+20:51:21.353 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+20:51:21.570 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Housewares Fitered with less than: 700 and greater than: 600 has Quantity: 27
+20:51:21.570 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
+20:51:21.571 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+20:51:21.571 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+20:51:21.785 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Household Batteries Fitered with less than: 10 and greater than: 5 has Quantity: 66
+20:51:21.785 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
+20:51:21.785 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+20:51:21.786 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+20:51:22.035 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Connected Home & Housewares Fitered with less than: 700 and greater than: 600 has Quantity: 52
+20:51:22.036 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
+20:51:22.036 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+20:51:22.036 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+20:51:22.266 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: 4K Ultra HD TVs Fitered with less than: 700 and greater than: 600 has Quantity: 4
+20:51:22.267 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
+20:51:22.267 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+20:51:22.267 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+20:51:22.495 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: TVs Fitered with less than: 700 and greater than: 600 has Quantity: 6
+20:51:22.495 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
+20:51:22.496 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+20:51:22.496 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+20:51:22.731 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: TV & Home Theater Fitered with less than: 700 and greater than: 600 has Quantity: 48
+20:51:22.731 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
+20:51:22.731 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+20:51:22.732 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+20:51:22.946 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Alkaline Batteries Fitered with less than: 10 and greater than: 5 has Quantity: 30
+20:51:22.946 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
+20:51:22.947 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+20:51:22.947 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+20:51:23.172 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Car Electronics & GPS Fitered with less than: 700 and greater than: 600 has Quantity: 19
+20:51:23.172 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
+20:51:23.173 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+20:51:23.173 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+20:51:23.392 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Car Audio Fitered with less than: 700 and greater than: 600 has Quantity: 9
+20:51:23.392 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
+20:51:23.392 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+20:51:23.392 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+20:51:23.603 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Car Speakers Fitered with less than: 700 and greater than: 600 has Quantity: 1
+20:51:23.604 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
+20:51:23.604 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+20:51:23.604 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+20:51:23.832 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Specialty Batteries Fitered with less than: 20 and greater than: 10 has Quantity: 8
+20:51:23.832 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
+20:51:23.833 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Name and Description Tescase started
+20:51:23.833 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get Product Name and Description
+20:51:24.233 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Name and Description Verified Successfully
+20:51:24.234 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Name and Description Completed
+20:51:24.234 [main] INFO  com.BestBUY_BDD.test.Products - Sort Product by Price Tescase started
+20:51:24.234 [main] INFO  com.BestBUY_BDD.test.Products - Test case to sort the products by price
+20:51:24.442 [main] INFO  com.BestBUY_BDD.test.Products - Sort Product by Price Verified Successfully
+20:51:24.443 [main] INFO  com.BestBUY_BDD.test.Products - Sort Product by Price Tescase Completed
+20:51:24.443 [main] INFO  com.BestBUY_BDD.test.Products - Sort Product by Price Tescase started
+20:51:24.443 [main] INFO  com.BestBUY_BDD.test.Products - Test case to sort the products by price
+20:51:24.641 [main] INFO  com.BestBUY_BDD.test.Products - Sort Product by Price Verified Successfully
+20:51:24.642 [main] INFO  com.BestBUY_BDD.test.Products - Sort Product by Price Tescase Completed
+20:51:24.642 [main] INFO  com.BestBUY_BDD.test.Products - Creating product with request json Tescase started
+20:51:24.642 [main] INFO  com.BestBUY_BDD.test.Products - Test case to create product with json request
+20:51:24.771 [main] INFO  com.BestBUY_BDD.test.Products - Product created with ID: 10000308
+20:51:24.771 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Name: New Product
+20:51:24.771 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Type: Hard Good
+20:51:24.772 [main] INFO  com.BestBUY_BDD.test.Products - Product created with UPC: 12345676
+20:51:24.772 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Price: 99.99
+20:51:24.772 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Model: NP12345
+20:51:24.772 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Desc: This is a placeholder request for creating a new product.
+20:51:24.772 [main] INFO  com.BestBUY_BDD.test.Products - Creating product with request json Tescase verified successfully
+20:51:24.772 [main] INFO  com.BestBUY_BDD.test.Products - Creating product with request json Completed
+20:51:24.773 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase started
+20:51:24.774 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get product by id
+20:51:24.825 [main] INFO  com.BestBUY_BDD.test.Products - Get Product By Id verified successfully with id: 10000308
+20:51:24.825 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase Completed
+20:51:24.826 [main] INFO  com.BestBUY_BDD.test.Products - Updating product with request json Tescase started
+20:51:24.826 [main] INFO  com.BestBUY_BDD.test.Products - Test case to update product with json request
+20:51:24.924 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with ID: 10000308
+20:51:24.925 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Name: New Product1
+20:51:24.925 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Type: Hard Good1
+20:51:24.925 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with UPC: 12345674
+20:51:24.925 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Price: 99.99
+20:51:24.925 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Model: NP123451
+20:51:24.925 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Desc: This is a placeholder request for creating a new product.
+20:51:24.925 [main] INFO  com.BestBUY_BDD.test.Products - Updating product with request json Tescase verified successfully
+20:51:24.925 [main] INFO  com.BestBUY_BDD.test.Products - Updating product with request json Completed
+20:51:24.926 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase started
+20:51:24.926 [main] INFO  com.BestBUY_BDD.test.Products - Test case to Deleting product by id
+20:51:24.944 [main] INFO  com.BestBUY_BDD.test.Products - Deleting Product By Id verified successfully with id: 10000308
+20:51:24.944 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase Completed
+20:51:24.946 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase started
+20:51:24.946 [main] INFO  com.BestBUY_BDD.test.Products - Test case to create multiple products with request params
+20:51:25.023 [main] INFO  com.BestBUY_BDD.test.Products - Product created with ID: 10000309
+20:51:25.023 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Name: Prod1
+20:51:25.024 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Type: type1
+20:51:25.024 [main] INFO  com.BestBUY_BDD.test.Products - Product created with UPC: upc1
+20:51:25.024 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Price: 123.12
+20:51:25.024 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Model: model1
+20:51:25.024 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Desc: desc1
+20:51:25.024 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase verified successfully
+20:51:25.024 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Completed
+20:51:25.024 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase started
+20:51:25.024 [main] INFO  com.BestBUY_BDD.test.Products - Test case to create multiple products with request params
+20:51:25.086 [main] INFO  com.BestBUY_BDD.test.Products - Product created with ID: 10000310
+20:51:25.086 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Name: Prod2
+20:51:25.087 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Type: type2
+20:51:25.087 [main] INFO  com.BestBUY_BDD.test.Products - Product created with UPC: upc2
+20:51:25.087 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Price: 12.12
+20:51:25.087 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Model: model2
+20:51:25.087 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Desc: desc2
+20:51:25.087 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase verified successfully
+20:51:25.087 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Completed
+20:51:25.087 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase started
+20:51:25.088 [main] INFO  com.BestBUY_BDD.test.Products - Test case to create multiple products with request params
+20:51:25.146 [main] INFO  com.BestBUY_BDD.test.Products - Product created with ID: 10000311
+20:51:25.146 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Name: Prod3
+20:51:25.146 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Type: type3
+20:51:25.146 [main] INFO  com.BestBUY_BDD.test.Products - Product created with UPC: upc3
+20:51:25.146 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Price: 125.12
+20:51:25.146 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Model: model3
+20:51:25.146 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Desc: desc3
+20:51:25.146 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase verified successfully
+20:51:25.146 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Completed
+20:51:25.147 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase started
+20:51:25.147 [main] INFO  com.BestBUY_BDD.test.Products - Test case to create multiple products with request params
+20:51:25.203 [main] INFO  com.BestBUY_BDD.test.Products - Product created with ID: 10000312
+20:51:25.204 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Name: Prod4
+20:51:25.204 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Type: type4
+20:51:25.204 [main] INFO  com.BestBUY_BDD.test.Products - Product created with UPC: upc4
+20:51:25.204 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Price: 126.12
+20:51:25.204 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Model: model4
+20:51:25.204 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Desc: desc4
+20:51:25.204 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase verified successfully
+20:51:25.204 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Completed
+20:51:25.205 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase started
+20:51:25.205 [main] INFO  com.BestBUY_BDD.test.Products - Test case to create multiple products with request params
+20:51:25.264 [main] INFO  com.BestBUY_BDD.test.Products - Product created with ID: 10000313
+20:51:25.264 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Name: Prod5
+20:51:25.264 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Type: type5
+20:51:25.264 [main] INFO  com.BestBUY_BDD.test.Products - Product created with UPC: upc5
+20:51:25.264 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Price: 127.12
+20:51:25.264 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Model: model5
+20:51:25.264 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Desc: desc5
+20:51:25.264 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase verified successfully
+20:51:25.264 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Completed
+20:51:25.265 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase started
+20:51:25.265 [main] INFO  com.BestBUY_BDD.test.Products - Test case to create multiple products with request params
+20:51:25.334 [main] INFO  com.BestBUY_BDD.test.Products - Product created with ID: 10000314
+20:51:25.334 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Name: Prod6
+20:51:25.334 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Type: type6
+20:51:25.334 [main] INFO  com.BestBUY_BDD.test.Products - Product created with UPC: upc6
+20:51:25.334 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Price: 128.12
+20:51:25.334 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Model: model6
+20:51:25.334 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Desc: desc6
+20:51:25.334 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase verified successfully
+20:51:25.334 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Completed
+20:51:25.335 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase started
+20:51:25.335 [main] INFO  com.BestBUY_BDD.test.Products - Test case to create multiple products with request params
+20:51:25.389 [main] INFO  com.BestBUY_BDD.test.Products - Product created with ID: 10000315
+20:51:25.389 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Name: Prod7
+20:51:25.389 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Type: type7
+20:51:25.389 [main] INFO  com.BestBUY_BDD.test.Products - Product created with UPC: upc7
+20:51:25.389 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Price: 129.12
+20:51:25.389 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Model: model7
+20:51:25.390 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Desc: desc7
+20:51:25.390 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase verified successfully
+20:51:25.390 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Completed
+20:51:25.391 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase started
+20:51:25.391 [main] INFO  com.BestBUY_BDD.test.Products - Test case to create multiple products with request params
+20:51:25.451 [main] INFO  com.BestBUY_BDD.test.Products - Product created with ID: 10000316
+20:51:25.451 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Name: Prod8
+20:51:25.451 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Type: type8
+20:51:25.451 [main] INFO  com.BestBUY_BDD.test.Products - Product created with UPC: upc8
+20:51:25.451 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Price: 121.12
+20:51:25.451 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Model: model8
+20:51:25.451 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Desc: desc8
+20:51:25.451 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase verified successfully
+20:51:25.451 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Completed
+20:51:25.451 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase started
+20:51:25.451 [main] INFO  com.BestBUY_BDD.test.Products - Test case to create multiple products with request params
+20:51:25.507 [main] INFO  com.BestBUY_BDD.test.Products - Product created with ID: 10000317
+20:51:25.507 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Name: Prod9
+20:51:25.507 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Type: type9
+20:51:25.507 [main] INFO  com.BestBUY_BDD.test.Products - Product created with UPC: upc9
+20:51:25.507 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Price: 121.12
+20:51:25.507 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Model: model9
+20:51:25.508 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Desc: desc9
+20:51:25.508 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase verified successfully
+20:51:25.508 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Completed
+20:51:25.508 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase started
+20:51:25.508 [main] INFO  com.BestBUY_BDD.test.Products - Test case to create multiple products with request params
+20:51:25.580 [main] INFO  com.BestBUY_BDD.test.Products - Product created with ID: 10000318
+20:51:25.580 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Name: Prod10
+20:51:25.580 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Type: type10
+20:51:25.580 [main] INFO  com.BestBUY_BDD.test.Products - Product created with UPC: upc10
+20:51:25.580 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Price: 12.12
+20:51:25.580 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Model: model10
+20:51:25.580 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Desc: desc10
+20:51:25.581 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase verified successfully
+20:51:25.581 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Completed
+20:51:25.581 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase started
+20:51:25.581 [main] INFO  com.BestBUY_BDD.test.Products - Test case to create multiple products with request params
+20:51:25.655 [main] INFO  com.BestBUY_BDD.test.Products - Product created with ID: 10000319
+20:51:25.655 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Name: Prod11
+20:51:25.655 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Type: type11
+20:51:25.655 [main] INFO  com.BestBUY_BDD.test.Products - Product created with UPC: upc11
+20:51:25.655 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Price: 121.12
+20:51:25.655 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Model: model11
+20:51:25.655 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Desc: desc11
+20:51:25.655 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase verified successfully
+20:51:25.656 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Completed
+20:51:25.656 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase started
+20:51:25.657 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get product by id
+20:51:25.703 [main] INFO  com.BestBUY_BDD.test.Products - Get Product By Id verified successfully with id: 10000319
+20:51:25.703 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase Completed
+20:51:25.704 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase started
+20:51:25.704 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get product by id
+20:51:25.752 [main] INFO  com.BestBUY_BDD.test.Products - Get Product By Id verified successfully with id: 10000319
+20:51:25.753 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase Completed
+20:51:25.753 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase started
+20:51:25.753 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get product by id
+20:51:25.804 [main] INFO  com.BestBUY_BDD.test.Products - Get Product By Id verified successfully with id: 10000319
+20:51:25.804 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase Completed
+20:51:25.804 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase started
+20:51:25.804 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get product by id
+20:51:25.851 [main] INFO  com.BestBUY_BDD.test.Products - Get Product By Id verified successfully with id: 10000319
+20:51:25.851 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase Completed
+20:51:25.852 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase started
+20:51:25.852 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get product by id
+20:51:25.907 [main] INFO  com.BestBUY_BDD.test.Products - Get Product By Id verified successfully with id: 10000319
+20:51:25.907 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase Completed
+20:51:25.908 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase started
+20:51:25.908 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get product by id
+20:51:25.953 [main] INFO  com.BestBUY_BDD.test.Products - Get Product By Id verified successfully with id: 10000319
+20:51:25.953 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase Completed
+20:51:25.954 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase started
+20:51:25.954 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get product by id
+20:51:25.998 [main] INFO  com.BestBUY_BDD.test.Products - Get Product By Id verified successfully with id: 10000319
+20:51:25.999 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase Completed
+20:51:25.999 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase started
+20:51:25.999 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get product by id
+20:51:26.053 [main] INFO  com.BestBUY_BDD.test.Products - Get Product By Id verified successfully with id: 10000319
+20:51:26.053 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase Completed
+20:51:26.054 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase started
+20:51:26.054 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get product by id
+20:51:26.115 [main] INFO  com.BestBUY_BDD.test.Products - Get Product By Id verified successfully with id: 10000319
+20:51:26.115 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase Completed
+20:51:26.116 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase started
+20:51:26.116 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get product by id
+20:51:26.162 [main] INFO  com.BestBUY_BDD.test.Products - Get Product By Id verified successfully with id: 10000319
+20:51:26.162 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase Completed
+20:51:26.163 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase started
+20:51:26.163 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get product by id
+20:51:26.206 [main] INFO  com.BestBUY_BDD.test.Products - Get Product By Id verified successfully with id: 10000319
+20:51:26.206 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase Completed
+20:51:26.207 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase started
+20:51:26.207 [main] INFO  com.BestBUY_BDD.test.Products - Test case to update multiple products with request params
+20:51:26.261 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with ID: 10000319
+20:51:26.261 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Name: Prod11
+20:51:26.261 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Type: type11
+20:51:26.261 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with UPC: upc11
+20:51:26.261 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Price: 121.12
+20:51:26.261 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Model: model11
+20:51:26.261 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Desc: desc11
+20:51:26.261 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase verified successfully
+20:51:26.261 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Completed
+20:51:26.262 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase started
+20:51:26.262 [main] INFO  com.BestBUY_BDD.test.Products - Test case to update multiple products with request params
+20:51:26.332 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with ID: 10000319
+20:51:26.332 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Name: Prod11
+20:51:26.332 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Type: type11
+20:51:26.332 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with UPC: upc11
+20:51:26.332 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Price: 121.12
+20:51:26.332 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Model: model11
+20:51:26.332 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Desc: desc11
+20:51:26.332 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase verified successfully
+20:51:26.332 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Completed
+20:51:26.333 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase started
+20:51:26.333 [main] INFO  com.BestBUY_BDD.test.Products - Test case to update multiple products with request params
+20:51:26.395 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with ID: 10000319
+20:51:26.395 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Name: Prod11
+20:51:26.395 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Type: type11
+20:51:26.395 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with UPC: upc11
+20:51:26.395 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Price: 121.12
+20:51:26.395 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Model: model11
+20:51:26.395 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Desc: desc11
+20:51:26.395 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase verified successfully
+20:51:26.395 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Completed
+20:51:26.396 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase started
+20:51:26.396 [main] INFO  com.BestBUY_BDD.test.Products - Test case to update multiple products with request params
+20:51:26.458 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with ID: 10000319
+20:51:26.459 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Name: Prod11
+20:51:26.459 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Type: type11
+20:51:26.459 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with UPC: upc11
+20:51:26.459 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Price: 121.12
+20:51:26.459 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Model: model11
+20:51:26.459 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Desc: desc11
+20:51:26.459 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase verified successfully
+20:51:26.459 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Completed
+20:51:26.460 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase started
+20:51:26.460 [main] INFO  com.BestBUY_BDD.test.Products - Test case to update multiple products with request params
+20:51:26.519 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with ID: 10000319
+20:51:26.519 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Name: Prod11
+20:51:26.520 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Type: type11
+20:51:26.520 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with UPC: upc11
+20:51:26.520 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Price: 121.12
+20:51:26.520 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Model: model11
+20:51:26.520 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Desc: desc11
+20:51:26.520 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase verified successfully
+20:51:26.520 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Completed
+20:51:26.520 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase started
+20:51:26.520 [main] INFO  com.BestBUY_BDD.test.Products - Test case to update multiple products with request params
+20:51:26.575 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with ID: 10000319
+20:51:26.575 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Name: Prod11
+20:51:26.575 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Type: type11
+20:51:26.575 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with UPC: upc11
+20:51:26.575 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Price: 121.12
+20:51:26.575 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Model: model11
+20:51:26.576 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Desc: desc11
+20:51:26.576 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase verified successfully
+20:51:26.576 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Completed
+20:51:26.576 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase started
+20:51:26.576 [main] INFO  com.BestBUY_BDD.test.Products - Test case to update multiple products with request params
+20:51:26.628 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with ID: 10000319
+20:51:26.629 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Name: Prod11
+20:51:26.629 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Type: type11
+20:51:26.629 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with UPC: upc11
+20:51:26.629 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Price: 121.12
+20:51:26.629 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Model: model11
+20:51:26.629 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Desc: desc11
+20:51:26.629 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase verified successfully
+20:51:26.629 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Completed
+20:51:26.629 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase started
+20:51:26.629 [main] INFO  com.BestBUY_BDD.test.Products - Test case to update multiple products with request params
+20:51:26.683 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with ID: 10000319
+20:51:26.683 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Name: Prod11
+20:51:26.683 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Type: type11
+20:51:26.683 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with UPC: upc11
+20:51:26.683 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Price: 121.12
+20:51:26.683 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Model: model11
+20:51:26.683 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Desc: desc11
+20:51:26.683 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase verified successfully
+20:51:26.683 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Completed
+20:51:26.684 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase started
+20:51:26.684 [main] INFO  com.BestBUY_BDD.test.Products - Test case to update multiple products with request params
+20:51:26.749 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with ID: 10000319
+20:51:26.750 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Name: Prod11
+20:51:26.750 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Type: type11
+20:51:26.750 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with UPC: upc11
+20:51:26.750 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Price: 121.12
+20:51:26.750 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Model: model11
+20:51:26.750 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Desc: desc11
+20:51:26.750 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase verified successfully
+20:51:26.750 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Completed
+20:51:26.750 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase started
+20:51:26.751 [main] INFO  com.BestBUY_BDD.test.Products - Test case to update multiple products with request params
+20:51:26.821 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with ID: 10000319
+20:51:26.822 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Name: Prod11
+20:51:26.822 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Type: type11
+20:51:26.822 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with UPC: upc11
+20:51:26.822 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Price: 121.12
+20:51:26.822 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Model: model11
+20:51:26.822 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Desc: desc11
+20:51:26.822 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase verified successfully
+20:51:26.822 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Completed
+20:51:26.823 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase started
+20:51:26.823 [main] INFO  com.BestBUY_BDD.test.Products - Test case to update multiple products with request params
+20:51:26.868 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with ID: 10000319
+20:51:26.869 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Name: Prod11
+20:51:26.869 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Type: type11
+20:51:26.869 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with UPC: upc11
+20:51:26.869 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Price: 121.12
+20:51:26.869 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Model: model11
+20:51:26.869 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Desc: desc11
+20:51:26.869 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase verified successfully
+20:51:26.869 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Completed
+20:51:26.870 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase started
+20:51:26.870 [main] INFO  com.BestBUY_BDD.test.Products - Test case to Deleting product by id
+20:51:26.883 [main] INFO  com.BestBUY_BDD.test.Products - Deleting Product By Id verified successfully with id: 10000319
+20:51:26.883 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase Completed
+20:51:26.884 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase started
+20:51:26.884 [main] INFO  com.BestBUY_BDD.test.Products - Test case to Deleting product by id
+20:51:26.896 [main] INFO  com.BestBUY_BDD.test.Products - Deleting Product By Id verified successfully with id: 10000319
+20:51:26.896 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase Completed
+20:51:26.897 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase started
+20:51:26.897 [main] INFO  com.BestBUY_BDD.test.Products - Test case to Deleting product by id
+20:51:26.913 [main] INFO  com.BestBUY_BDD.test.Products - Deleting Product By Id verified successfully with id: 10000319
+20:51:26.913 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase Completed
+20:51:26.914 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase started
+20:51:26.914 [main] INFO  com.BestBUY_BDD.test.Products - Test case to Deleting product by id
+20:51:26.926 [main] INFO  com.BestBUY_BDD.test.Products - Deleting Product By Id verified successfully with id: 10000319
+20:51:26.926 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase Completed
+20:51:26.927 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase started
+20:51:26.927 [main] INFO  com.BestBUY_BDD.test.Products - Test case to Deleting product by id
+20:51:26.939 [main] INFO  com.BestBUY_BDD.test.Products - Deleting Product By Id verified successfully with id: 10000319
+20:51:26.939 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase Completed
+20:51:26.939 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase started
+20:51:26.939 [main] INFO  com.BestBUY_BDD.test.Products - Test case to Deleting product by id
+20:51:26.950 [main] INFO  com.BestBUY_BDD.test.Products - Deleting Product By Id verified successfully with id: 10000319
+20:51:26.950 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase Completed
+20:51:26.951 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase started
+20:51:26.951 [main] INFO  com.BestBUY_BDD.test.Products - Test case to Deleting product by id
+20:51:26.965 [main] INFO  com.BestBUY_BDD.test.Products - Deleting Product By Id verified successfully with id: 10000319
+20:51:26.966 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase Completed
+20:51:26.966 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase started
+20:51:26.966 [main] INFO  com.BestBUY_BDD.test.Products - Test case to Deleting product by id
+20:51:26.977 [main] INFO  com.BestBUY_BDD.test.Products - Deleting Product By Id verified successfully with id: 10000319
+20:51:26.977 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase Completed
+20:51:26.978 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase started
+20:51:26.978 [main] INFO  com.BestBUY_BDD.test.Products - Test case to Deleting product by id
+20:51:26.990 [main] INFO  com.BestBUY_BDD.test.Products - Deleting Product By Id verified successfully with id: 10000319
+20:51:26.990 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase Completed
+20:51:26.990 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase started
+20:51:26.990 [main] INFO  com.BestBUY_BDD.test.Products - Test case to Deleting product by id
+20:51:27.003 [main] INFO  com.BestBUY_BDD.test.Products - Deleting Product By Id verified successfully with id: 10000319
+20:51:27.003 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase Completed
+20:51:27.003 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase started
+20:51:27.003 [main] INFO  com.BestBUY_BDD.test.Products - Test case to Deleting product by id
+20:51:27.015 [main] INFO  com.BestBUY_BDD.test.Products - Deleting Product By Id verified successfully with id: 10000319
+20:51:27.015 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase Completed
+20:51:27.016 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Count Tescase started
+20:51:27.016 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get the count of Products
+20:51:27.176 [main] INFO  com.BestBUY_BDD.test.Products - Product Count Verified Successfully
+20:51:27.176 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Count Tescase Completed
+20:51:27.177 [main] INFO  com.BestBUY_BDD.test.Products - Total Number of products Created: 11
+20:51:27.177 [main] INFO  com.BestBUY_BDD.test.Products - -------------PRODUCTS TEST EXECUTION COMPLETED----------------
+20:52:36.070 [main] INFO  com.BestBUY_BDD.test.Products - -------------------PRODUCTS TEST STARTED EXECUTION------------------
+20:52:36.073 [main] INFO  com.BestBUY_BDD.test.Products - Test Configuration Started
+20:52:36.073 [main] INFO  com.BestBUY_BDD.test.Products - URL Configured: http://localhost:3030/
+20:52:36.073 [main] INFO  com.BestBUY_BDD.test.Products - Service URL configured: products
+20:52:36.073 [main] INFO  com.BestBUY_BDD.test.Products - System has configured the following application endpoint: http://localhost:3030/products
+20:52:36.074 [main] INFO  com.BestBUY_BDD.test.Products - Test Configuration Completed Successfully
+20:52:36.090 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Tescase started
+20:52:36.091 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get Product Category and Quantity
+20:52:37.821 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Housewares Verified with Quantity: 903
+20:52:37.822 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Completed
+20:52:37.824 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Tescase started
+20:52:37.824 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get Product Category and Quantity
+20:52:38.061 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Household Batteries Verified with Quantity: 206
+20:52:38.061 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Completed
+20:52:38.061 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Tescase started
+20:52:38.062 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get Product Category and Quantity
+20:52:38.309 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Connected Home & Housewares Verified with Quantity: 4978
+20:52:38.310 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Completed
+20:52:38.310 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Tescase started
+20:52:38.310 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get Product Category and Quantity
+20:52:38.543 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: 4K Ultra HD TVs Verified with Quantity: 119
+20:52:38.543 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Completed
+20:52:38.543 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Tescase started
+20:52:38.544 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get Product Category and Quantity
+20:52:38.777 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: TVs Verified with Quantity: 229
+20:52:38.777 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Completed
+20:52:38.777 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Tescase started
+20:52:38.778 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get Product Category and Quantity
+20:52:39.012 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: TV & Home Theater Verified with Quantity: 2076
+20:52:39.012 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Completed
+20:52:39.012 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Tescase started
+20:52:39.012 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get Product Category and Quantity
+20:52:39.230 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Alkaline Batteries Verified with Quantity: 81
+20:52:39.230 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Completed
+20:52:39.231 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Tescase started
+20:52:39.231 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get Product Category and Quantity
+20:52:39.471 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Car Electronics & GPS Verified with Quantity: 2646
+20:52:39.471 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Completed
+20:52:39.471 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Tescase started
+20:52:39.471 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get Product Category and Quantity
+20:52:39.696 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Car Audio Verified with Quantity: 623
+20:52:39.696 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Completed
+20:52:39.697 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Tescase started
+20:52:39.697 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get Product Category and Quantity
+20:52:39.910 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Car Speakers Verified with Quantity: 144
+20:52:39.910 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Completed
+20:52:39.911 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Tescase started
+20:52:39.911 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get Product Category and Quantity
+20:52:40.123 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Specialty Batteries Verified with Quantity: 55
+20:52:40.123 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Category and Quantity Completed
+20:52:40.124 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+20:52:40.124 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+20:52:40.375 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Housewares Fitered with less than: 800 and greater than: 500 has Quantity: 79
+20:52:40.375 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
+20:52:40.375 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+20:52:40.375 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+20:52:40.589 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Household Batteries Fitered with less than: 800 and greater than: 200 has Quantity: 1
+20:52:40.589 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
+20:52:40.589 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+20:52:40.589 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+20:52:40.829 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Connected Home & Housewares Fitered with less than: 800 and greater than: 500 has Quantity: 163
+20:52:40.829 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
+20:52:40.829 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+20:52:40.829 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+20:52:41.047 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: 4K Ultra HD TVs Fitered with less than: 800 and greater than: 500 has Quantity: 20
+20:52:41.047 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
+20:52:41.048 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+20:52:41.048 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+20:52:41.280 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: TVs Fitered with less than: 800 and greater than: 500 has Quantity: 29
+20:52:41.280 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
+20:52:41.281 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+20:52:41.281 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+20:52:41.509 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: TV & Home Theater Fitered with less than: 800 and greater than: 500 has Quantity: 157
+20:52:41.509 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
+20:52:41.510 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+20:52:41.510 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+20:52:41.726 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Alkaline Batteries Fitered with less than: 10 and greater than: 5 has Quantity: 30
+20:52:41.726 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
+20:52:41.726 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+20:52:41.726 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+20:52:41.950 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Car Electronics & GPS Fitered with less than: 800 and greater than: 500 has Quantity: 55
+20:52:41.950 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
+20:52:41.950 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+20:52:41.950 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+20:52:42.179 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Car Audio Fitered with less than: 800 and greater than: 500 has Quantity: 21
+20:52:42.180 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
+20:52:42.180 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+20:52:42.180 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+20:52:42.389 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Car Speakers Fitered with less than: 800 and greater than: 500 has Quantity: 1
+20:52:42.389 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
+20:52:42.389 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+20:52:42.390 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+20:52:42.605 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Specialty Batteries Fitered with less than: 10 and greater than: 5 has Quantity: 17
+20:52:42.605 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
+20:52:42.606 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+20:52:42.606 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+20:52:42.826 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Housewares Fitered with less than: 700 and greater than: 600 has Quantity: 27
+20:52:42.826 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
+20:52:42.826 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+20:52:42.826 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+20:52:43.046 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Household Batteries Fitered with less than: 10 and greater than: 5 has Quantity: 66
+20:52:43.046 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
+20:52:43.046 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+20:52:43.046 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+20:52:43.299 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Connected Home & Housewares Fitered with less than: 700 and greater than: 600 has Quantity: 52
+20:52:43.299 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
+20:52:43.300 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+20:52:43.300 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+20:52:43.516 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: 4K Ultra HD TVs Fitered with less than: 700 and greater than: 600 has Quantity: 4
+20:52:43.517 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
+20:52:43.517 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+20:52:43.517 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+20:52:43.742 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: TVs Fitered with less than: 700 and greater than: 600 has Quantity: 6
+20:52:43.743 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
+20:52:43.743 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+20:52:43.743 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+20:52:43.976 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: TV & Home Theater Fitered with less than: 700 and greater than: 600 has Quantity: 48
+20:52:43.976 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
+20:52:43.976 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+20:52:43.976 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+20:52:44.191 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Alkaline Batteries Fitered with less than: 10 and greater than: 5 has Quantity: 30
+20:52:44.191 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
+20:52:44.192 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+20:52:44.192 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+20:52:44.418 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Car Electronics & GPS Fitered with less than: 700 and greater than: 600 has Quantity: 19
+20:52:44.418 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
+20:52:44.418 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+20:52:44.418 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+20:52:44.633 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Car Audio Fitered with less than: 700 and greater than: 600 has Quantity: 9
+20:52:44.633 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
+20:52:44.634 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+20:52:44.634 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+20:52:44.849 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Car Speakers Fitered with less than: 700 and greater than: 600 has Quantity: 1
+20:52:44.850 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
+20:52:44.850 [main] INFO  com.BestBUY_BDD.test.Products - Get Filtered Product Category and Quantity Tescase started
+20:52:44.850 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get filtered Product Category and Quantity
+20:52:45.063 [main] INFO  com.BestBUY_BDD.test.Products - Product Category: Specialty Batteries Fitered with less than: 20 and greater than: 10 has Quantity: 8
+20:52:45.063 [main] INFO  com.BestBUY_BDD.test.Products - Get filtered Product Category and Quantity Completed
+20:52:45.063 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Name and Description Tescase started
+20:52:45.063 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get Product Name and Description
+20:52:45.459 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Name and Description Verified Successfully
+20:52:45.460 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Name and Description Completed
+20:52:45.460 [main] INFO  com.BestBUY_BDD.test.Products - Sort Product by Price Tescase started
+20:52:45.460 [main] INFO  com.BestBUY_BDD.test.Products - Test case to sort the products by price
+20:52:45.655 [main] INFO  com.BestBUY_BDD.test.Products - Sort Product by Price Verified Successfully
+20:52:45.655 [main] INFO  com.BestBUY_BDD.test.Products - Sort Product by Price Tescase Completed
+20:52:45.656 [main] INFO  com.BestBUY_BDD.test.Products - Sort Product by Price Tescase started
+20:52:45.661 [main] INFO  com.BestBUY_BDD.test.Products - Test case to sort the products by price
+20:52:45.850 [main] INFO  com.BestBUY_BDD.test.Products - Sort Product by Price Verified Successfully
+20:52:45.850 [main] INFO  com.BestBUY_BDD.test.Products - Sort Product by Price Tescase Completed
+20:52:45.851 [main] INFO  com.BestBUY_BDD.test.Products - Creating product with request json Tescase started
+20:52:45.851 [main] INFO  com.BestBUY_BDD.test.Products - Test case to create product with json request
+20:52:45.984 [main] INFO  com.BestBUY_BDD.test.Products - Product created with ID: 10000320
+20:52:45.984 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Name: New Product
+20:52:45.984 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Type: Hard Good
+20:52:45.984 [main] INFO  com.BestBUY_BDD.test.Products - Product created with UPC: 12345676
+20:52:45.984 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Price: 99.99
+20:52:45.984 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Model: NP12345
+20:52:45.984 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Desc: This is a placeholder request for creating a new product.
+20:52:45.984 [main] INFO  com.BestBUY_BDD.test.Products - Creating product with request json Tescase verified successfully
+20:52:45.985 [main] INFO  com.BestBUY_BDD.test.Products - Creating product with request json Completed
+20:52:45.986 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase started
+20:52:45.986 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get product by id
+20:52:46.036 [main] INFO  com.BestBUY_BDD.test.Products - Get Product By Id verified successfully with id: 10000320
+20:52:46.036 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase Completed
+20:52:46.036 [main] INFO  com.BestBUY_BDD.test.Products - Updating product with request json Tescase started
+20:52:46.036 [main] INFO  com.BestBUY_BDD.test.Products - Test case to update product with json request
+20:52:46.115 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with ID: 10000320
+20:52:46.115 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Name: New Product1
+20:52:46.116 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Type: Hard Good1
+20:52:46.116 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with UPC: 12345674
+20:52:46.116 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Price: 99.99
+20:52:46.116 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Model: NP123451
+20:52:46.116 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Desc: This is a placeholder request for creating a new product.
+20:52:46.116 [main] INFO  com.BestBUY_BDD.test.Products - Updating product with request json Tescase verified successfully
+20:52:46.116 [main] INFO  com.BestBUY_BDD.test.Products - Updating product with request json Completed
+20:52:46.117 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase started
+20:52:46.117 [main] INFO  com.BestBUY_BDD.test.Products - Test case to Deleting product by id
+20:52:46.135 [main] INFO  com.BestBUY_BDD.test.Products - Deleting Product By Id verified successfully with id: 10000320
+20:52:46.136 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase Completed
+20:52:46.137 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase started
+20:52:46.137 [main] INFO  com.BestBUY_BDD.test.Products - Test case to create multiple products with request params
+20:52:46.224 [main] INFO  com.BestBUY_BDD.test.Products - Product created with ID: 10000321
+20:52:46.224 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Name: Prod1
+20:52:46.224 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Type: type1
+20:52:46.224 [main] INFO  com.BestBUY_BDD.test.Products - Product created with UPC: upc1
+20:52:46.224 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Price: 123.12
+20:52:46.224 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Model: model1
+20:52:46.224 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Desc: desc1
+20:52:46.224 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase verified successfully
+20:52:46.224 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Completed
+20:52:46.225 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase started
+20:52:46.225 [main] INFO  com.BestBUY_BDD.test.Products - Test case to create multiple products with request params
+20:52:46.284 [main] INFO  com.BestBUY_BDD.test.Products - Product created with ID: 10000322
+20:52:46.285 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Name: Prod2
+20:52:46.285 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Type: type2
+20:52:46.285 [main] INFO  com.BestBUY_BDD.test.Products - Product created with UPC: upc2
+20:52:46.285 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Price: 12.12
+20:52:46.285 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Model: model2
+20:52:46.285 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Desc: desc2
+20:52:46.285 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase verified successfully
+20:52:46.285 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Completed
+20:52:46.285 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase started
+20:52:46.285 [main] INFO  com.BestBUY_BDD.test.Products - Test case to create multiple products with request params
+20:52:46.341 [main] INFO  com.BestBUY_BDD.test.Products - Product created with ID: 10000323
+20:52:46.341 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Name: Prod3
+20:52:46.341 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Type: type3
+20:52:46.341 [main] INFO  com.BestBUY_BDD.test.Products - Product created with UPC: upc3
+20:52:46.341 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Price: 125.12
+20:52:46.341 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Model: model3
+20:52:46.341 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Desc: desc3
+20:52:46.341 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase verified successfully
+20:52:46.341 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Completed
+20:52:46.342 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase started
+20:52:46.342 [main] INFO  com.BestBUY_BDD.test.Products - Test case to create multiple products with request params
+20:52:46.399 [main] INFO  com.BestBUY_BDD.test.Products - Product created with ID: 10000324
+20:52:46.399 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Name: Prod4
+20:52:46.399 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Type: type4
+20:52:46.399 [main] INFO  com.BestBUY_BDD.test.Products - Product created with UPC: upc4
+20:52:46.399 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Price: 126.12
+20:52:46.399 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Model: model4
+20:52:46.399 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Desc: desc4
+20:52:46.399 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase verified successfully
+20:52:46.399 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Completed
+20:52:46.400 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase started
+20:52:46.400 [main] INFO  com.BestBUY_BDD.test.Products - Test case to create multiple products with request params
+20:52:46.462 [main] INFO  com.BestBUY_BDD.test.Products - Product created with ID: 10000325
+20:52:46.462 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Name: Prod5
+20:52:46.462 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Type: type5
+20:52:46.462 [main] INFO  com.BestBUY_BDD.test.Products - Product created with UPC: upc5
+20:52:46.462 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Price: 127.12
+20:52:46.462 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Model: model5
+20:52:46.462 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Desc: desc5
+20:52:46.462 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase verified successfully
+20:52:46.463 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Completed
+20:52:46.463 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase started
+20:52:46.463 [main] INFO  com.BestBUY_BDD.test.Products - Test case to create multiple products with request params
+20:52:46.531 [main] INFO  com.BestBUY_BDD.test.Products - Product created with ID: 10000326
+20:52:46.531 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Name: Prod6
+20:52:46.531 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Type: type6
+20:52:46.531 [main] INFO  com.BestBUY_BDD.test.Products - Product created with UPC: upc6
+20:52:46.532 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Price: 128.12
+20:52:46.532 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Model: model6
+20:52:46.532 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Desc: desc6
+20:52:46.532 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase verified successfully
+20:52:46.532 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Completed
+20:52:46.532 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase started
+20:52:46.532 [main] INFO  com.BestBUY_BDD.test.Products - Test case to create multiple products with request params
+20:52:46.587 [main] INFO  com.BestBUY_BDD.test.Products - Product created with ID: 10000327
+20:52:46.587 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Name: Prod7
+20:52:46.587 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Type: type7
+20:52:46.587 [main] INFO  com.BestBUY_BDD.test.Products - Product created with UPC: upc7
+20:52:46.587 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Price: 129.12
+20:52:46.587 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Model: model7
+20:52:46.587 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Desc: desc7
+20:52:46.587 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase verified successfully
+20:52:46.588 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Completed
+20:52:46.588 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase started
+20:52:46.588 [main] INFO  com.BestBUY_BDD.test.Products - Test case to create multiple products with request params
+20:52:46.648 [main] INFO  com.BestBUY_BDD.test.Products - Product created with ID: 10000328
+20:52:46.648 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Name: Prod8
+20:52:46.648 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Type: type8
+20:52:46.649 [main] INFO  com.BestBUY_BDD.test.Products - Product created with UPC: upc8
+20:52:46.649 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Price: 121.12
+20:52:46.649 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Model: model8
+20:52:46.649 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Desc: desc8
+20:52:46.649 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase verified successfully
+20:52:46.649 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Completed
+20:52:46.649 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase started
+20:52:46.649 [main] INFO  com.BestBUY_BDD.test.Products - Test case to create multiple products with request params
+20:52:46.712 [main] INFO  com.BestBUY_BDD.test.Products - Product created with ID: 10000329
+20:52:46.713 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Name: Prod9
+20:52:46.713 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Type: type9
+20:52:46.713 [main] INFO  com.BestBUY_BDD.test.Products - Product created with UPC: upc9
+20:52:46.713 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Price: 121.12
+20:52:46.713 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Model: model9
+20:52:46.713 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Desc: desc9
+20:52:46.713 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase verified successfully
+20:52:46.713 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Completed
+20:52:46.714 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase started
+20:52:46.714 [main] INFO  com.BestBUY_BDD.test.Products - Test case to create multiple products with request params
+20:52:46.782 [main] INFO  com.BestBUY_BDD.test.Products - Product created with ID: 10000330
+20:52:46.783 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Name: Prod10
+20:52:46.783 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Type: type10
+20:52:46.783 [main] INFO  com.BestBUY_BDD.test.Products - Product created with UPC: upc10
+20:52:46.783 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Price: 12.12
+20:52:46.783 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Model: model10
+20:52:46.783 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Desc: desc10
+20:52:46.783 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase verified successfully
+20:52:46.783 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Completed
+20:52:46.783 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase started
+20:52:46.784 [main] INFO  com.BestBUY_BDD.test.Products - Test case to create multiple products with request params
+20:52:46.844 [main] INFO  com.BestBUY_BDD.test.Products - Product created with ID: 10000331
+20:52:46.845 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Name: Prod11
+20:52:46.845 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Type: type11
+20:52:46.845 [main] INFO  com.BestBUY_BDD.test.Products - Product created with UPC: upc11
+20:52:46.845 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Price: 121.12
+20:52:46.845 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Model: model11
+20:52:46.845 [main] INFO  com.BestBUY_BDD.test.Products - Product created with Desc: desc11
+20:52:46.845 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Tescase verified successfully
+20:52:46.845 [main] INFO  com.BestBUY_BDD.test.Products - Creating multiple products with request params Completed
+20:52:46.846 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase started
+20:52:46.846 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get product by id
+20:52:46.901 [main] INFO  com.BestBUY_BDD.test.Products - Get Product By Id verified successfully with id: 10000331
+20:52:46.901 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase Completed
+20:52:46.902 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase started
+20:52:46.902 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get product by id
+20:52:46.953 [main] INFO  com.BestBUY_BDD.test.Products - Get Product By Id verified successfully with id: 10000331
+20:52:46.954 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase Completed
+20:52:46.954 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase started
+20:52:46.954 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get product by id
+20:52:47.001 [main] INFO  com.BestBUY_BDD.test.Products - Get Product By Id verified successfully with id: 10000331
+20:52:47.001 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase Completed
+20:52:47.001 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase started
+20:52:47.002 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get product by id
+20:52:47.049 [main] INFO  com.BestBUY_BDD.test.Products - Get Product By Id verified successfully with id: 10000331
+20:52:47.050 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase Completed
+20:52:47.050 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase started
+20:52:47.050 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get product by id
+20:52:47.101 [main] INFO  com.BestBUY_BDD.test.Products - Get Product By Id verified successfully with id: 10000331
+20:52:47.101 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase Completed
+20:52:47.102 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase started
+20:52:47.102 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get product by id
+20:52:47.147 [main] INFO  com.BestBUY_BDD.test.Products - Get Product By Id verified successfully with id: 10000331
+20:52:47.148 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase Completed
+20:52:47.148 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase started
+20:52:47.148 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get product by id
+20:52:47.206 [main] INFO  com.BestBUY_BDD.test.Products - Get Product By Id verified successfully with id: 10000331
+20:52:47.206 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase Completed
+20:52:47.207 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase started
+20:52:47.207 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get product by id
+20:52:47.258 [main] INFO  com.BestBUY_BDD.test.Products - Get Product By Id verified successfully with id: 10000331
+20:52:47.258 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase Completed
+20:52:47.258 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase started
+20:52:47.259 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get product by id
+20:52:47.319 [main] INFO  com.BestBUY_BDD.test.Products - Get Product By Id verified successfully with id: 10000331
+20:52:47.319 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase Completed
+20:52:47.320 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase started
+20:52:47.320 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get product by id
+20:52:47.371 [main] INFO  com.BestBUY_BDD.test.Products - Get Product By Id verified successfully with id: 10000331
+20:52:47.371 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase Completed
+20:52:47.371 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase started
+20:52:47.371 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get product by id
+20:52:47.414 [main] INFO  com.BestBUY_BDD.test.Products - Get Product By Id verified successfully with id: 10000331
+20:52:47.414 [main] INFO  com.BestBUY_BDD.test.Products - Getting product by id Tescase Completed
+20:52:47.415 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase started
+20:52:47.415 [main] INFO  com.BestBUY_BDD.test.Products - Test case to update multiple products with request params
+20:52:47.466 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with ID: 10000331
+20:52:47.466 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Name: Prod11
+20:52:47.467 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Type: type11
+20:52:47.467 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with UPC: upc11
+20:52:47.467 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Price: 121.12
+20:52:47.467 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Model: model11
+20:52:47.467 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Desc: desc11
+20:52:47.467 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase verified successfully
+20:52:47.467 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Completed
+20:52:47.467 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase started
+20:52:47.467 [main] INFO  com.BestBUY_BDD.test.Products - Test case to update multiple products with request params
+20:52:47.528 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with ID: 10000331
+20:52:47.528 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Name: Prod11
+20:52:47.529 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Type: type11
+20:52:47.529 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with UPC: upc11
+20:52:47.529 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Price: 121.12
+20:52:47.529 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Model: model11
+20:52:47.529 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Desc: desc11
+20:52:47.529 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase verified successfully
+20:52:47.529 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Completed
+20:52:47.529 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase started
+20:52:47.529 [main] INFO  com.BestBUY_BDD.test.Products - Test case to update multiple products with request params
+20:52:47.580 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with ID: 10000331
+20:52:47.581 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Name: Prod11
+20:52:47.581 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Type: type11
+20:52:47.581 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with UPC: upc11
+20:52:47.581 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Price: 121.12
+20:52:47.581 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Model: model11
+20:52:47.581 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Desc: desc11
+20:52:47.581 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase verified successfully
+20:52:47.581 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Completed
+20:52:47.581 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase started
+20:52:47.581 [main] INFO  com.BestBUY_BDD.test.Products - Test case to update multiple products with request params
+20:52:47.640 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with ID: 10000331
+20:52:47.641 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Name: Prod11
+20:52:47.641 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Type: type11
+20:52:47.641 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with UPC: upc11
+20:52:47.641 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Price: 121.12
+20:52:47.641 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Model: model11
+20:52:47.641 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Desc: desc11
+20:52:47.641 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase verified successfully
+20:52:47.641 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Completed
+20:52:47.642 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase started
+20:52:47.642 [main] INFO  com.BestBUY_BDD.test.Products - Test case to update multiple products with request params
+20:52:47.704 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with ID: 10000331
+20:52:47.705 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Name: Prod11
+20:52:47.705 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Type: type11
+20:52:47.705 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with UPC: upc11
+20:52:47.705 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Price: 121.12
+20:52:47.705 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Model: model11
+20:52:47.705 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Desc: desc11
+20:52:47.705 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase verified successfully
+20:52:47.705 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Completed
+20:52:47.706 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase started
+20:52:47.706 [main] INFO  com.BestBUY_BDD.test.Products - Test case to update multiple products with request params
+20:52:47.761 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with ID: 10000331
+20:52:47.761 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Name: Prod11
+20:52:47.761 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Type: type11
+20:52:47.761 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with UPC: upc11
+20:52:47.761 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Price: 121.12
+20:52:47.761 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Model: model11
+20:52:47.761 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Desc: desc11
+20:52:47.761 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase verified successfully
+20:52:47.761 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Completed
+20:52:47.762 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase started
+20:52:47.762 [main] INFO  com.BestBUY_BDD.test.Products - Test case to update multiple products with request params
+20:52:47.817 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with ID: 10000331
+20:52:47.817 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Name: Prod11
+20:52:47.817 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Type: type11
+20:52:47.817 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with UPC: upc11
+20:52:47.817 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Price: 121.12
+20:52:47.817 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Model: model11
+20:52:47.817 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Desc: desc11
+20:52:47.817 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase verified successfully
+20:52:47.817 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Completed
+20:52:47.818 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase started
+20:52:47.818 [main] INFO  com.BestBUY_BDD.test.Products - Test case to update multiple products with request params
+20:52:47.874 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with ID: 10000331
+20:52:47.874 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Name: Prod11
+20:52:47.874 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Type: type11
+20:52:47.874 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with UPC: upc11
+20:52:47.874 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Price: 121.12
+20:52:47.874 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Model: model11
+20:52:47.874 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Desc: desc11
+20:52:47.874 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase verified successfully
+20:52:47.875 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Completed
+20:52:47.875 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase started
+20:52:47.875 [main] INFO  com.BestBUY_BDD.test.Products - Test case to update multiple products with request params
+20:52:47.941 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with ID: 10000331
+20:52:47.941 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Name: Prod11
+20:52:47.941 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Type: type11
+20:52:47.941 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with UPC: upc11
+20:52:47.941 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Price: 121.12
+20:52:47.941 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Model: model11
+20:52:47.941 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Desc: desc11
+20:52:47.941 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase verified successfully
+20:52:47.941 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Completed
+20:52:47.942 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase started
+20:52:47.942 [main] INFO  com.BestBUY_BDD.test.Products - Test case to update multiple products with request params
+20:52:48.005 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with ID: 10000331
+20:52:48.005 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Name: Prod11
+20:52:48.006 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Type: type11
+20:52:48.006 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with UPC: upc11
+20:52:48.006 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Price: 121.12
+20:52:48.006 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Model: model11
+20:52:48.006 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Desc: desc11
+20:52:48.006 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase verified successfully
+20:52:48.006 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Completed
+20:52:48.007 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase started
+20:52:48.007 [main] INFO  com.BestBUY_BDD.test.Products - Test case to update multiple products with request params
+20:52:48.060 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with ID: 10000331
+20:52:48.060 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Name: Prod11
+20:52:48.060 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Type: type11
+20:52:48.060 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with UPC: upc11
+20:52:48.060 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Price: 121.12
+20:52:48.060 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Model: model11
+20:52:48.060 [main] INFO  com.BestBUY_BDD.test.Products - Product updated with Desc: desc11
+20:52:48.060 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Tescase verified successfully
+20:52:48.060 [main] INFO  com.BestBUY_BDD.test.Products - Updating multiple products with request params Completed
+20:52:48.061 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase started
+20:52:48.061 [main] INFO  com.BestBUY_BDD.test.Products - Test case to Deleting product by id
+20:52:48.074 [main] INFO  com.BestBUY_BDD.test.Products - Deleting Product By Id verified successfully with id: 10000331
+20:52:48.075 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase Completed
+20:52:48.075 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase started
+20:52:48.075 [main] INFO  com.BestBUY_BDD.test.Products - Test case to Deleting product by id
+20:52:48.086 [main] INFO  com.BestBUY_BDD.test.Products - Deleting Product By Id verified successfully with id: 10000331
+20:52:48.086 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase Completed
+20:52:48.087 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase started
+20:52:48.087 [main] INFO  com.BestBUY_BDD.test.Products - Test case to Deleting product by id
+20:52:48.098 [main] INFO  com.BestBUY_BDD.test.Products - Deleting Product By Id verified successfully with id: 10000331
+20:52:48.098 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase Completed
+20:52:48.099 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase started
+20:52:48.099 [main] INFO  com.BestBUY_BDD.test.Products - Test case to Deleting product by id
+20:52:48.110 [main] INFO  com.BestBUY_BDD.test.Products - Deleting Product By Id verified successfully with id: 10000331
+20:52:48.110 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase Completed
+20:52:48.110 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase started
+20:52:48.110 [main] INFO  com.BestBUY_BDD.test.Products - Test case to Deleting product by id
+20:52:48.122 [main] INFO  com.BestBUY_BDD.test.Products - Deleting Product By Id verified successfully with id: 10000331
+20:52:48.122 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase Completed
+20:52:48.122 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase started
+20:52:48.122 [main] INFO  com.BestBUY_BDD.test.Products - Test case to Deleting product by id
+20:52:48.135 [main] INFO  com.BestBUY_BDD.test.Products - Deleting Product By Id verified successfully with id: 10000331
+20:52:48.135 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase Completed
+20:52:48.135 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase started
+20:52:48.135 [main] INFO  com.BestBUY_BDD.test.Products - Test case to Deleting product by id
+20:52:48.148 [main] INFO  com.BestBUY_BDD.test.Products - Deleting Product By Id verified successfully with id: 10000331
+20:52:48.148 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase Completed
+20:52:48.149 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase started
+20:52:48.149 [main] INFO  com.BestBUY_BDD.test.Products - Test case to Deleting product by id
+20:52:48.163 [main] INFO  com.BestBUY_BDD.test.Products - Deleting Product By Id verified successfully with id: 10000331
+20:52:48.163 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase Completed
+20:52:48.163 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase started
+20:52:48.163 [main] INFO  com.BestBUY_BDD.test.Products - Test case to Deleting product by id
+20:52:48.177 [main] INFO  com.BestBUY_BDD.test.Products - Deleting Product By Id verified successfully with id: 10000331
+20:52:48.177 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase Completed
+20:52:48.177 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase started
+20:52:48.177 [main] INFO  com.BestBUY_BDD.test.Products - Test case to Deleting product by id
+20:52:48.190 [main] INFO  com.BestBUY_BDD.test.Products - Deleting Product By Id verified successfully with id: 10000331
+20:52:48.190 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase Completed
+20:52:48.191 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase started
+20:52:48.191 [main] INFO  com.BestBUY_BDD.test.Products - Test case to Deleting product by id
+20:52:48.201 [main] INFO  com.BestBUY_BDD.test.Products - Deleting Product By Id verified successfully with id: 10000331
+20:52:48.202 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase Completed
+20:52:48.202 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Count Tescase started
+20:52:48.203 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get the count of Products
+20:52:48.355 [main] INFO  com.BestBUY_BDD.test.Products - Product Count Verified Successfully
+20:52:48.355 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Count Tescase Completed
+20:52:48.356 [main] INFO  com.BestBUY_BDD.test.Products - Total Number of products Created: 11
+20:52:48.356 [main] INFO  com.BestBUY_BDD.test.Products - -------------PRODUCTS TEST EXECUTION COMPLETED----------------

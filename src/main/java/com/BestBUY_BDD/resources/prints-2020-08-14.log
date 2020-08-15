@@ -1,6 +1,0 @@
-21:15:17.879 [main] INFO  com.BestBUY_BDD.test.Products - Deleting product by id Tescase Completed
-21:15:17.882 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Count Tescase started
-21:15:17.882 [main] INFO  com.BestBUY_BDD.test.Products - Test case to get the count of Products
-21:15:18.102 [main] INFO  com.BestBUY_BDD.test.Products - Product Count Verified Successfully
-21:15:18.102 [main] INFO  com.BestBUY_BDD.test.Products - Get Product Count Tescase Completed
-21:15:18.103 [main] INFO  com.BestBUY_BDD.test.Products - Total Number of products Created: 11

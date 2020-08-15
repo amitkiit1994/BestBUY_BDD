@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="85" passed="85" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-08-14T21:14:55 IST" name="Suite" finished-at="2020-08-14T21:15:18 IST" duration-ms="22132">
+  <suite started-at="2020-08-15T20:52:36 IST" name="Suite" finished-at="2020-08-15T20:52:48 IST" duration-ms="12295">
     <groups>
       <group name="single product">
-        <method signature="Products.createProduct()[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" name="createProduct" class="com.BestBUY_BDD.test.Products"/>
-        <method signature="Products.getProductById()[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" name="getProductById" class="com.BestBUY_BDD.test.Products"/>
-        <method signature="Products.updateProduct()[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" name="updateProduct" class="com.BestBUY_BDD.test.Products"/>
-        <method signature="Products.deleteProductById()[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" name="deleteProductById" class="com.BestBUY_BDD.test.Products"/>
+        <method signature="Products.createProduct()[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" name="createProduct" class="com.BestBUY_BDD.test.Products"/>
+        <method signature="Products.getProductById()[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" name="getProductById" class="com.BestBUY_BDD.test.Products"/>
+        <method signature="Products.updateProduct()[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" name="updateProduct" class="com.BestBUY_BDD.test.Products"/>
+        <method signature="Products.deleteProductById()[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" name="deleteProductById" class="com.BestBUY_BDD.test.Products"/>
       </group> <!-- single product -->
       <group name="multiple product">
-        <method signature="Products.createMultipleProducts(java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" name="createMultipleProducts" class="com.BestBUY_BDD.test.Products"/>
-        <method signature="Products.getMultipleProductsById(int, java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" name="getMultipleProductsById" class="com.BestBUY_BDD.test.Products"/>
-        <method signature="Products.updateMultipleProducts(int, java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" name="updateMultipleProducts" class="com.BestBUY_BDD.test.Products"/>
-        <method signature="Products.deleteMultipleProducts(int)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" name="deleteMultipleProducts" class="com.BestBUY_BDD.test.Products"/>
+        <method signature="Products.createMultipleProducts(java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" name="createMultipleProducts" class="com.BestBUY_BDD.test.Products"/>
+        <method signature="Products.getMultipleProductsById(int, java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" name="getMultipleProductsById" class="com.BestBUY_BDD.test.Products"/>
+        <method signature="Products.updateMultipleProducts(int, java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" name="updateMultipleProducts" class="com.BestBUY_BDD.test.Products"/>
+        <method signature="Products.deleteMultipleProducts(int)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" name="deleteMultipleProducts" class="com.BestBUY_BDD.test.Products"/>
       </group> <!-- multiple product -->
     </groups>
-    <test started-at="2020-08-14T21:14:55 IST" name="Product" finished-at="2020-08-14T21:15:18 IST" duration-ms="22132">
+    <test started-at="2020-08-15T20:52:36 IST" name="Product" finished-at="2020-08-15T20:52:48 IST" duration-ms="12295">
       <class name="com.BestBUY_BDD.test.Products">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:14:55 IST" name="initialize" finished-at="2020-08-14T21:14:55 IST" duration-ms="18" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:36 IST" name="initialize" finished-at="2020-08-15T20:52:36 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="ProductCategory(java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:14:56 IST" name="ProductCategory" data-provider="category" finished-at="2020-08-14T21:14:58 IST" duration-ms="2138" status="PASS">
+        <test-method signature="ProductCategory(java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:36 IST" name="ProductCategory" data-provider="category" finished-at="2020-08-15T20:52:37 IST" duration-ms="1732" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductCategory -->
-        <test-method signature="ProductCategory(java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:14:58 IST" name="ProductCategory" data-provider="category" finished-at="2020-08-14T21:14:58 IST" duration-ms="441" status="PASS">
+        <test-method signature="ProductCategory(java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:37 IST" name="ProductCategory" data-provider="category" finished-at="2020-08-15T20:52:38 IST" duration-ms="237" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,7 +55,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductCategory -->
-        <test-method signature="ProductCategory(java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:14:58 IST" name="ProductCategory" data-provider="category" finished-at="2020-08-14T21:14:59 IST" duration-ms="499" status="PASS">
+        <test-method signature="ProductCategory(java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:38 IST" name="ProductCategory" data-provider="category" finished-at="2020-08-15T20:52:38 IST" duration-ms="249" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -71,7 +71,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductCategory -->
-        <test-method signature="ProductCategory(java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:14:59 IST" name="ProductCategory" data-provider="category" finished-at="2020-08-14T21:14:59 IST" duration-ms="352" status="PASS">
+        <test-method signature="ProductCategory(java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:38 IST" name="ProductCategory" data-provider="category" finished-at="2020-08-15T20:52:38 IST" duration-ms="233" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -87,7 +87,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductCategory -->
-        <test-method signature="ProductCategory(java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:14:59 IST" name="ProductCategory" data-provider="category" finished-at="2020-08-14T21:14:59 IST" duration-ms="266" status="PASS">
+        <test-method signature="ProductCategory(java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:38 IST" name="ProductCategory" data-provider="category" finished-at="2020-08-15T20:52:38 IST" duration-ms="234" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -103,7 +103,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductCategory -->
-        <test-method signature="ProductCategory(java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:14:59 IST" name="ProductCategory" data-provider="category" finished-at="2020-08-14T21:15:00 IST" duration-ms="546" status="PASS">
+        <test-method signature="ProductCategory(java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:38 IST" name="ProductCategory" data-provider="category" finished-at="2020-08-15T20:52:39 IST" duration-ms="235" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -119,7 +119,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductCategory -->
-        <test-method signature="ProductCategory(java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:00 IST" name="ProductCategory" data-provider="category" finished-at="2020-08-14T21:15:00 IST" duration-ms="478" status="PASS">
+        <test-method signature="ProductCategory(java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:39 IST" name="ProductCategory" data-provider="category" finished-at="2020-08-15T20:52:39 IST" duration-ms="218" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -135,7 +135,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductCategory -->
-        <test-method signature="ProductCategory(java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:00 IST" name="ProductCategory" data-provider="category" finished-at="2020-08-14T21:15:01 IST" duration-ms="402" status="PASS">
+        <test-method signature="ProductCategory(java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:39 IST" name="ProductCategory" data-provider="category" finished-at="2020-08-15T20:52:39 IST" duration-ms="241" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -151,7 +151,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductCategory -->
-        <test-method signature="ProductCategory(java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:01 IST" name="ProductCategory" data-provider="category" finished-at="2020-08-14T21:15:01 IST" duration-ms="476" status="PASS">
+        <test-method signature="ProductCategory(java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:39 IST" name="ProductCategory" data-provider="category" finished-at="2020-08-15T20:52:39 IST" duration-ms="225" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -167,7 +167,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductCategory -->
-        <test-method signature="ProductCategory(java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:01 IST" name="ProductCategory" data-provider="category" finished-at="2020-08-14T21:15:02 IST" duration-ms="580" status="PASS">
+        <test-method signature="ProductCategory(java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:39 IST" name="ProductCategory" data-provider="category" finished-at="2020-08-15T20:52:39 IST" duration-ms="214" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -183,7 +183,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductCategory -->
-        <test-method signature="ProductCategory(java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:02 IST" name="ProductCategory" data-provider="category" finished-at="2020-08-14T21:15:02 IST" duration-ms="509" status="PASS">
+        <test-method signature="ProductCategory(java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:39 IST" name="ProductCategory" data-provider="category" finished-at="2020-08-15T20:52:40 IST" duration-ms="213" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -199,7 +199,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductCategory -->
-        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:02 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-14T21:15:03 IST" duration-ms="479" status="PASS">
+        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:40 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-15T20:52:40 IST" duration-ms="251" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -225,7 +225,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductCategoryFilter -->
-        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:03 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-14T21:15:03 IST" duration-ms="541" status="PASS">
+        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:40 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-15T20:52:40 IST" duration-ms="214" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -251,7 +251,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductCategoryFilter -->
-        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:03 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-14T21:15:04 IST" duration-ms="552" status="PASS">
+        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:40 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-15T20:52:40 IST" duration-ms="240" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -277,7 +277,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductCategoryFilter -->
-        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:04 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-14T21:15:04 IST" duration-ms="515" status="PASS">
+        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:40 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-15T20:52:41 IST" duration-ms="218" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -303,7 +303,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductCategoryFilter -->
-        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:04 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-14T21:15:05 IST" duration-ms="471" status="PASS">
+        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:41 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-15T20:52:41 IST" duration-ms="232" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -329,7 +329,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductCategoryFilter -->
-        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:05 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-14T21:15:05 IST" duration-ms="542" status="PASS">
+        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:41 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-15T20:52:41 IST" duration-ms="228" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -355,7 +355,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductCategoryFilter -->
-        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:05 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-14T21:15:06 IST" duration-ms="558" status="PASS">
+        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:41 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-15T20:52:41 IST" duration-ms="216" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -381,7 +381,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductCategoryFilter -->
-        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:06 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-14T21:15:06 IST" duration-ms="560" status="PASS">
+        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:41 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-15T20:52:41 IST" duration-ms="224" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -407,7 +407,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductCategoryFilter -->
-        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:06 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-14T21:15:07 IST" duration-ms="501" status="PASS">
+        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:41 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-15T20:52:42 IST" duration-ms="230" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -433,7 +433,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductCategoryFilter -->
-        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:07 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-14T21:15:07 IST" duration-ms="556" status="PASS">
+        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:42 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-15T20:52:42 IST" duration-ms="209" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -459,7 +459,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductCategoryFilter -->
-        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:07 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-14T21:15:08 IST" duration-ms="550" status="PASS">
+        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:42 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-15T20:52:42 IST" duration-ms="216" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -485,7 +485,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductCategoryFilter -->
-        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:08 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-14T21:15:08 IST" duration-ms="373" status="PASS">
+        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:42 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-15T20:52:42 IST" duration-ms="221" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -511,7 +511,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductCategoryFilter -->
-        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:08 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-14T21:15:09 IST" duration-ms="379" status="PASS">
+        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:42 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-15T20:52:43 IST" duration-ms="220" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -537,7 +537,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductCategoryFilter -->
-        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:09 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-14T21:15:09 IST" duration-ms="566" status="PASS">
+        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:43 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-15T20:52:43 IST" duration-ms="253" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -563,7 +563,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductCategoryFilter -->
-        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:09 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-14T21:15:10 IST" duration-ms="528" status="PASS">
+        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:43 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-15T20:52:43 IST" duration-ms="218" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -589,7 +589,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductCategoryFilter -->
-        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:10 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-14T21:15:10 IST" duration-ms="456" status="PASS">
+        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:43 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-15T20:52:43 IST" duration-ms="226" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -615,7 +615,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductCategoryFilter -->
-        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:10 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-14T21:15:11 IST" duration-ms="275" status="PASS">
+        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:43 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-15T20:52:43 IST" duration-ms="233" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -641,7 +641,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductCategoryFilter -->
-        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:11 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-14T21:15:11 IST" duration-ms="420" status="PASS">
+        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:43 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-15T20:52:44 IST" duration-ms="215" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -667,7 +667,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductCategoryFilter -->
-        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:11 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-14T21:15:12 IST" duration-ms="557" status="PASS">
+        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:44 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-15T20:52:44 IST" duration-ms="226" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -693,7 +693,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductCategoryFilter -->
-        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:12 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-14T21:15:12 IST" duration-ms="515" status="PASS">
+        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:44 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-15T20:52:44 IST" duration-ms="216" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -719,7 +719,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductCategoryFilter -->
-        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:12 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-14T21:15:13 IST" duration-ms="513" status="PASS">
+        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:44 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-15T20:52:44 IST" duration-ms="216" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -745,7 +745,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductCategoryFilter -->
-        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:13 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-14T21:15:13 IST" duration-ms="531" status="PASS">
+        <test-method signature="ProductCategoryFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:44 IST" name="ProductCategoryFilter" data-provider="filter" finished-at="2020-08-15T20:52:45 IST" duration-ms="213" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -771,11 +771,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductCategoryFilter -->
-        <test-method signature="ProductNameAndDescription()[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:13 IST" name="ProductNameAndDescription" finished-at="2020-08-14T21:15:14 IST" duration-ms="549" status="PASS">
+        <test-method signature="ProductNameAndDescription()[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:45 IST" name="ProductNameAndDescription" finished-at="2020-08-15T20:52:45 IST" duration-ms="397" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductNameAndDescription -->
-        <test-method signature="SortProductByPrice(java.lang.String, java.lang.Float)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:14 IST" name="SortProductByPrice" data-provider="sort" finished-at="2020-08-14T21:15:14 IST" duration-ms="331" status="PASS">
+        <test-method signature="SortProductByPrice(java.lang.String, java.lang.Float)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:45 IST" name="SortProductByPrice" data-provider="sort" finished-at="2020-08-15T20:52:45 IST" duration-ms="195" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -791,7 +791,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SortProductByPrice -->
-        <test-method signature="SortProductByPrice(java.lang.String, java.lang.Float)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:14 IST" name="SortProductByPrice" data-provider="sort" finished-at="2020-08-14T21:15:15 IST" duration-ms="532" status="PASS">
+        <test-method signature="SortProductByPrice(java.lang.String, java.lang.Float)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:45 IST" name="SortProductByPrice" data-provider="sort" finished-at="2020-08-15T20:52:45 IST" duration-ms="195" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -807,23 +807,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SortProductByPrice -->
-        <test-method signature="createProduct()[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:15 IST" name="createProduct" finished-at="2020-08-14T21:15:15 IST" duration-ms="155" status="PASS">
+        <test-method signature="createProduct()[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:45 IST" name="createProduct" finished-at="2020-08-15T20:52:45 IST" duration-ms="134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createProduct -->
-        <test-method signature="getProductById()[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:15 IST" name="getProductById" finished-at="2020-08-14T21:15:15 IST" depends-on-methods="com.BestBUY_BDD.test.Products.createProduct" duration-ms="59" status="PASS">
+        <test-method signature="getProductById()[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:45 IST" name="getProductById" finished-at="2020-08-15T20:52:46 IST" depends-on-methods="com.BestBUY_BDD.test.Products.createProduct" duration-ms="50" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getProductById -->
-        <test-method signature="updateProduct()[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:15 IST" name="updateProduct" finished-at="2020-08-14T21:15:15 IST" depends-on-methods="com.BestBUY_BDD.test.Products.getProductById" duration-ms="114" status="PASS">
+        <test-method signature="updateProduct()[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:46 IST" name="updateProduct" finished-at="2020-08-15T20:52:46 IST" depends-on-methods="com.BestBUY_BDD.test.Products.getProductById" duration-ms="80" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateProduct -->
-        <test-method signature="deleteProductById()[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:15 IST" name="deleteProductById" finished-at="2020-08-14T21:15:15 IST" depends-on-methods="com.BestBUY_BDD.test.Products.updateProduct" duration-ms="19" status="PASS">
+        <test-method signature="deleteProductById()[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:46 IST" name="deleteProductById" finished-at="2020-08-15T20:52:46 IST" depends-on-methods="com.BestBUY_BDD.test.Products.updateProduct" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteProductById -->
-        <test-method signature="createMultipleProducts(java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:15 IST" name="createMultipleProducts" data-provider="product" depends-on-groups="single product" finished-at="2020-08-14T21:15:15 IST" duration-ms="83" status="PASS">
+        <test-method signature="createMultipleProducts(java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:46 IST" name="createMultipleProducts" data-provider="product" depends-on-groups="single product" finished-at="2020-08-15T20:52:46 IST" duration-ms="87" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -859,7 +859,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createMultipleProducts -->
-        <test-method signature="createMultipleProducts(java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:15 IST" name="createMultipleProducts" data-provider="product" depends-on-groups="single product" finished-at="2020-08-14T21:15:15 IST" duration-ms="75" status="PASS">
+        <test-method signature="createMultipleProducts(java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:46 IST" name="createMultipleProducts" data-provider="product" depends-on-groups="single product" finished-at="2020-08-15T20:52:46 IST" duration-ms="60" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -895,7 +895,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createMultipleProducts -->
-        <test-method signature="createMultipleProducts(java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:15 IST" name="createMultipleProducts" data-provider="product" depends-on-groups="single product" finished-at="2020-08-14T21:15:15 IST" duration-ms="76" status="PASS">
+        <test-method signature="createMultipleProducts(java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:46 IST" name="createMultipleProducts" data-provider="product" depends-on-groups="single product" finished-at="2020-08-15T20:52:46 IST" duration-ms="56" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -931,7 +931,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createMultipleProducts -->
-        <test-method signature="createMultipleProducts(java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:15 IST" name="createMultipleProducts" data-provider="product" depends-on-groups="single product" finished-at="2020-08-14T21:15:15 IST" duration-ms="78" status="PASS">
+        <test-method signature="createMultipleProducts(java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:46 IST" name="createMultipleProducts" data-provider="product" depends-on-groups="single product" finished-at="2020-08-15T20:52:46 IST" duration-ms="58" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -967,7 +967,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createMultipleProducts -->
-        <test-method signature="createMultipleProducts(java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:15 IST" name="createMultipleProducts" data-provider="product" depends-on-groups="single product" finished-at="2020-08-14T21:15:15 IST" duration-ms="81" status="PASS">
+        <test-method signature="createMultipleProducts(java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:46 IST" name="createMultipleProducts" data-provider="product" depends-on-groups="single product" finished-at="2020-08-15T20:52:46 IST" duration-ms="63" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1003,7 +1003,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createMultipleProducts -->
-        <test-method signature="createMultipleProducts(java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:15 IST" name="createMultipleProducts" data-provider="product" depends-on-groups="single product" finished-at="2020-08-14T21:15:15 IST" duration-ms="82" status="PASS">
+        <test-method signature="createMultipleProducts(java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:46 IST" name="createMultipleProducts" data-provider="product" depends-on-groups="single product" finished-at="2020-08-15T20:52:46 IST" duration-ms="69" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1039,7 +1039,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createMultipleProducts -->
-        <test-method signature="createMultipleProducts(java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:15 IST" name="createMultipleProducts" data-provider="product" depends-on-groups="single product" finished-at="2020-08-14T21:15:15 IST" duration-ms="70" status="PASS">
+        <test-method signature="createMultipleProducts(java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:46 IST" name="createMultipleProducts" data-provider="product" depends-on-groups="single product" finished-at="2020-08-15T20:52:46 IST" duration-ms="56" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1075,7 +1075,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createMultipleProducts -->
-        <test-method signature="createMultipleProducts(java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:15 IST" name="createMultipleProducts" data-provider="product" depends-on-groups="single product" finished-at="2020-08-14T21:15:16 IST" duration-ms="80" status="PASS">
+        <test-method signature="createMultipleProducts(java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:46 IST" name="createMultipleProducts" data-provider="product" depends-on-groups="single product" finished-at="2020-08-15T20:52:46 IST" duration-ms="61" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1111,7 +1111,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createMultipleProducts -->
-        <test-method signature="createMultipleProducts(java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:16 IST" name="createMultipleProducts" data-provider="product" depends-on-groups="single product" finished-at="2020-08-14T21:15:16 IST" duration-ms="73" status="PASS">
+        <test-method signature="createMultipleProducts(java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:46 IST" name="createMultipleProducts" data-provider="product" depends-on-groups="single product" finished-at="2020-08-15T20:52:46 IST" duration-ms="64" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1147,7 +1147,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createMultipleProducts -->
-        <test-method signature="createMultipleProducts(java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:16 IST" name="createMultipleProducts" data-provider="product" depends-on-groups="single product" finished-at="2020-08-14T21:15:16 IST" duration-ms="86" status="PASS">
+        <test-method signature="createMultipleProducts(java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:46 IST" name="createMultipleProducts" data-provider="product" depends-on-groups="single product" finished-at="2020-08-15T20:52:46 IST" duration-ms="70" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1183,7 +1183,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createMultipleProducts -->
-        <test-method signature="createMultipleProducts(java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:16 IST" name="createMultipleProducts" data-provider="product" depends-on-groups="single product" finished-at="2020-08-14T21:15:16 IST" duration-ms="87" status="PASS">
+        <test-method signature="createMultipleProducts(java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:46 IST" name="createMultipleProducts" data-provider="product" depends-on-groups="single product" finished-at="2020-08-15T20:52:46 IST" duration-ms="62" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1219,11 +1219,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createMultipleProducts -->
-        <test-method signature="getMultipleProductsById(int, java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:16 IST" name="getMultipleProductsById" data-provider="productInfo" finished-at="2020-08-14T21:15:16 IST" depends-on-methods="com.BestBUY_BDD.test.Products.createMultipleProducts" duration-ms="62" status="PASS">
+        <test-method signature="getMultipleProductsById(int, java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:46 IST" name="getMultipleProductsById" data-provider="productInfo" finished-at="2020-08-15T20:52:46 IST" depends-on-methods="com.BestBUY_BDD.test.Products.createMultipleProducts" duration-ms="55" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[10000225]]>
+                <![CDATA[10000321]]>
               </value>
             </param>
             <param index="1">
@@ -1260,11 +1260,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getMultipleProductsById -->
-        <test-method signature="getMultipleProductsById(int, java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:16 IST" name="getMultipleProductsById" data-provider="productInfo" finished-at="2020-08-14T21:15:16 IST" depends-on-methods="com.BestBUY_BDD.test.Products.createMultipleProducts" duration-ms="56" status="PASS">
+        <test-method signature="getMultipleProductsById(int, java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:46 IST" name="getMultipleProductsById" data-provider="productInfo" finished-at="2020-08-15T20:52:46 IST" depends-on-methods="com.BestBUY_BDD.test.Products.createMultipleProducts" duration-ms="52" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[10000226]]>
+                <![CDATA[10000322]]>
               </value>
             </param>
             <param index="1">
@@ -1301,11 +1301,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getMultipleProductsById -->
-        <test-method signature="getMultipleProductsById(int, java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:16 IST" name="getMultipleProductsById" data-provider="productInfo" finished-at="2020-08-14T21:15:16 IST" depends-on-methods="com.BestBUY_BDD.test.Products.createMultipleProducts" duration-ms="56" status="PASS">
+        <test-method signature="getMultipleProductsById(int, java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:46 IST" name="getMultipleProductsById" data-provider="productInfo" finished-at="2020-08-15T20:52:47 IST" depends-on-methods="com.BestBUY_BDD.test.Products.createMultipleProducts" duration-ms="47" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[10000227]]>
+                <![CDATA[10000323]]>
               </value>
             </param>
             <param index="1">
@@ -1342,11 +1342,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getMultipleProductsById -->
-        <test-method signature="getMultipleProductsById(int, java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:16 IST" name="getMultipleProductsById" data-provider="productInfo" finished-at="2020-08-14T21:15:16 IST" depends-on-methods="com.BestBUY_BDD.test.Products.createMultipleProducts" duration-ms="58" status="PASS">
+        <test-method signature="getMultipleProductsById(int, java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:47 IST" name="getMultipleProductsById" data-provider="productInfo" finished-at="2020-08-15T20:52:47 IST" depends-on-methods="com.BestBUY_BDD.test.Products.createMultipleProducts" duration-ms="49" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[10000228]]>
+                <![CDATA[10000324]]>
               </value>
             </param>
             <param index="1">
@@ -1383,11 +1383,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getMultipleProductsById -->
-        <test-method signature="getMultipleProductsById(int, java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:16 IST" name="getMultipleProductsById" data-provider="productInfo" finished-at="2020-08-14T21:15:16 IST" depends-on-methods="com.BestBUY_BDD.test.Products.createMultipleProducts" duration-ms="58" status="PASS">
+        <test-method signature="getMultipleProductsById(int, java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:47 IST" name="getMultipleProductsById" data-provider="productInfo" finished-at="2020-08-15T20:52:47 IST" depends-on-methods="com.BestBUY_BDD.test.Products.createMultipleProducts" duration-ms="51" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[10000229]]>
+                <![CDATA[10000325]]>
               </value>
             </param>
             <param index="1">
@@ -1424,11 +1424,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getMultipleProductsById -->
-        <test-method signature="getMultipleProductsById(int, java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:16 IST" name="getMultipleProductsById" data-provider="productInfo" finished-at="2020-08-14T21:15:16 IST" depends-on-methods="com.BestBUY_BDD.test.Products.createMultipleProducts" duration-ms="55" status="PASS">
+        <test-method signature="getMultipleProductsById(int, java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:47 IST" name="getMultipleProductsById" data-provider="productInfo" finished-at="2020-08-15T20:52:47 IST" depends-on-methods="com.BestBUY_BDD.test.Products.createMultipleProducts" duration-ms="47" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[10000230]]>
+                <![CDATA[10000326]]>
               </value>
             </param>
             <param index="1">
@@ -1465,11 +1465,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getMultipleProductsById -->
-        <test-method signature="getMultipleProductsById(int, java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:16 IST" name="getMultipleProductsById" data-provider="productInfo" finished-at="2020-08-14T21:15:16 IST" depends-on-methods="com.BestBUY_BDD.test.Products.createMultipleProducts" duration-ms="64" status="PASS">
+        <test-method signature="getMultipleProductsById(int, java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:47 IST" name="getMultipleProductsById" data-provider="productInfo" finished-at="2020-08-15T20:52:47 IST" depends-on-methods="com.BestBUY_BDD.test.Products.createMultipleProducts" duration-ms="58" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[10000231]]>
+                <![CDATA[10000327]]>
               </value>
             </param>
             <param index="1">
@@ -1506,11 +1506,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getMultipleProductsById -->
-        <test-method signature="getMultipleProductsById(int, java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:16 IST" name="getMultipleProductsById" data-provider="productInfo" finished-at="2020-08-14T21:15:16 IST" depends-on-methods="com.BestBUY_BDD.test.Products.createMultipleProducts" duration-ms="55" status="PASS">
+        <test-method signature="getMultipleProductsById(int, java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:47 IST" name="getMultipleProductsById" data-provider="productInfo" finished-at="2020-08-15T20:52:47 IST" depends-on-methods="com.BestBUY_BDD.test.Products.createMultipleProducts" duration-ms="51" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[10000232]]>
+                <![CDATA[10000328]]>
               </value>
             </param>
             <param index="1">
@@ -1547,11 +1547,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getMultipleProductsById -->
-        <test-method signature="getMultipleProductsById(int, java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:16 IST" name="getMultipleProductsById" data-provider="productInfo" finished-at="2020-08-14T21:15:16 IST" depends-on-methods="com.BestBUY_BDD.test.Products.createMultipleProducts" duration-ms="64" status="PASS">
+        <test-method signature="getMultipleProductsById(int, java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:47 IST" name="getMultipleProductsById" data-provider="productInfo" finished-at="2020-08-15T20:52:47 IST" depends-on-methods="com.BestBUY_BDD.test.Products.createMultipleProducts" duration-ms="61" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[10000233]]>
+                <![CDATA[10000329]]>
               </value>
             </param>
             <param index="1">
@@ -1588,11 +1588,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getMultipleProductsById -->
-        <test-method signature="getMultipleProductsById(int, java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:16 IST" name="getMultipleProductsById" data-provider="productInfo" finished-at="2020-08-14T21:15:16 IST" depends-on-methods="com.BestBUY_BDD.test.Products.createMultipleProducts" duration-ms="56" status="PASS">
+        <test-method signature="getMultipleProductsById(int, java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:47 IST" name="getMultipleProductsById" data-provider="productInfo" finished-at="2020-08-15T20:52:47 IST" depends-on-methods="com.BestBUY_BDD.test.Products.createMultipleProducts" duration-ms="52" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[10000234]]>
+                <![CDATA[10000330]]>
               </value>
             </param>
             <param index="1">
@@ -1629,11 +1629,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getMultipleProductsById -->
-        <test-method signature="getMultipleProductsById(int, java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:16 IST" name="getMultipleProductsById" data-provider="productInfo" finished-at="2020-08-14T21:15:16 IST" depends-on-methods="com.BestBUY_BDD.test.Products.createMultipleProducts" duration-ms="56" status="PASS">
+        <test-method signature="getMultipleProductsById(int, java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:47 IST" name="getMultipleProductsById" data-provider="productInfo" finished-at="2020-08-15T20:52:47 IST" depends-on-methods="com.BestBUY_BDD.test.Products.createMultipleProducts" duration-ms="43" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[10000235]]>
+                <![CDATA[10000331]]>
               </value>
             </param>
             <param index="1">
@@ -1670,11 +1670,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getMultipleProductsById -->
-        <test-method signature="updateMultipleProducts(int, java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:16 IST" name="updateMultipleProducts" data-provider="productInfo" finished-at="2020-08-14T21:15:17 IST" depends-on-methods="com.BestBUY_BDD.test.Products.getMultipleProductsById" duration-ms="66" status="PASS">
+        <test-method signature="updateMultipleProducts(int, java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:47 IST" name="updateMultipleProducts" data-provider="productInfo" finished-at="2020-08-15T20:52:47 IST" depends-on-methods="com.BestBUY_BDD.test.Products.getMultipleProductsById" duration-ms="52" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[10000225]]>
+                <![CDATA[10000321]]>
               </value>
             </param>
             <param index="1">
@@ -1711,11 +1711,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateMultipleProducts -->
-        <test-method signature="updateMultipleProducts(int, java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:17 IST" name="updateMultipleProducts" data-provider="productInfo" finished-at="2020-08-14T21:15:17 IST" depends-on-methods="com.BestBUY_BDD.test.Products.getMultipleProductsById" duration-ms="87" status="PASS">
+        <test-method signature="updateMultipleProducts(int, java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:47 IST" name="updateMultipleProducts" data-provider="productInfo" finished-at="2020-08-15T20:52:47 IST" depends-on-methods="com.BestBUY_BDD.test.Products.getMultipleProductsById" duration-ms="62" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[10000226]]>
+                <![CDATA[10000322]]>
               </value>
             </param>
             <param index="1">
@@ -1752,11 +1752,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateMultipleProducts -->
-        <test-method signature="updateMultipleProducts(int, java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:17 IST" name="updateMultipleProducts" data-provider="productInfo" finished-at="2020-08-14T21:15:17 IST" depends-on-methods="com.BestBUY_BDD.test.Products.getMultipleProductsById" duration-ms="61" status="PASS">
+        <test-method signature="updateMultipleProducts(int, java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:47 IST" name="updateMultipleProducts" data-provider="productInfo" finished-at="2020-08-15T20:52:47 IST" depends-on-methods="com.BestBUY_BDD.test.Products.getMultipleProductsById" duration-ms="52" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[10000227]]>
+                <![CDATA[10000323]]>
               </value>
             </param>
             <param index="1">
@@ -1793,11 +1793,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateMultipleProducts -->
-        <test-method signature="updateMultipleProducts(int, java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:17 IST" name="updateMultipleProducts" data-provider="productInfo" finished-at="2020-08-14T21:15:17 IST" depends-on-methods="com.BestBUY_BDD.test.Products.getMultipleProductsById" duration-ms="71" status="PASS">
+        <test-method signature="updateMultipleProducts(int, java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:47 IST" name="updateMultipleProducts" data-provider="productInfo" finished-at="2020-08-15T20:52:47 IST" depends-on-methods="com.BestBUY_BDD.test.Products.getMultipleProductsById" duration-ms="60" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[10000228]]>
+                <![CDATA[10000324]]>
               </value>
             </param>
             <param index="1">
@@ -1834,11 +1834,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateMultipleProducts -->
-        <test-method signature="updateMultipleProducts(int, java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:17 IST" name="updateMultipleProducts" data-provider="productInfo" finished-at="2020-08-14T21:15:17 IST" depends-on-methods="com.BestBUY_BDD.test.Products.getMultipleProductsById" duration-ms="68" status="PASS">
+        <test-method signature="updateMultipleProducts(int, java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:47 IST" name="updateMultipleProducts" data-provider="productInfo" finished-at="2020-08-15T20:52:47 IST" depends-on-methods="com.BestBUY_BDD.test.Products.getMultipleProductsById" duration-ms="63" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[10000229]]>
+                <![CDATA[10000325]]>
               </value>
             </param>
             <param index="1">
@@ -1875,11 +1875,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateMultipleProducts -->
-        <test-method signature="updateMultipleProducts(int, java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:17 IST" name="updateMultipleProducts" data-provider="productInfo" finished-at="2020-08-14T21:15:17 IST" depends-on-methods="com.BestBUY_BDD.test.Products.getMultipleProductsById" duration-ms="65" status="PASS">
+        <test-method signature="updateMultipleProducts(int, java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:47 IST" name="updateMultipleProducts" data-provider="productInfo" finished-at="2020-08-15T20:52:47 IST" depends-on-methods="com.BestBUY_BDD.test.Products.getMultipleProductsById" duration-ms="55" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[10000230]]>
+                <![CDATA[10000326]]>
               </value>
             </param>
             <param index="1">
@@ -1916,11 +1916,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateMultipleProducts -->
-        <test-method signature="updateMultipleProducts(int, java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:17 IST" name="updateMultipleProducts" data-provider="productInfo" finished-at="2020-08-14T21:15:17 IST" depends-on-methods="com.BestBUY_BDD.test.Products.getMultipleProductsById" duration-ms="62" status="PASS">
+        <test-method signature="updateMultipleProducts(int, java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:47 IST" name="updateMultipleProducts" data-provider="productInfo" finished-at="2020-08-15T20:52:47 IST" depends-on-methods="com.BestBUY_BDD.test.Products.getMultipleProductsById" duration-ms="55" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[10000231]]>
+                <![CDATA[10000327]]>
               </value>
             </param>
             <param index="1">
@@ -1957,11 +1957,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateMultipleProducts -->
-        <test-method signature="updateMultipleProducts(int, java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:17 IST" name="updateMultipleProducts" data-provider="productInfo" finished-at="2020-08-14T21:15:17 IST" depends-on-methods="com.BestBUY_BDD.test.Products.getMultipleProductsById" duration-ms="64" status="PASS">
+        <test-method signature="updateMultipleProducts(int, java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:47 IST" name="updateMultipleProducts" data-provider="productInfo" finished-at="2020-08-15T20:52:47 IST" depends-on-methods="com.BestBUY_BDD.test.Products.getMultipleProductsById" duration-ms="57" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[10000232]]>
+                <![CDATA[10000328]]>
               </value>
             </param>
             <param index="1">
@@ -1998,11 +1998,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateMultipleProducts -->
-        <test-method signature="updateMultipleProducts(int, java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:17 IST" name="updateMultipleProducts" data-provider="productInfo" finished-at="2020-08-14T21:15:17 IST" depends-on-methods="com.BestBUY_BDD.test.Products.getMultipleProductsById" duration-ms="78" status="PASS">
+        <test-method signature="updateMultipleProducts(int, java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:47 IST" name="updateMultipleProducts" data-provider="productInfo" finished-at="2020-08-15T20:52:47 IST" depends-on-methods="com.BestBUY_BDD.test.Products.getMultipleProductsById" duration-ms="66" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[10000233]]>
+                <![CDATA[10000329]]>
               </value>
             </param>
             <param index="1">
@@ -2039,11 +2039,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateMultipleProducts -->
-        <test-method signature="updateMultipleProducts(int, java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:17 IST" name="updateMultipleProducts" data-provider="productInfo" finished-at="2020-08-14T21:15:17 IST" depends-on-methods="com.BestBUY_BDD.test.Products.getMultipleProductsById" duration-ms="80" status="PASS">
+        <test-method signature="updateMultipleProducts(int, java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:47 IST" name="updateMultipleProducts" data-provider="productInfo" finished-at="2020-08-15T20:52:48 IST" depends-on-methods="com.BestBUY_BDD.test.Products.getMultipleProductsById" duration-ms="64" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[10000234]]>
+                <![CDATA[10000330]]>
               </value>
             </param>
             <param index="1">
@@ -2080,11 +2080,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateMultipleProducts -->
-        <test-method signature="updateMultipleProducts(int, java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:17 IST" name="updateMultipleProducts" data-provider="productInfo" finished-at="2020-08-14T21:15:17 IST" depends-on-methods="com.BestBUY_BDD.test.Products.getMultipleProductsById" duration-ms="59" status="PASS">
+        <test-method signature="updateMultipleProducts(int, java.lang.String, java.lang.String, java.lang.Float, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:48 IST" name="updateMultipleProducts" data-provider="productInfo" finished-at="2020-08-15T20:52:48 IST" depends-on-methods="com.BestBUY_BDD.test.Products.getMultipleProductsById" duration-ms="54" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[10000235]]>
+                <![CDATA[10000331]]>
               </value>
             </param>
             <param index="1">
@@ -2121,132 +2121,132 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateMultipleProducts -->
-        <test-method signature="deleteMultipleProducts(int)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:17 IST" name="deleteMultipleProducts" data-provider="productIds" finished-at="2020-08-14T21:15:17 IST" depends-on-methods="com.BestBUY_BDD.test.Products.updateMultipleProducts" duration-ms="20" status="PASS">
+        <test-method signature="deleteMultipleProducts(int)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:48 IST" name="deleteMultipleProducts" data-provider="productIds" finished-at="2020-08-15T20:52:48 IST" depends-on-methods="com.BestBUY_BDD.test.Products.updateMultipleProducts" duration-ms="14" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[10000225]]>
+                <![CDATA[10000321]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteMultipleProducts -->
-        <test-method signature="deleteMultipleProducts(int)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:17 IST" name="deleteMultipleProducts" data-provider="productIds" finished-at="2020-08-14T21:15:17 IST" depends-on-methods="com.BestBUY_BDD.test.Products.updateMultipleProducts" duration-ms="16" status="PASS">
+        <test-method signature="deleteMultipleProducts(int)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:48 IST" name="deleteMultipleProducts" data-provider="productIds" finished-at="2020-08-15T20:52:48 IST" depends-on-methods="com.BestBUY_BDD.test.Products.updateMultipleProducts" duration-ms="12" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[10000226]]>
+                <![CDATA[10000322]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteMultipleProducts -->
-        <test-method signature="deleteMultipleProducts(int)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:17 IST" name="deleteMultipleProducts" data-provider="productIds" finished-at="2020-08-14T21:15:17 IST" depends-on-methods="com.BestBUY_BDD.test.Products.updateMultipleProducts" duration-ms="16" status="PASS">
+        <test-method signature="deleteMultipleProducts(int)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:48 IST" name="deleteMultipleProducts" data-provider="productIds" finished-at="2020-08-15T20:52:48 IST" depends-on-methods="com.BestBUY_BDD.test.Products.updateMultipleProducts" duration-ms="11" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[10000227]]>
+                <![CDATA[10000323]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteMultipleProducts -->
-        <test-method signature="deleteMultipleProducts(int)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:17 IST" name="deleteMultipleProducts" data-provider="productIds" finished-at="2020-08-14T21:15:17 IST" depends-on-methods="com.BestBUY_BDD.test.Products.updateMultipleProducts" duration-ms="16" status="PASS">
+        <test-method signature="deleteMultipleProducts(int)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:48 IST" name="deleteMultipleProducts" data-provider="productIds" finished-at="2020-08-15T20:52:48 IST" depends-on-methods="com.BestBUY_BDD.test.Products.updateMultipleProducts" duration-ms="11" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[10000228]]>
+                <![CDATA[10000324]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteMultipleProducts -->
-        <test-method signature="deleteMultipleProducts(int)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:17 IST" name="deleteMultipleProducts" data-provider="productIds" finished-at="2020-08-14T21:15:17 IST" depends-on-methods="com.BestBUY_BDD.test.Products.updateMultipleProducts" duration-ms="15" status="PASS">
+        <test-method signature="deleteMultipleProducts(int)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:48 IST" name="deleteMultipleProducts" data-provider="productIds" finished-at="2020-08-15T20:52:48 IST" depends-on-methods="com.BestBUY_BDD.test.Products.updateMultipleProducts" duration-ms="12" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[10000229]]>
+                <![CDATA[10000325]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteMultipleProducts -->
-        <test-method signature="deleteMultipleProducts(int)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:17 IST" name="deleteMultipleProducts" data-provider="productIds" finished-at="2020-08-14T21:15:17 IST" depends-on-methods="com.BestBUY_BDD.test.Products.updateMultipleProducts" duration-ms="17" status="PASS">
+        <test-method signature="deleteMultipleProducts(int)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:48 IST" name="deleteMultipleProducts" data-provider="productIds" finished-at="2020-08-15T20:52:48 IST" depends-on-methods="com.BestBUY_BDD.test.Products.updateMultipleProducts" duration-ms="13" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[10000230]]>
+                <![CDATA[10000326]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteMultipleProducts -->
-        <test-method signature="deleteMultipleProducts(int)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:17 IST" name="deleteMultipleProducts" data-provider="productIds" finished-at="2020-08-14T21:15:17 IST" depends-on-methods="com.BestBUY_BDD.test.Products.updateMultipleProducts" duration-ms="15" status="PASS">
+        <test-method signature="deleteMultipleProducts(int)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:48 IST" name="deleteMultipleProducts" data-provider="productIds" finished-at="2020-08-15T20:52:48 IST" depends-on-methods="com.BestBUY_BDD.test.Products.updateMultipleProducts" duration-ms="13" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[10000231]]>
+                <![CDATA[10000327]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteMultipleProducts -->
-        <test-method signature="deleteMultipleProducts(int)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:17 IST" name="deleteMultipleProducts" data-provider="productIds" finished-at="2020-08-14T21:15:17 IST" depends-on-methods="com.BestBUY_BDD.test.Products.updateMultipleProducts" duration-ms="16" status="PASS">
+        <test-method signature="deleteMultipleProducts(int)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:48 IST" name="deleteMultipleProducts" data-provider="productIds" finished-at="2020-08-15T20:52:48 IST" depends-on-methods="com.BestBUY_BDD.test.Products.updateMultipleProducts" duration-ms="14" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[10000232]]>
+                <![CDATA[10000328]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteMultipleProducts -->
-        <test-method signature="deleteMultipleProducts(int)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:17 IST" name="deleteMultipleProducts" data-provider="productIds" finished-at="2020-08-14T21:15:17 IST" depends-on-methods="com.BestBUY_BDD.test.Products.updateMultipleProducts" duration-ms="18" status="PASS">
+        <test-method signature="deleteMultipleProducts(int)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:48 IST" name="deleteMultipleProducts" data-provider="productIds" finished-at="2020-08-15T20:52:48 IST" depends-on-methods="com.BestBUY_BDD.test.Products.updateMultipleProducts" duration-ms="14" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[10000233]]>
+                <![CDATA[10000329]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteMultipleProducts -->
-        <test-method signature="deleteMultipleProducts(int)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:17 IST" name="deleteMultipleProducts" data-provider="productIds" finished-at="2020-08-14T21:15:17 IST" depends-on-methods="com.BestBUY_BDD.test.Products.updateMultipleProducts" duration-ms="16" status="PASS">
+        <test-method signature="deleteMultipleProducts(int)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:48 IST" name="deleteMultipleProducts" data-provider="productIds" finished-at="2020-08-15T20:52:48 IST" depends-on-methods="com.BestBUY_BDD.test.Products.updateMultipleProducts" duration-ms="13" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[10000234]]>
+                <![CDATA[10000330]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteMultipleProducts -->
-        <test-method signature="deleteMultipleProducts(int)[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:17 IST" name="deleteMultipleProducts" data-provider="productIds" finished-at="2020-08-14T21:15:17 IST" depends-on-methods="com.BestBUY_BDD.test.Products.updateMultipleProducts" duration-ms="15" status="PASS">
+        <test-method signature="deleteMultipleProducts(int)[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:48 IST" name="deleteMultipleProducts" data-provider="productIds" finished-at="2020-08-15T20:52:48 IST" depends-on-methods="com.BestBUY_BDD.test.Products.updateMultipleProducts" duration-ms="11" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[10000235]]>
+                <![CDATA[10000331]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteMultipleProducts -->
-        <test-method signature="ProductsCount()[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:17 IST" name="ProductsCount" depends-on-groups="single product, multiple product" finished-at="2020-08-14T21:15:18 IST" duration-ms="221" status="PASS">
+        <test-method signature="ProductsCount()[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:48 IST" name="ProductsCount" depends-on-groups="single product, multiple product" finished-at="2020-08-15T20:52:48 IST" duration-ms="153" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductsCount -->
-        <test-method is-config="true" signature="sendMail()[pri:0, instance:com.BestBUY_BDD.test.Products@c94fd30]" started-at="2020-08-14T21:15:18 IST" name="sendMail" finished-at="2020-08-14T21:15:18 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="sendMail()[pri:0, instance:com.BestBUY_BDD.test.Products@e70f13a]" started-at="2020-08-15T20:52:48 IST" name="sendMail" finished-at="2020-08-15T20:52:48 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendMail -->
